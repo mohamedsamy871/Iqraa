@@ -10,6 +10,7 @@ namespace Iqraa.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.CenterMessage = "";
             return View();
         }
 

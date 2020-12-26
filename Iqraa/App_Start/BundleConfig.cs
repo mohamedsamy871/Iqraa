@@ -38,8 +38,7 @@ namespace Iqraa
           "~/Content/responsive.css",
           "~/Content/jquery.mCustomScrollbar.min.css",
           "~/Content/owl.carousel.min.css",
-          "~/Content/owl.theme.default.min.css",
-          "~/Content/site.css"));
+          "~/Content/owl.theme.default.min.css"));
         }
     }
 }
