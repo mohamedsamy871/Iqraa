@@ -6,18 +6,12 @@ using System.Web.Mvc;
 
 namespace Iqraa.Controllers
 {
-    public class HomeController : Controller
+    public class ServicesController : Controller
     {
+        // GET: Services
         public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult About()
-        {
-
-            return View();
-        }
-
     }
 }

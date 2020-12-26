@@ -1,31 +1,68 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<!--banner start -->
+<div class="banner-main">
+    <div class="container">
+        <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="titlepage-h1">
+                        <h1 class="bnner_title">
+                            Welcome To<br>
+                            <span style="color: #10b5fa">Content Writing Services</span>
+                        </h1>
+                        <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
+                    </div>
+                    <div class="btn_main">
+                        <button type="button" class="btn btn-dark btn-lg"><a href="contact.html">Contact</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="titlepage-h1">
+                        <h1 class="bnner_title">
+                            Welcome To<br>
+                            <span style="color: #10b5fa">Content Writing Services</span>
+                        </h1>
+                        <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
+                    </div>
+                    <div class="btn_main">
+                        <button type="button" class="btn btn-dark btn-lg">Contact</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="titlepage-h1">
+                        <h1 class="bnner_title">
+                            Welcome To<br>
+                            <span style="color: #10b5fa">Content Writing Services</span>
+                        </h1>
+                        <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
+                    </div>
+                    <div class="btn_main">
+                        <button type="button" class="btn btn-dark btn-lg">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
 </div>
+<!--banner end -->
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+    <!--services start -->
+@Html.Partial("~/Views/Shared/_Services.cshtml")
+    <!--services end -->
+
+<!--quote_section start -->
+@Html.Partial("~/Views/Shared/_Quote.cshtml")
+<!--quote_section end -->
+
+<!--touch_section start -->
+@Html.Partial("~/Views/Shared/_ContactUs.cshtml")
+<!--touch_section end -->

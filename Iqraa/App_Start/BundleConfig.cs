@@ -26,6 +26,20 @@ namespace Iqraa
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/bundles/GeneralScripts").Include(
+                        "~/Scripts/bootstrap.js",
+                        "~/Scripts/jquery.min.js",
+                        "~/Scripts/popper.min.js",
+                        "~/Scripts/bootstrap.bundle.min.js"
+                        ));
+            bundles.Add(new StyleBundle("~/bundles/GeneralStyles").Include(
+          "~/Content/bootstrap.min.css",
+          "~/Content/style.css",
+          "~/Content/responsive.css",
+          "~/Content/jquery.mCustomScrollbar.min.css",
+          "~/Content/owl.carousel.min.css",
+          "~/Content/owl.theme.default.min.css",
+          "~/Content/site.css"));
         }
     }
 }
