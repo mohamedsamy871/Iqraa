@@ -118,13 +118,131 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>About</value>
+    <value>À propos du centre</value>
+  </data>
+  <data name="AboutDetails" xml:space="preserve">
+    <value>Définition du centre
+ La biographie de fondateur 
+ Une présentation des programmes présentés dans ce centre.
+ Les nouvelles du centre ou ses nouveautés</value>
+  </data>
+  <data name="Blog" xml:space="preserve">
+    <value>Le blog</value>
+  </data>
+  <data name="CenterPrograms" xml:space="preserve">
+    <value>Les programmes offerts</value>
+  </data>
+  <data name="CentreMessage" xml:space="preserve">
+    <value>Le message</value>
+  </data>
+  <data name="CentreMessageValue" xml:space="preserve">
+    <value>Faciliter l'apprentissage de la lecture arabe pour lire le Saint Coran.</value>
+  </data>
+  <data name="CentreOffer" xml:space="preserve">
+    <value>Le centre propose ses programmes pour ceux qui souhaitent apprendre la lecture de l'arabe, qui sont incapables de le lire, qui sont débutants dans son apprentissage ou qui ont une faible maîtrise de cette langue.</value>
+  </data>
+  <data name="CentreVision" xml:space="preserve">
+    <value>La vision du centre</value>
+  </data>
+  <data name="CentreVisionValue" xml:space="preserve">
+    <value>aider ceux qui ne peuvent pas lire le Coran à le lire correctement</value>
   </data>
   <data name="Contact" xml:space="preserve">
-    <value>Contact</value>
+    <value>Pour nous contacter</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="FirstProgram" xml:space="preserve">
+    <value>Le premier programme</value>
+  </data>
+  <data name="FirstProgramDescription" xml:space="preserve">
+    <value>C'est un programme offert à ceux qui ne connaissent pas complètement la lecture de l'arabe et qui ne peuvent pas lire le Saint Coran. C'est un programme qui peut être proposé aux arabophones et aux non-arabophones.</value>
+  </data>
+  <data name="FirstProgramHeading" xml:space="preserve">
+    <value>Enseigner la lecture arabe pour lire le Saint Coran pour les débutants</value>
+  </data>
+  <data name="Founder" xml:space="preserve">
+    <value>Le fondateur du centre</value>
+  </data>
+  <data name="FounderCurrentJob" xml:space="preserve">
+    <value>Travail actuel</value>
+  </data>
+  <data name="FounderCurrentJobValue" xml:space="preserve">
+    <value>Directeur du Centre "Iqra" ( Lis) pour l'enseignement de la lecture arabe</value>
+  </data>
+  <data name="FounderExperience" xml:space="preserve">
+    <value>Expériences précédentes</value>
+  </data>
+  <data name="FounderExperienceValueLine1" xml:space="preserve">
+    <value>Superviseur de l'enseignement de l'arabe pour les classes élémentaires à l'Administration générale de l'éducation à Qassim</value>
+  </data>
+  <data name="FounderExperienceValueLine2" xml:space="preserve">
+    <value>Directeur d'école primaire</value>
+  </data>
+  <data name="FounderExperienceValueLine3" xml:space="preserve">
+    <value>Professeur d'arabe.
+ Ses Intérêts: Enseigner la lecture arabe aux non-arabes.</value>
+  </data>
+  <data name="FounderInterest" xml:space="preserve">
+    <value>Founder's interests</value>
+  </data>
+  <data name="FounderInterestValue" xml:space="preserve">
+    <value>Teaching Arabic reading to non-Arabs.</value>
+  </data>
+  <data name="FounderName" xml:space="preserve">
+    <value>Fahd bin Saleh bin Abdullah Al-Tuwaijri</value>
+  </data>
+  <data name="FounderQualifications" xml:space="preserve">
+    <value>Diplômes universitaires</value>
+  </data>
+  <data name="FounderQualificationsValueLine1" xml:space="preserve">
+    <value>Master en linguistique de l'Université Umm Al-Qura à Makkah Al-Mukarramah en 2019 après JC</value>
+  </data>
+  <data name="FounderQualificationsValueLine2" xml:space="preserve">
+    <value>Licence en langue arabe de l'Université islamique Imam Muhammad Ibn Saud.</value>
+  </data>
+  <data name="FounderSpecialty" xml:space="preserve">
+    <value>Major</value>
+  </data>
+  <data name="FounderSpecialtyValue" xml:space="preserve">
+    <value>langue arabe</value>
+  </data>
+  <data name="FounderWritings" xml:space="preserve">
+    <value>Ses livres</value>
+  </data>
+  <data name="FounderWritingsValue" xml:space="preserve">
+    <value>Un livre pour apprendre à lire le Noble Coran en trente jours</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Home</value>
+    <value>La principale</value>
+  </data>
+  <data name="IQRAACentre" xml:space="preserve">
+    <value>Centre Iqra</value>
+  </data>
+  <data name="IQRAACentreP" xml:space="preserve">
+    <value>Notre centre se préoccupe de l'enseignement de la lecture arabe pour tous</value>
+  </data>
+  <data name="IQRAACentreP2" xml:space="preserve">
+    <value>Dans le but de faciliter l'apprentissage de la lecture arabe et de raccourcir le temps nécessaire pour cela, afin de réaliser un souhait que de nombreux musulmans</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="SecondProgram" xml:space="preserve">
+    <value>Le deuxième programme</value>
+  </data>
+  <data name="SecondProgramDescription" xml:space="preserve">
+    <value>qui est un programme qui permet aux élèves de remédier à leurs erreurs de lecture du Noble Coran en corrigeant les erreurs définitivement pour s’assurer qu’elles ne se répètent pas plus tard et de ne pas corriger seulement les erreurs de lecture des mots. C'est un programme qui peut être proposé aux arabophones et aux non-arabophones.</value>
+  </data>
+  <data name="SecondProgramHeading" xml:space="preserve">
+    <value>Corriger la lecture du Noble Coran</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Envoyer</value>
   </data>
   <data name="Services" xml:space="preserve">
     <value>Services</value>

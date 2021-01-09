@@ -159,6 +159,7 @@ a {
 	text-align: center;
 	margin-top: 0;
 }
+
 .header{ 
 	width: 100%;
 	width: 100%;
@@ -167,8 +168,22 @@ a {
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
-
-
+.language-bar li{
+    float: right;
+    padding: 13px;
+    font-size: 1.2rem;
+}
+.language-bar li:hover{
+   background-color:#ea9e2e;
+   color:#ffffff;
+   font-weight:bold;
+}
+.language-bar .active{
+   background-color:#ea9e2e;
+   color:#ffffff;
+   font-weight:bold;
+   margin: 0px 7px;
+}
 .header_main{
 	width: 100%; 
 	float: left;
@@ -638,3 +653,4 @@ button.main_bt {
     color: #fff;
     
 }
+

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Información sobre el Centro</value>
+  </data>
+  <data name="AboutDetails" xml:space="preserve">
+    <value>¿Quiénes somos? ¿Quién es el fundador del Centro?
+ Información sobre los programas ofrecidos en el Centro. Noticias del Centro</value>
+  </data>
+  <data name="Blog" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+  <data name="CenterPrograms" xml:space="preserve">
+    <value>Center's Programs</value>
+  </data>
+  <data name="CentreMessage" xml:space="preserve">
+    <value>El Mensaje</value>
+  </data>
+  <data name="CentreMessageValue" xml:space="preserve">
+    <value>Facilitar el dominio de la lectura del Sagrado Corán</value>
+  </data>
+  <data name="CentreOffer" xml:space="preserve">
+    <value>El centro ofrece sus programas para aquellos que deseen aprender a leer en árabe y aún no lo saben. Así como, sus programas son dirigidos para aquellos que recién empezaron a aprender a leer en árabe y para aquellos que encuentran aún dificultades en la lectura en árabe.</value>
+  </data>
+  <data name="CentreVision" xml:space="preserve">
+    <value>Visión</value>
+  </data>
+  <data name="CentreVisionValue" xml:space="preserve">
+    <value>Facultar a las personas a leer el Corán</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="FirstProgram" xml:space="preserve">
+    <value>El primer programa</value>
+  </data>
+  <data name="FirstProgramDescription" xml:space="preserve">
+    <value>Se trata de un programa para aquellos que no saben en absoluto leer en árabe, o aquellos que saben algo pero aún no son capaces de leer el Sagrado Corán. 
+ Es un programa dirigido tanto para árabes como para no árabes. 
+ 
+ Duración del programa: 60 horas de formación a lo largo de 60 o 30 días.</value>
+  </data>
+  <data name="FirstProgramHeading" xml:space="preserve">
+    <value>Enseñanza de lectura árabe para aprender leer el Noble Corán para principiantes</value>
+  </data>
+  <data name="Founder" xml:space="preserve">
+    <value>Fundador del Centro</value>
+  </data>
+  <data name="FounderCurrentJob" xml:space="preserve">
+    <value>Founder Current Job</value>
+  </data>
+  <data name="FounderCurrentJobValue" xml:space="preserve">
+    <value>Manager of Iqraa Center for Arabic Language Learn</value>
+  </data>
+  <data name="FounderExperience" xml:space="preserve">
+    <value>Experiencia laboral del fundador</value>
+  </data>
+  <data name="FounderExperienceValueLine1" xml:space="preserve">
+    <value>Supervisor de la enseñanza del idioma árabe a los alumnos de los tres primeros gradis de la Primaria.</value>
+  </data>
+  <data name="FounderExperienceValueLine2" xml:space="preserve">
+    <value>Director de escuela primaria.</value>
+  </data>
+  <data name="FounderExperienceValueLine3" xml:space="preserve">
+    <value>Profesora de lengua árabe.</value>
+  </data>
+  <data name="FounderInterest" xml:space="preserve">
+    <value>Intereses del fundador</value>
+  </data>
+  <data name="FounderInterestValue" xml:space="preserve">
+    <value>Enseñar lectura árabe para extranjeros.</value>
+  </data>
+  <data name="FounderName" xml:space="preserve">
+    <value>Fahd bin Saleh bin Abdullah Al-Twaijri</value>
+  </data>
+  <data name="FounderQualifications" xml:space="preserve">
+    <value>Sus estudios</value>
+  </data>
+  <data name="FounderQualificationsValueLine1" xml:space="preserve">
+    <value>Máster en Lingüística, en la Universidad Umm Al-Qura en Makkah Al-Mukarramah 2019</value>
+  </data>
+  <data name="FounderQualificationsValueLine2" xml:space="preserve">
+    <value>Licenciatura en lengua árabe, en la Universidad Islámica Imam Muhammad bin Saud, 2002</value>
+  </data>
+  <data name="FounderSpecialty" xml:space="preserve">
+    <value>Especialidad del fundador</value>
+  </data>
+  <data name="FounderSpecialtyValue" xml:space="preserve">
+    <value>Lengua árabe</value>
+  </data>
+  <data name="FounderWritings" xml:space="preserve">
+    <value>Libros</value>
+  </data>
+  <data name="FounderWritingsValue" xml:space="preserve">
+    <value>Aprende en sólo treinta días la lectura del Sagrado Corán..</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="IQRAACentre" xml:space="preserve">
+    <value>Centro Iqraa</value>
+  </data>
+  <data name="IQRAACentreP" xml:space="preserve">
+    <value>Es un centro interesado en enseñar la lengua árabe para todos. Así como, tiene como objetivo facilitar el aprendizaje del idioma árabe en el menor tiempo posible para hacer realidad el sueño de muchos musulmanes que desean leer el Sagrado Corán</value>
+  </data>
+  <data name="IQRAACentreP2" xml:space="preserve">
+    <value>Además, el Centro busca seguir los mejores métodos y los medios más apropiados para enseñar la lectura en árabe y, como resultado, facilitar el dominio de la lectura del Sagrado Corán. Cabe destacar que la lengua árabe se caracteriza por la afinidad entre su fonética y su escritura, lo que ayuda a aprender con facilidad la lectura en árabe y, por ende, la lectura del Sagrado Corán</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="SecondProgram" xml:space="preserve">
+    <value>El segundo programa</value>
+  </data>
+  <data name="SecondProgramDescription" xml:space="preserve">
+    <value>Se trata de un programa con el objetivo de ayudar a los alumnos a corregir sus errores en la lectura del Corán enseñando dónde residen esos errores. En este programa nuestro objetivo es resolver los errores desde sus raíces. 
+ 
+ Es un programa dirigido tanto para árabes como para no árabes. 
+ 
+ Duración del programa: (Será de acuerdo a la clase de los errores detectados)</value>
+  </data>
+  <data name="SecondProgramHeading" xml:space="preserve">
+    <value>Mejorar la lectura del Sagrado Corán</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+</root>
