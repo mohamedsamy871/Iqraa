@@ -1,4 +1,23 @@
-﻿<div class="header_main">
+﻿<div class="tophead">
+    <section>
+        <ul class="language-bar header" >
+            <li class="active"><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})" class="active">عربي</a></li>
+            <li><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
+            <li><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">Urdu</a></li>
+            <li><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
+            <li><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
+        </ul>
+
+        @*<ul class="social">
+            <li><a href="https://www.facebook.com/ar.islamweb/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/islamweb" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://islamweb.net/instagram/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="http://youtube.com/islamweb" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>*@
+
+    </section>
+</div>
+<div class="header_main">
     <div class="before-logo"></div>
     <div class="container">
         <div class="logo">
@@ -22,19 +41,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="@Url.Action("Index","Home")" >HOME<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="@Url.Action("Index","Home")" >@Resource.Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("About","Home")">ABOUT</a>
+                                <a class="nav-link" href="@Url.Action("About","Home")">@Resource.About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("Index","Services")">SERVICES</a>
+                                <a class="nav-link" href="@Url.Action("Index","Services")">@Resource.Services</a>
                             </li>
                             @*<li class="#" href="#">
                                 <a class="nav-link" href="blog.html">BLOG</a>
                             </li>*@
                             <li class="nav-item" href="#">
-                                <a class="nav-link" href="@Url.Action("Index","ContactUs")" >CONTACT</a>
+                                <a class="nav-link" href="@Url.Action("Index","ContactUs")" >@Resource.Contact</a>
                             </li>
                             <li class="last">
                                 <a href="#">

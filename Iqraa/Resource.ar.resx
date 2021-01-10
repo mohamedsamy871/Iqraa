@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>عن المركز</value>
+  </data>
+  <data name="AboutDetails" xml:space="preserve">
+    <value>تعريف بالمركز .
+ تعريف بمؤسس المركز ( سيرة ذاتية)
+ تعريف بالبرامج المقدمة في هذا المركز 
+ أخبار المركز أو جديد المركز</value>
+  </data>
+  <data name="Blog" xml:space="preserve">
+    <value>المدونة</value>
+  </data>
+  <data name="CenterPrograms" xml:space="preserve">
+    <value>البرامج المقدمة</value>
+  </data>
+  <data name="CentreMessage" xml:space="preserve">
+    <value>الرسالة</value>
+  </data>
+  <data name="CentreMessageValue" xml:space="preserve">
+    <value>تسهيل تعلم القراءه العربية لقراءة القرآن الكريم</value>
+  </data>
+  <data name="CentreOffer" xml:space="preserve">
+    <value>يقدم المركز برامجه للراغبين في تعلم القراءة العربية ممن لايستطيعون قراءتها أو المبتدئين في تعلمها أو الذين لديهم ضعف في إتقانها.</value>
+  </data>
+  <data name="CentreVision" xml:space="preserve">
+    <value>الرؤية</value>
+  </data>
+  <data name="CentreVisionValue" xml:space="preserve">
+    <value>تمكين من لا يستطيع قراءة القرآن الكريم من قراءته</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>للتواصل معنا</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>الإيميل</value>
+  </data>
+  <data name="FirstProgram" xml:space="preserve">
+    <value>البرنامج الأول</value>
+  </data>
+  <data name="FirstProgramDescription" xml:space="preserve">
+    <value>وهو برنامج يقدم لمن لا يعرف القراءة العربية تماما أو يعرف شيئا منها ولكنه لا يستطيع قراءة القرآن الكريم. وهو برنامج يمكن تقديمه للناطقين بالعربية ولغير الناطقين بالعربية</value>
+  </data>
+  <data name="FirstProgramHeading" xml:space="preserve">
+    <value>تعليم القراءة العربية لقراءة القرآن الكريم للمبتدئين</value>
+  </data>
+  <data name="Founder" xml:space="preserve">
+    <value>مؤسس المركز</value>
+  </data>
+  <data name="FounderCurrentJob" xml:space="preserve">
+    <value>العمل الحالي</value>
+  </data>
+  <data name="FounderCurrentJobValue" xml:space="preserve">
+    <value>مدير مركز اقرأ لتعليم القراءة العربية</value>
+  </data>
+  <data name="FounderExperience" xml:space="preserve">
+    <value>الخبرات السابقة</value>
+  </data>
+  <data name="FounderExperienceValueLine1" xml:space="preserve">
+    <value>مشرف على تعليم اللغة العربية للصفوف الأولية في الإدارة العامة للتعليم في القصيم</value>
+  </data>
+  <data name="FounderExperienceValueLine2" xml:space="preserve">
+    <value>مدير مدرسة ابتدائية</value>
+  </data>
+  <data name="FounderExperienceValueLine3" xml:space="preserve">
+    <value>معلم لغة عربية</value>
+  </data>
+  <data name="FounderInterest" xml:space="preserve">
+    <value>الاهتمامات</value>
+  </data>
+  <data name="FounderInterestValue" xml:space="preserve">
+    <value>تعليم القراءة العربية لغير العرب</value>
+  </data>
+  <data name="FounderName" xml:space="preserve">
+    <value>فهد بن صالح بن عبدالله التويجري</value>
+  </data>
+  <data name="FounderQualifications" xml:space="preserve">
+    <value>الشهادات العلمية</value>
+  </data>
+  <data name="FounderQualificationsValueLine1" xml:space="preserve">
+    <value>ماجستير في اللغويات من جامعة أم القرى في مكة المكرمة ٢٠١٩م</value>
+  </data>
+  <data name="FounderQualificationsValueLine2" xml:space="preserve">
+    <value>بكالريوس لغة عربية من جامعة الإمام محمد بن سعود الإسلامية</value>
+  </data>
+  <data name="FounderSpecialty" xml:space="preserve">
+    <value>التخصص</value>
+  </data>
+  <data name="FounderSpecialtyValue" xml:space="preserve">
+    <value>لغة عربية</value>
+  </data>
+  <data name="FounderWritings" xml:space="preserve">
+    <value>المؤلفات</value>
+  </data>
+  <data name="FounderWritingsValue" xml:space="preserve">
+    <value>كتاب تعلم قراءة القرآن الكريم في ثلاثين يوما</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="IQRAACentre" xml:space="preserve">
+    <value>مركز اقرأ</value>
+  </data>
+  <data name="IQRAACentreP" xml:space="preserve">
+    <value>مركزنا يهتم بتعليم القراءة العربية للجميع. وبهدف إلى تيسير تعلم القراءة العربية واختصار الوقت اللازم لذلك، كي نحقق أمنية يتمناها كثير من المسلمين، وهي قراءة القرآن الكريم</value>
+  </data>
+  <data name="IQRAACentreP2" xml:space="preserve">
+    <value>ونحن في المركز نبحث عن أفضل الطرق وأنسب الوسائل لتعليم القراءة العربية والتمكن من قراءة القرآن الكريم. ونثق بأن اللغة العربية تتميز بقرب حروفها وكلماتها المنطوقة من حروفها وكلماتها المكتوبة، وهو أمر يسهل ويساعد على تعلم القراءة العربية لقصد تعلم قراءة القرآن الكريم</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>الرسالة</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>الإسم</value>
+  </data>
+  <data name="SecondProgram" xml:space="preserve">
+    <value>البرنامج الثاني</value>
+  </data>
+  <data name="SecondProgramDescription" xml:space="preserve">
+    <value>وهو برنامج يمكن الطلاب من تصحيح أخطائهم في قراءة القرآن الكريم من خلال معالجة الأخطاء لضمان عدم تكرارها لاحقا وليس تصحيح الأخطاء في قراءة الكلمات، فهدفنا في هذا البرنامج هو علاج الأخطاء من جذورها. وهو برنامج يمكن تقديمه للناطقين بالعربية ولغير الناطقين بالعربية</value>
+  </data>
+  <data name="SecondProgramHeading" xml:space="preserve">
+    <value>تصحيح قراءة القرآن الكريم</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>خدمات</value>
+  </data>
+</root>
