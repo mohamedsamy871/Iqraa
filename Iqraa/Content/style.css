@@ -41,6 +41,7 @@ body {
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
+     font-family: 'Almarai', sans-serif;
 }
 
 a {
@@ -173,6 +174,7 @@ a {
     padding: 13px;
     font-size: 1.2rem;
 }
+
 .language-bar li:hover{
    background-color:#ea9e2e;
    color:#ffffff;
@@ -195,7 +197,7 @@ a {
 .banner-main{ 
 	width: 100%;
 	float: left;
-	background-image:url(../images/banner.png);
+	background-image:url(/images/banner.png);
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 226px; 
@@ -225,6 +227,7 @@ a {
     font-size: 14pt;
 	color: #ffffff;
 	padding-bottom: 30px;
+    padding-top: 30px;
 }
 .btn_main{
 	width: 40%;
@@ -556,7 +559,22 @@ button.main_bt {
 	width: 100%;
 	float: left;
 }
+.blog-container{
+        margin: auto;
+    width: 60%;
+}
+.blog-img{
 
+    display: block;
+    float: right;
+    width: 26%;
+    margin: 22px 10px;
+}
+.blog-p{
+    float: left;
+    width: 66%;
+    padding: 30px 0 30px;
+}
 .blog_text{
 	width: 100%;
 	float: left;
@@ -580,6 +598,7 @@ button.main_bt {
 	float: left;
 	background-color: #fff;
     box-shadow: 0px 0px 10px 0px;
+    margin: 35px 0;
 }
 
 .date-bt {

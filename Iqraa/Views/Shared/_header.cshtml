@@ -1,20 +1,12 @@
 ﻿<div class="tophead">
     <section>
         <ul class="language-bar header" >
-            <li class="active"><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})" class="active">عربي</a></li>
-            <li><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
-            <li><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">Urdu</a></li>
-            <li><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
-            <li><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
+            <li class='@(Request.Cookies["Language"].Value == "ar"?"active":" ")' ><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
+            <li class='@(Request.Cookies["Language"].Value == "es"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
+            <li class='@(Request.Cookies["Language"].Value == "ur"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">Urdu</a></li>
+            <li class='@(Request.Cookies["Language"].Value == "fr"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
+            <li class='@(Request.Cookies["Language"].Value == "en"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
         </ul>
-
-        @*<ul class="social">
-            <li><a href="https://www.facebook.com/ar.islamweb/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/islamweb" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="http://islamweb.net/instagram/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="http://youtube.com/islamweb" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-        </ul>*@
-
     </section>
 </div>
 <div class="header_main">

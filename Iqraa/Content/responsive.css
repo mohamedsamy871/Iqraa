@@ -136,6 +136,8 @@
     .info_icon { min-width: 13%;}
     .menu_main { width: 65%;}
 
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -374,9 +376,29 @@ ul.link li {
 .bnner_title { font-size: 26pt; padding-top: 0px; margin-top: 0px;}
 .long_text { font-size: 10pt; }
 .creative_taital { margin-top: -73px;}
-.navbar-nav.mr-auto li {
-    float: left;
-    width: 100%;
-}
-
+    .navbar-nav.mr-auto li {
+        
+        width: 100%;
+        text-align:center !important;
+        padding-left: 40px;
+    }
+    .navbar-nav .mr-auto {
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+    .navbar-nav .mr-auto li a:hover{
+        background-color:#ff6a00;
+    }
+     .language-bar li{
+        padding: 5px;
+    }
+    .banner-main {
+        background-image: url(/images/1.png);
+    }
+    .long_text{
+        color:#193A65;
+        font-weight:bold;   
+        text-shadow: 1px 1px #fff;
+    }
 }
