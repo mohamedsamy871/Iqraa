@@ -1,12 +1,30 @@
 ﻿<div class="tophead">
     <section>
-        <ul class="language-bar header" >
-            <li class='@(Request.Cookies["Language"].Value == "ar"?"active":" ")' ><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
-            <li class='@(Request.Cookies["Language"].Value == "es"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
-            <li class='@(Request.Cookies["Language"].Value == "ur"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">Urdu</a></li>
-            <li class='@(Request.Cookies["Language"].Value == "fr"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
-            <li class='@(Request.Cookies["Language"].Value == "en"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
-        </ul>
+         @*HttpCookie Cookie = HttpContext.Current.Request.Cookies["Language"];*@
+        @if (HttpContext.Current.Request.Cookies["Language"]!=null)
+        {
+            <ul class="language-bar header">
+                <li class='@(Request.Cookies["Language"].Value == "ar"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
+                <li class='@(Request.Cookies["Language"].Value == "es"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
+                <li class='@(Request.Cookies["Language"].Value == "ur"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">Urdu</a></li>
+                <li class='@(Request.Cookies["Language"].Value == "fr"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
+                <li class='@(Request.Cookies["Language"].Value == "en"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
+            </ul>
+        }
+        else
+        {
+            HttpCookie Cookie = new HttpCookie("Language");
+
+            Cookie.Value = "en";
+            <ul class="language-bar header">
+                <li class='@(Cookie.Value == "ar"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
+                <li class='@(Cookie.Value == "es"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
+                <li class='@(Cookie.Value == "ur"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">Urdu</a></li>
+                <li class='@(Cookie.Value == "fr"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
+                <li class='@(Cookie.Value == "en"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
+            </ul>
+        }
+
     </section>
 </div>
 <div class="header_main">
@@ -21,12 +39,9 @@
 </div>
 <div class="header">
     <div class="container">
-        <!--  header inner -->
         <div class="col-sm-12">
-
             <div class="menu-area">
                 <nav class="navbar navbar-expand-lg ">
-                    <!-- <a class="navbar-brand" href="#">Menu</a> -->
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa fa-bars"></i>
                     </button>
@@ -41,9 +56,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="@Url.Action("Index","Services")">@Resource.Services</a>
                             </li>
-                            @*<li class="#" href="#">
-                                <a class="nav-link" href="blog.html">BLOG</a>
-                            </li>*@
                             <li class="nav-item" href="#">
                                 <a class="nav-link" href="@Url.Action("Index","ContactUs")" >@Resource.Contact</a>
                             </li>

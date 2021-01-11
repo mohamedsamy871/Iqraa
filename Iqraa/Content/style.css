@@ -127,7 +127,7 @@ ol {
 }
 
 p {
-     margin: 20px;
+     margin: 20px 0;
      font-weight: 400;
      font-size: 15px;
      line-height: 24px;
@@ -326,14 +326,20 @@ a {
 	margin-top: 30px;
 }
 
-.written_text{
+.written_text {
 	width: 100%;
 	float: left;
 	background-color: #193a65;
 	height: auto;
-	padding: 20px;
+	padding: 20px 0;
 }
-
+.like_icon .written_text {
+	width: 100%;
+	float: left;
+	background-color: #193a65;
+	height: auto;
+	padding: 0;
+}
 .written_text{
 	width: 100%;
 	float: left;
@@ -341,9 +347,15 @@ a {
 	margin-top: 20px;
 
 }
+.first-div{
+    padding:20px;
+}
 .like_icon{
 	padding-left: 20px;
 	min-height: 50px;
+}
+.like_icon li {
+    margin:0;
 }
 .quote_section{
 	width: 100%;

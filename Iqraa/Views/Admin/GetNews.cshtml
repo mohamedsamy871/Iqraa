@@ -15,26 +15,11 @@
                 <div class="col-lg-8 text-right">
                     <div class="btns-control">
                         <a href="@Url.Action("AddNews","Admin")" class='btn btn-primary' id='new-category' style="border-radius:0"><i class='far fa-folder mr-1'></i>إضافة</a>
-                        @*<div class="wrap-columns d-inline-block position-relative">
-                            <button class='btn columns'><i class='fa fa-columns'></i></button>
-                            <div class="cloumns-menu position-absolute">
-                                <ul class="list-unstyled position-relative  text-left">
-                                    <li>
-                                        <div class="custom-control custom-checkbox not-allowed">
-                                            <input type="checkbox" class="custom-control-input" checked id='sort'>
-                                            <label class="custom-control-label" for='sort'>Name</label>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>*@
                         <button class='btn full'><i class="fas fa-expand"></i></button>
                     </div>
                 </div>
             </div>
         </header>
-
-        <!--start table-->
         <div class="table-wrapper position-relative py-2">
             <table class="table my-2">
                 <thead>
@@ -102,7 +87,6 @@
                                 {
                                     <p>برجاء تحميل صورة</p>
                                 }
-
                             </td>
                             <td>
                                 <a href="@Url.Action("EditNews","Admin",new { id=item.Id})" class='btn btn-primary edit-category' style="border-radius:0">

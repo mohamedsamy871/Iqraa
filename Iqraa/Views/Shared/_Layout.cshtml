@@ -7,15 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- mobile metas -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <!-- site metas -->
-    @*<meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">*@
     @Styles.Render("~/bundles/GeneralStyles")
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https:/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    @if (Request.Cookies["Language"].Value == "ar" || Request.Cookies["Language"].Value == "ur")
+    {
+        <style>
+            html{
+                direction:rtl;
+            }
+            p, h1,li {
+                text-align: center;
+            }
+            .navbar-nav.mr-auto li{
+                float:right;
+            }
+             .navbar-nav.mr-auto .last{
+                 margin-right:80px;
+             }
+        </style>
+    }
 </head>
 <body>
 
