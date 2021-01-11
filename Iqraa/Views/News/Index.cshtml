@@ -11,40 +11,48 @@
                     <div class="blog-img">
                         <img src="@item.ImagePath" style="max-width: 100%;">
                     </div>
-                    @if (Request.Cookies["Language"].Value == "ar")
-                    {
-                        <div class="blog-p">
-                            <p>@Html.Raw(item.DescAr)</p>
-                        </div>
-                    }
-                    else if (Request.Cookies["Language"].Value == "en")
-                    {
-                        <div class="blog-p">
-                            <p>@Html.Raw(item.DescEn)</p>
-                        </div>
-                    }
-                    else if (Request.Cookies["Language"].Value == "fr")
-                    {
-                        <div class="blog-p">
-                            <p>@Html.Raw(item.DescFr)</p>
-                        </div>
-                    }
-                    else if (Request.Cookies["Language"].Value == "es")
-                    {
-                        <div class="blog-p">
-                            <p>@Html.Raw(item.DescEs)</p>
-                        </div>
-                    }
-                    else
-                    {
-                        <div class="blog-p">
-                            <p>@Html.Raw(item.DescUr)</p>
-                        </div>
-                    }
+    @if (HttpContext.Current.Request.Cookies["Language"] != null)
+    {
+            if (Request.Cookies["Language"].Value == "ar")
+            {
+                                <div class="blog-p">
+                                    <p>@Html.Raw(item.DescAr)</p>
+                                </div>
+            }
+            else if (Request.Cookies["Language"].Value == "en")
+            {
+                                <div class="blog-p">
+                                    <p>@Html.Raw(item.DescEn)</p>
+                                </div>
+            }
+            else if (Request.Cookies["Language"].Value == "fr")
+            {
+                                <div class="blog-p">
+                                    <p>@Html.Raw(item.DescFr)</p>
+                                </div>
+            }
+            else if (Request.Cookies["Language"].Value == "es")
+            {
+                                <div class="blog-p">
+                                    <p>@Html.Raw(item.DescEs)</p>
+                                </div>
+            }
+            else
+            {
+                                <div class="blog-p">
+                                    <p>@Html.Raw(item.DescUr)</p>
+                                </div>
+            }
+    }
+    else {
+        HttpCookie Cookie = new HttpCookie("Language");
+
+        Cookie.Value = "en";
+    }
                 </div>
             </div>
         }
-        
+
         @*<div class="col-lg-12">
             <div class="section_1">
                 <div class="blog-img"><img src="/images/code.jpg" style="max-width: 100%;"></div>

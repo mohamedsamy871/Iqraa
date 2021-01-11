@@ -12,7 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https:/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-    @if (Request.Cookies["Language"].Value == "ar" || Request.Cookies["Language"].Value == "ur")
+@if (HttpContext.Current.Request.Cookies["Language"] != null)
+{
+    if (Request.Cookies["Language"].Value == "ar" || Request.Cookies["Language"].Value == "ur")
     {
         <style>
             html{
@@ -29,6 +31,13 @@
              }
         </style>
     }
+
+}else
+{
+    HttpCookie Cookie = new HttpCookie("Language");
+
+    Cookie.Value = "en";
+}
 </head>
 <body>
 
