@@ -8,14 +8,13 @@
             <div class="row">
                 <div class="col-lg-4 mb-3 mb-lg-0">
                     <div class="sec-title">
-                        <i class='fab fa-youtube mr-2 ' '></i>
-                        الأخبار
+                        <i class='fab fa-youtube mr-2'></i>
+                          أخبار المركز
                     </div>
                 </div>
                 <div class="col-lg-8 text-right">
                     <div class="btns-control">
                         <a href="@Url.Action("AddNews","Admin")" class='btn btn-primary' id='new-category' style="border-radius:0"><i class='far fa-folder mr-1'></i>إضافة</a>
-                        <button class='btn full'><i class="fas fa-expand"></i></button>
                     </div>
                 </div>
             </div>
@@ -26,14 +25,6 @@
                     <tr>
                         <th  scope="col">مسلسل</th>
                         <th  scope="col">العنوان</th>
-                        <th  scope="col">العنوان</th>
-                        <th>العنوان</th>
-                        <th>العنوان</th>
-                        <th>العنوان</th>
-                        <th>المحتوي</th>
-                        <th>المحتوي</th>
-                        <th>المحتوي</th>
-                        <th>المحتوي</th>
                         <th>المحتوي</th>
                         <th>الصورة</th>
                         <th>العمليات</th>
@@ -51,31 +42,7 @@
                                 @Html.DisplayFor(m => item.TitleAr)
                             </td>
                             <td style="width:auto;">
-                                @Html.DisplayFor(m => item.TitleEn)
-                            </td>
-                            <td style="width:auto;">
-                                @Html.DisplayFor(m => item.TitleFr)
-                            </td>
-                            <td style="width:auto;">
-                                @Html.DisplayFor(m => item.TitleEs)
-                            </td>
-                            <td style="width:auto;">
-                                @Html.DisplayFor(m => item.TitleUr)
-                            </td>
-                            <td style="width:auto;">
                                 @Html.DisplayFor(m => item.DescAr)
-                            </td>
-                            <td style="width:auto;">
-                                @Html.DisplayFor(m => item.DescEn)
-                            </td>
-                            <td style="width:auto;">
-                                @Html.DisplayFor(m => item.DescFr)
-                            </td>
-                            <td style="width:auto;">
-                                @Html.DisplayFor(m => item.DescEs)
-                            </td>
-                            <td style="width:auto;">
-                                @Html.DisplayFor(m => item.DescUr)
                             </td>
                             <td style="width:auto;">
 

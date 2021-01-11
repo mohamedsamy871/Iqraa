@@ -1,0 +1,23 @@
+﻿<aside class='admin-aside position-absolute'>
+    <ul class="list-unstyled">
+        <!--aside item -->
+        <li>
+            <a href="@Url.Action("Index","Admin")" class='d-block text-capitalize @(ViewBag.Active == "Index"?"active":" ")'>
+                <i class='fas fa-home mr-2'></i>
+                الصفحة الرئيسية
+            </a>
+        </li>
+        <li>
+            <a href="@Url.Action("GetNews","Admin")" class='d-block text-capitalize'>
+                <i class='fas fa-home mr-2'></i>
+              اخبار الموقع
+            </a>
+        </li>
+        <li>
+            <a href="@Url.Action("GetContactMessage","Admin")" class='d-block text-capitalize'>
+                <i class='fas fa-home mr-2'></i>
+               رسائل الموقع
+            </a>
+        </li>
+    </ul>
+</aside>
