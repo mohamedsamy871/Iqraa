@@ -393,12 +393,15 @@ ul.link li {
      .language-bar li{
         padding: 5px;
     }
-    .banner-main {
+    /*.banner-main {
         background-image: url(/images/1.png);
-    }
+    }*/
     .long_text{
-        color:#193A65;
-        font-weight:bold;   
-        text-shadow: 1px 1px #fff;
+        color:#fff;
+            font-weight:normal;   
+        /*text-shadow: 1px 1px #fff;*/
+    }
+    .bnner_title{
+        color:#fff;
     }
 }

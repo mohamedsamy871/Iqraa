@@ -239,7 +239,7 @@ a {
 
 .bnner_title{
 		font-size: 46pt;
-		color: #fff;
+		color: #193a65;
 		padding-top: 70px;
         text-shadow: 1px 1px #193a65;
 }
@@ -247,7 +247,8 @@ a {
 
 .long_text{
     font-size: 14pt;
-	color: #ffffff;
+	color: #193a65;
+    font-weight:bold;
 	/*padding-bottom: 30px;
     padding-top: 30px;*/
     line-height:2rem;
