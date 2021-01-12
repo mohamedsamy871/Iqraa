@@ -29,8 +29,19 @@
 .font-b{
     font-weight:bold;
 }
-
-
+.p-b-15{
+    padding-bottom:15px
+}
+.p-t-b-0{
+    padding-top:0;
+    padding-bottom:0;
+}
+.m-b-10{
+    margin-bottom:-10px;
+}
+.m-b-27{
+    margin-bottom:-27px;
+}
 /*General Style*/
 * {
      box-sizing: border-box !important;
@@ -375,8 +386,7 @@ a {
     z-index:5
 }
 .first-div{
-    padding:20px;
-
+    padding:15px;
 }
 .like_icon{
 	padding-left: 20px;
