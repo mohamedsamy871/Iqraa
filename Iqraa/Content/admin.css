@@ -1777,7 +1777,7 @@ select.custom-select:focus {
 }
 
 #admin .admin-aside {
-  background-color: #202039;
+  background-color: #a78137 ;
   width: 195px;
   color: #fff;
   left: 0;
@@ -1842,7 +1842,7 @@ select.custom-select:focus {
 }
 
 #admin .admin-aside ul li a:hover {
-  background-color: #13122a;
+  background-color: #9a8774;
 }
 
 #admin .admin-aside ul li a:hover svg, #admin .admin-aside ul li a:hover i {

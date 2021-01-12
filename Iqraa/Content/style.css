@@ -427,7 +427,7 @@ a {
     font-size: 1rem;
     line-height: 1.5;
     color: #495057;
-    background-color: #072833;
+    background-color: #e8dfd8;
     background-clip: padding-box;
     border: 1px solid #072833;
     border-radius: 0px;
@@ -580,6 +580,12 @@ button.main_bt {
     float: right;
     width: 26%;
     margin: 22px 10px;
+}
+.img-adjust{
+    background-image:url("~/images/1.png");
+     background-repeat: no-repeat;
+    background-size:cover;
+    background-origin: content-box;
 }
 .blog-p{
     float: left;
