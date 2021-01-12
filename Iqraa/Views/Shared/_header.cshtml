@@ -3,7 +3,7 @@
          @*HttpCookie Cookie = HttpContext.Current.Request.Cookies["Language"];*@
         @if (HttpContext.Current.Request.Cookies["Language"]!=null)
         {
-            <ul class="language-bar header">
+            <ul class="language-bar header justify-content-center d-flex" >
                 <li class='@(Request.Cookies["Language"].Value == "ar"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
                 <li class='@(Request.Cookies["Language"].Value == "es"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
                 <li class='@(Request.Cookies["Language"].Value == "ur"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">Urdu</a></li>
@@ -46,7 +46,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav mr-auto justify-content-center d-flex">
                             <li class="nav-item active">
                                 <a class="nav-link" href="@Url.Action("Index","Home")" >@Resource.Home<span class="sr-only">(current)</span></a>
                             </li>
@@ -62,11 +62,11 @@
                             <li class="nav-item" href="#">
                                 <a class="nav-link" href="@Url.Action("Index","News")">@Resource.CenterNews</a>
                             </li>
-                            <li class="last">
+                            @*<li class="last">
                                 <a href="#">
                                     <img src="/images/search-icon.png" alt="icon">
                                 </a>
-                            </li>
+                            </li>*@
                         </ul>
                     </div>
                 </nav>

@@ -25,6 +25,13 @@
 /*-$maincolor:#ea9e2e;*/
 
 /*#193a65*/
+/*General Style*/
+.font-b{
+    font-weight:bold;
+}
+
+
+/*General Style*/
 * {
      box-sizing: border-box !important;
      transition: ease all 0.5s;
@@ -133,21 +140,23 @@ p {
      line-height: 24px;
 }
 
+ p, h1,li {
+                text-align: center;
+            }
+
 a {
      color: #ffffff;
      text-decoration: none;
      outline: none !important;
 }
 .before-logo{
-    height: 25px;
-
+    height: 10px;
     background-color:#ea9e2e;
     width: 100%;
 }
 .header_main{ 
 	width: 100%;
     float: left;
-    /*background-image: url(../images/header.png);*/
     height: auto;
     padding-top: 0;
     padding-bottom: 10px; 
@@ -166,11 +175,11 @@ a {
 	width: 100%;
 	float: left;
 	background-color: #193a65;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	/*padding-bottom: 10px;
+	padding-top: 10px;*/
 }
 .language-bar li{
-    float: right;
+    /*float: right;*/
     padding: 13px;
     font-size: 1.2rem;
 }
@@ -191,14 +200,14 @@ a {
 	float: left;
     /*background-image: url(../images/header.png);*/ 
 	height: auto;
-	padding-bottom: 20px;
+	/*padding-bottom: 20px;*/
 }
 
 .banner-main{ 
 	width: 100%;
 	float: left;
 	background-image:url(/images/banner.png);
-	height: auto;
+	height: 376px;
 	padding-top: 20px;
 	padding-bottom: 226px; 
 	background-size: cover;
@@ -210,24 +219,27 @@ a {
 }
 
 .titlepage-h1{
-	width: 100%;
-	float: left;
+	width: 60%;
+	/*float: left;*/
 	margin: 0 auto;
-	text-align: center;	
+	text-align: center;
+
 }
 
 .bnner_title{
 		font-size: 46pt;
-		color: #193a65;
+		color: #fff;
 		padding-top: 70px;
-		font-family: 'Raleway', sans-serif;;}
+        text-shadow: 1px 1px #193a65;
+}
 
 
 .long_text{
     font-size: 14pt;
 	color: #ffffff;
-	padding-bottom: 30px;
-    padding-top: 30px;
+	/*padding-bottom: 30px;
+    padding-top: 30px;*/
+    line-height:2rem;
 }
 .btn_main{
 	width: 40%;
@@ -303,7 +315,13 @@ a {
 	font-weight: bold;
 
 }
-
+.text-style{
+            text-align: center;
+            color: black;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 2.5rem;
+}
 .section_service_2{
 	width: 100%;
 	float: left;
@@ -332,6 +350,7 @@ a {
 	background-color: #193a65;
 	height: auto;
 	padding: 20px 0;
+    
 }
 .like_icon .written_text {
 	width: 100%;
@@ -346,8 +365,18 @@ a {
 	color: #ffffff;
 
 }
+.position-rel{
+    position:relative;
+}
+.position-abs   {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    z-index:5
+}
 .first-div{
     padding:20px;
+
 }
 .like_icon{
 	padding-left: 20px;
@@ -356,6 +385,7 @@ a {
 .like_icon li {
     margin:0;
 }
+
 .quote_section{
 	width: 100%;
 	float: left;
@@ -660,6 +690,7 @@ button.main_bt {
 }
 
 #main_slider a.carousel-control-prev {
+
     position: absolute;
     top: 40% !important;
     left: 17px !important;
@@ -667,6 +698,7 @@ button.main_bt {
     height: 70px;
     border-radius: 35px;
 }
+
 #main_slider .carousel-control-prev, #main_slider .carousel-control-next {
     width: 62px;
     height: 60px;
