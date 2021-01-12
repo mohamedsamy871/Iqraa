@@ -749,6 +749,7 @@
     <Content Include="ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
     <Content Include="ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="ckeditor\skins\moono-lisa\readme.md" />
+    <Content Include="UploadedImages\العقيدة42004337.png" />
     <Content Include="webfonts\fa-brands-400.svg" />
     <Content Include="webfonts\fa-regular-400.svg" />
     <Content Include="webfonts\fa-solid-900.svg" />

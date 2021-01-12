@@ -129,6 +129,9 @@
   <data name="Blog" xml:space="preserve">
     <value>Le blog</value>
   </data>
+  <data name="CenterNews" xml:space="preserve">
+    <value>Actualités du centre</value>
+  </data>
   <data name="CenterPrograms" xml:space="preserve">
     <value>Les programmes offerts</value>
   </data>

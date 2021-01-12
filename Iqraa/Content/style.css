@@ -586,6 +586,10 @@ button.main_bt {
     width: 66%;
     padding: 30px 0 30px;
 }
+.blog-p h2{
+    text-align:center;
+    font-weight:bold;
+}
 .blog_text{
 	width: 100%;
 	float: left;

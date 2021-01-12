@@ -118,18 +118,22 @@ namespace Iqraa.Controllers
             var fromPassword = "info@123456";
             var subject = "الرد علي رسالتكم";
             var body = ContactMessage.Reply;
-            var smtp = new SmtpClient("smtp.gmail.com", 587)
+            var smtp = new SmtpClient("mail.iqraa-center.com") /*587*/
             {
                 UseDefaultCredentials = false,
                 Credentials = new NetworkCredential("info@iqraa-center.com", fromPassword),
-                EnableSsl = true
+                EnableSsl = false,
+                Port = 8889
 
             };
 
             using (var message = new MailMessage(fromAddress, toAddress)
             {
                 Subject = subject,
-                Body = body
+                Body = body,
+                Priority =MailPriority.High,
+                IsBodyHtml = true,
+                
             }
                   )
             {

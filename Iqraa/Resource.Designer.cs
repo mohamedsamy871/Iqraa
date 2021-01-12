@@ -88,6 +88,15 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Center News.
+        /// </summary>
+        public static string CenterNews {
+            get {
+                return ResourceManager.GetString("CenterNews", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Center&apos;s Programs.
         /// </summary>
         public static string CenterPrograms {

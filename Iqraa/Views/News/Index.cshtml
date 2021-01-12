@@ -16,30 +16,50 @@
             if (Request.Cookies["Language"].Value == "ar")
             {
                                 <div class="blog-p">
+                                    @if (item.TitleAr != null && item.TitleAr.Length > 2)
+                                    {
+                                        <h2>@item.TitleAr</h2>
+                                    }
                                     <p>@Html.Raw(item.DescAr)</p>
                                 </div>
             }
             else if (Request.Cookies["Language"].Value == "en")
             {
                                 <div class="blog-p">
+                                    @if (item.TitleAr != null && item.TitleAr.Length > 2)
+                                    {
+                                        <h2>@item.TitleEn</h2>
+                                    }
                                     <p>@Html.Raw(item.DescEn)</p>
                                 </div>
             }
             else if (Request.Cookies["Language"].Value == "fr")
             {
                                 <div class="blog-p">
+                                    @if (item.TitleAr != null && item.TitleAr.Length > 2)
+                                    {
+                                        <h2>@item.TitleFr</h2>
+                                    }
                                     <p>@Html.Raw(item.DescFr)</p>
                                 </div>
             }
             else if (Request.Cookies["Language"].Value == "es")
             {
                                 <div class="blog-p">
+                                    @if (item.TitleAr != null && item.TitleAr.Length > 2)
+                                    {
+                                        <h2>@item.TitleEs</h2>
+                                    }
                                     <p>@Html.Raw(item.DescEs)</p>
                                 </div>
             }
             else
             {
                                 <div class="blog-p">
+                                    @if (item.TitleAr != null && item.TitleAr.Length > 2)
+                                    {
+                                        <h2>@item.TitleUr</h2>
+                                    }
                                     <p>@Html.Raw(item.DescUr)</p>
                                 </div>
             }
