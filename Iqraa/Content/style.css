@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
@@ -42,6 +42,23 @@
 .m-b-27{
     margin-bottom:-27px;
 }
+.color-b-w{
+    color:#bebfd3;
+}
+.color-wh{
+    color:#fff;
+}
+.contact-icon{
+    line-height: 78px;
+    font-size: 25px;
+
+}
+.margin-r-154{
+    margin-right:154px;
+}
+.dir-rtl{
+    direction:rtl;
+}
 /*General Style*/
 * {
      box-sizing: border-box !important;
@@ -55,11 +72,11 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family: 'Raleway', sans-serif;;
+     font-family: 'Raleway', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
-     font-family: 'Almarai', sans-serif;
+     
 }
 
 a {
@@ -241,7 +258,7 @@ a {
 		font-size: 46pt;
 		color: #193a65;
 		padding-top: 70px;
-        text-shadow: 1px 1px #193a65;
+        text-shadow: 1px 1px #a5bddc
 }
 
 
@@ -252,6 +269,7 @@ a {
 	/*padding-bottom: 30px;
     padding-top: 30px;*/
     line-height:2rem;
+    text-shadow: 1px 1px #a5bddc
 }
 .btn_main{
 	width: 40%;
@@ -443,6 +461,7 @@ a {
 	color: #050000;
 	font-size: 22pt;
 	font-weight: bold;
+    margin-top:45px;    
 
 }
 
@@ -452,6 +471,7 @@ a {
 	background-color: #193a65;
 	padding-top: 40px;
 	padding-bottom: 40PX;
+    margin-top:100px;
 }
 
 .input_main{
@@ -489,7 +509,6 @@ a {
 
 .contact_main{
 	width: 100%;
-	float: left;
 	background-color: #ffffff;
 	padding-top: 40px;
 }
@@ -602,7 +621,7 @@ button.main_bt {
 }
 .contact_main{
 	width: 100%;
-	float: left;
+
 	padding-top: 30px;
 
 }
@@ -737,3 +756,81 @@ button.main_bt {
     
 }
 
+
+.contact__title {
+   
+}
+.contact__title     h2:before {
+       content:'';
+       left:25% ;
+       bottom:-8px;
+       width:50%;
+       height:2px;
+       position:absolute;
+       background-color:#fff;
+}
+.contact__title h2 {
+        color:#fff;
+
+    font-size:30px;
+    margin-bottom:60px;
+    font-weight:bold;
+    position:relative;
+    display:inline-block;
+}
+.contact__item {
+
+    margin-bottom:25px;
+    color:#fff;
+    text-align:inherit
+}
+.contact__item img {
+    width:40px;
+}
+.contact__item  h3 {
+     color:#fff;
+    margin:0 20px;
+}
+.social-media {
+    margin-top:30px;
+}
+.social-media li{
+       width:40px;
+       height:40px;
+       line-height:40px;
+       font-size:18px;
+       color:#ddd;
+       -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+       border-radius: 50%;
+       background-color:#9c9c9c;
+       margin-left:10px;   
+       -webkit-transition:all 0.3s ease; 
+        -moz-transition:all 0.3s ease; 
+         transition:all 0.3s ease; 
+}
+.social-media li a {
+    display:block;
+}
+.social-media li {
+    color:#fff;
+}
+.social-media li:first-of-type:hover {
+    background-color:#4867aa;
+
+}
+
+ .social-media li:nth-of-type(2):hover {
+    background-color:#1d9ceb;
+
+}
+
+ 
+ .social-media li:nth-of-type(3):hover {
+    background-color:#d32e78;
+
+}
+  .social-media li:nth-of-type(4):hover {
+    background-color:#27a2e3
+
+}   

@@ -393,15 +393,29 @@ ul.link li {
      .language-bar li{
         padding: 5px;
     }
-    /*.banner-main {
-        background-image: url(/images/1.png);
-    }*/
+
     .long_text{
         color:#fff;
-            font-weight:normal;   
-        /*text-shadow: 1px 1px #fff;*/
+        font-weight:normal;
     }
     .bnner_title{
         color:#fff;
     }
+    .like_icon{
+        padding-left: 0px;
+    }
+    .written_text{
+        margin-left:12px;
+    }
+   .contact{
+       text-align:center;
+   }
+   .contact__title {
+       text-align:center;
+   }
+   .social-media {
+       justify-content:center;
+       margin-bottom:40px;
+   }
+    
 }

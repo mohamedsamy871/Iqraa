@@ -1,14 +1,13 @@
 ﻿<div class="tophead">
     <section>
-         @*HttpCookie Cookie = HttpContext.Current.Request.Cookies["Language"];*@
         @if (HttpContext.Current.Request.Cookies["Language"]!=null)
         {
-            <ul class="language-bar header justify-content-center d-flex" >
-                <li class='@(Request.Cookies["Language"].Value == "ar"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
-                <li class='@(Request.Cookies["Language"].Value == "es"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
-                <li class='@(Request.Cookies["Language"].Value == "ur"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">Urdu</a></li>
-                <li class='@(Request.Cookies["Language"].Value == "fr"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
-                <li class='@(Request.Cookies["Language"].Value == "en"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
+            <ul class="language-bar header justify-content-center d-flex dir-rtl"  >
+                <li class='@(Request.Cookies["Language"].Value == "ar"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
+                <li class='@(Request.Cookies["Language"].Value == "ur"?"active":" ")'><a class="d-block" href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">أوردو</a></li>
+                <li class='@(Request.Cookies["Language"].Value == "es"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
+                <li class='@(Request.Cookies["Language"].Value == "fr"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
+                <li class='@(Request.Cookies["Language"].Value == "en"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
             </ul>
         }
         else
@@ -16,12 +15,12 @@
             HttpCookie Cookie = new HttpCookie("Language");
 
             Cookie.Value = "en";
-            <ul class="language-bar header">
-                <li class='@(Cookie.Value == "ar"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
-                <li class='@(Cookie.Value == "es"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
-                <li class='@(Cookie.Value == "ur"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">Urdu</a></li>
-                <li class='@(Cookie.Value == "fr"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
-                <li class='@(Cookie.Value == "en"?"active":" ")'><a href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
+            <ul class="language-bar header dir-rtl">
+                <li class='@(Cookie.Value == "ar"?"active":" ")'><a class="d-block" href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
+                <li class='@(Cookie.Value == "ur"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">أوردو</a></li>
+                <li class='@(Cookie.Value == "es"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
+                <li class='@(Cookie.Value == "fr"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
+                <li class='@(Cookie.Value == "en"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
             </ul>
         }
 

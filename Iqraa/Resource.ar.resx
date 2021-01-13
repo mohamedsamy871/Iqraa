@@ -136,7 +136,7 @@
     <value>البرامج المقدمة</value>
   </data>
   <data name="CentreMessage" xml:space="preserve">
-    <value>الرسالة</value>
+    <value>رسالة المركز</value>
   </data>
   <data name="CentreMessageValue" xml:space="preserve">
     <value>تسهيل تعلم القراءه العربية لقراءة القرآن الكريم</value>
@@ -145,7 +145,7 @@
     <value>يقدم المركز برامجه للراغبين في تعلم القراءة العربية ممن لايستطيعون قراءتها أو المبتدئين في تعلمها أو الذين لديهم ضعف في إتقانها.</value>
   </data>
   <data name="CentreVision" xml:space="preserve">
-    <value>الرؤية</value>
+    <value>رؤية المركز</value>
   </data>
   <data name="CentreVisionValue" xml:space="preserve">
     <value>تمكين من لا يستطيع قراءة القرآن الكريم من قراءته</value>
@@ -232,7 +232,7 @@
     <value>الرسالة</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>الإسم</value>
+    <value>الاسم</value>
   </data>
   <data name="SecondProgram" xml:space="preserve">
     <value>البرنامج الثاني</value>
@@ -245,6 +245,9 @@
   </data>
   <data name="Send" xml:space="preserve">
     <value>إرسال</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>أرسل رسالة</value>
   </data>
   <data name="Services" xml:space="preserve">
     <value>خدمات</value>

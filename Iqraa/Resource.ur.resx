@@ -250,6 +250,9 @@
   <data name="Send" xml:space="preserve">
     <value>بھیجیں</value>
   </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>پیغام بھیجو</value>
+  </data>
   <data name="Services" xml:space="preserve">
     <value>خدمات</value>
   </data>

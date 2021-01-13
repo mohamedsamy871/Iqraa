@@ -443,6 +443,15 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Send Message.
+        /// </summary>
+        public static string SendMessage {
+            get {
+                return ResourceManager.GetString("SendMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Services.
         /// </summary>
         public static string Services {

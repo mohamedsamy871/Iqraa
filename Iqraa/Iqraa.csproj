@@ -677,7 +677,9 @@
     <Content Include="ckeditor\skins\moono-lisa\images\spinner.gif" />
     <Content Include="ckeditor\styles.js" />
     <Content Include="ckeditor\vendor\promise.js" />
+    <Content Include="Content\about-contact.css" />
     <Content Include="Content\admin.css" />
+    <Content Include="Content\all.min.css" />
     <Content Include="Content\animate.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -709,6 +711,7 @@
     <Content Include="images\writing-icon.png" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Scripts\all.min.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -844,6 +847,10 @@
     <Content Include="Views\Admin\EditContactMessage.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Admin\Shared\_Aside.cshtml" />
+    <Content Include="webfonts\Almarai-Bold.ttf" />
+    <Content Include="webfonts\Almarai-ExtraBold.ttf" />
+    <Content Include="webfonts\Almarai-Light.ttf" />
+    <Content Include="webfonts\Almarai-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
