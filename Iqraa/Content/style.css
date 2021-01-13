@@ -257,12 +257,16 @@ a {
 .bnner_title{
 		font-size: 46pt;
 		color: #193a65;
-		padding-top: 70px;
+		padding-top: 34px;
         text-shadow: 1px 1px #a5bddc
 }
-
+.carousel-item{
+    height:309px;
+}
 
 .long_text{
+    padding-right:40px;
+    padding-left:40px;
     font-size: 14pt;
 	color: #193a65;
     font-weight:bold;
