@@ -379,11 +379,20 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The centre is looking for the best ways and the most appropriate means to teach Arabic and be able to read the Noble Quran. Undoubtedly, the Arabic language is characterized by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran..
+        ///   Looks up a localized string similar to The centre is looking for the best ways and the most appropriate means to teach Arabic and be able to read the Noble Quran..
         /// </summary>
         public static string IQRAACentreP2 {
             get {
                 return ResourceManager.GetString("IQRAACentreP2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Undoubtedly, the Arabic language is characterized by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran..
+        /// </summary>
+        public static string IQRAACentreP3 {
+            get {
+                return ResourceManager.GetString("IQRAACentreP3", resourceCulture);
             }
         }
         

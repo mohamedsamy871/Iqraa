@@ -762,6 +762,7 @@
     <None Include="Properties\PublishProfiles\555.pubxml" />
     <None Include="Properties\PublishProfiles\iqraa.pubxml" />
     <None Include="Properties\PublishProfiles\iqraa22.pubxml" />
+    <None Include="Properties\PublishProfiles\neew.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

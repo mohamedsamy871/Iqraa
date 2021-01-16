@@ -22,12 +22,12 @@
 
             body{
                 font-family: 'Almarai', sans-serif;
-                              direction:rtl;
+                direction:rtl;
                 text-align:right;
             }
-            p, h1,li {
+            /*p, h1,li {
                 text-align: center;
-            }
+            }*/
             .navbar-nav.mr-auto li{
                 float:right;
             }
@@ -40,8 +40,15 @@
              }
         </style>
     }
+    @*else
+    {
+        <style>
+           
+        </style>
+    }*@
 
-}else
+}
+else
 {
     HttpCookie Cookie = new HttpCookie("Language");
 

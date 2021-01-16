@@ -226,7 +226,10 @@ Duration of the Program:
     <value>A centre is interested in teaching Arabic for all, aiming for facilitating learning Arabic reading and shortening the time required for that, to fulfil a hope that many Muslims have, which is reading the Noble Quran.</value>
   </data>
   <data name="IQRAACentreP2" xml:space="preserve">
-    <value>The centre is looking for the best ways and the most appropriate means to teach Arabic and be able to read the Noble Quran. Undoubtedly, the Arabic language is characterized by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran.</value>
+    <value>The centre is looking for the best ways and the most appropriate means to teach Arabic and be able to read the Noble Quran.</value>
+  </data>
+  <data name="IQRAACentreP3" xml:space="preserve">
+    <value>Undoubtedly, the Arabic language is characterized by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran.</value>
   </data>
   <data name="Message" xml:space="preserve">
     <value>Message</value>
