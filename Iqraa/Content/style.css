@@ -59,6 +59,12 @@
 .dir-rtl{
     direction:rtl;
 }
+.text-align-r{
+    text-align:right;
+}
+.text-align-l{
+    text-align:left;
+}
 /*General Style*/
 * {
      box-sizing: border-box !important;
@@ -548,7 +554,31 @@ a {
 	text-align: center;
 	margin: 0px;
 }
+.commerical-register{
+	width: 100%;
+	float: left;
+	background-color: #2a5a97;
+	padding-top: 10px;
+	padding-bottom: 10px;
 
+}
+
+.commerical-register_text{
+	width: 100%;
+	color: #fbfdfd;
+	text-align: right;
+	margin: 0px;
+    display:inline;
+    padding-right:30px;
+}
+.commerical-register_text2{
+     display:inline;
+	width: 100%;
+	 padding-left:15px;
+	color: #fbfdfd;
+	text-align: Left;
+	margin: 0px;
+}
 .email-text{
 	width: 100%;
 	float: left;
@@ -797,6 +827,7 @@ button.main_bt {
 }
 .social-media {
     margin-top:30px;
+    margin-right: 20px;
 }
 .social-media li{
        width:40px;

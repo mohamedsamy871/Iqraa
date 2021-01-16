@@ -417,5 +417,27 @@ ul.link li {
        justify-content:center;
        margin-bottom:40px;
    }
-    
+    .commerical-register{
+	width: 100%;
+	background-color: #2a5a97;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.commerical-register_text{
+	width: 100%;
+	color: #fbfdfd;
+	text-align: center;
+	margin: 0px;
+    display:block;
+    padding-bottom:30px;
+}
+.commerical-register_text2{
+     display:block;
+	width: 100%;
+	color: #fbfdfd;
+	text-align: center;
+	margin: 0px;
+}
 }
