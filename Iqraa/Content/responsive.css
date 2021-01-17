@@ -209,6 +209,14 @@ width: 41%;
 }
 .menu_main {
     width: 75%;}
+
+    .long_text{
+        color:#fff;
+        padding-right:10px;
+        padding-left:10px;
+        text-shadow:1px 1px #5496cd;
+        font-weight:500;
+    }
 }
 
 .banner-main { padding-bottom: 120px;}
@@ -274,6 +282,13 @@ width: 55%;
     .service_text { width: 46%;}
     .touch_text { width: 55%;}
     .creative_text { width: 94%;}
+    .long_text{
+    color:#fff;
+    padding-right:10px;
+    padding-left:10px;
+    text-shadow:none;
+    font-weight:500;
+    }
 }
 
 
@@ -396,9 +411,10 @@ ul.link li {
 
     .long_text{
         color:#fff;
-        font-weight:normal;
         padding-right:10px;
         padding-left:10px;
+        text-shadow:none;
+        font-weight:500;
     }
     .bnner_title{
         color:#fff;
@@ -421,7 +437,6 @@ ul.link li {
    }
     .commerical-register{
 	width: 100%;
-	background-color: #2a5a97;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
@@ -429,7 +444,6 @@ ul.link li {
 
 .commerical-register_text{
 	width: 100%;
-	color: #fbfdfd;
 	text-align: center;
 	margin: 0px;
     display:block;

@@ -557,7 +557,7 @@ a {
 .commerical-register{
 	width: 100%;
 	float: left;
-	background-color: #2a5a97;
+	background-color: #b9b7b1;
 	padding-top: 10px;
 	padding-bottom: 10px;
 
@@ -565,7 +565,8 @@ a {
 
 .commerical-register_text{
 	width: 100%;
-	color: #fbfdfd;
+	color: black;
+    font-weight:bold;
 	text-align: right;
 	margin: 0px;
     display:inline;
@@ -575,7 +576,8 @@ a {
      display:inline;
 	width: 100%;
 	 padding-left:15px;
-	color: #fbfdfd;
+	color: black;
+    font-weight:bold;
 	text-align: Left;
 	margin: 0px;
 }
