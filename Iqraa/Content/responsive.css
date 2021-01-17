@@ -388,7 +388,7 @@ ul.link li {
 .map_icon {
     width: 100%;
 }
-.bnner_title { font-size: 26pt; padding-top: 0px; margin-top: 0px;}
+
 .long_text { font-size: 10pt; }
 .creative_taital { margin-top: -73px;}
     .navbar-nav.mr-auto li {
@@ -408,13 +408,16 @@ ul.link li {
      .language-bar li{
         padding: 5px;
     }
-
+    p {
+        margin:0;
+    }
     .long_text{
         color:#fff;
         padding-right:0;
         padding-left:0;
         text-shadow:none;
         font-weight:500;
+        margin-top:0;
         /*-webkit-text-fill-color: white; 
       -webkit-text-stroke-color: black;*/
         /********************************/
@@ -428,6 +431,9 @@ ul.link li {
     .bnner_title{
         color:#fff;
         text-shadow:1px 0 0 black,0 -1px 0 black;
+        font-size: 26px; 
+        padding-top:0 !important;
+        margin-top:0;
     }
     .like_icon{
         padding-left: 0px;
