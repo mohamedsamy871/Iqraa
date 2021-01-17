@@ -227,7 +227,10 @@
     <value>Notre centre se préoccupe de l'enseignement de la lecture arabe pour tous</value>
   </data>
   <data name="IQRAACentreP2" xml:space="preserve">
-    <value>Dans le but de faciliter l'apprentissage de la lecture arabe et de raccourcir le temps nécessaire pour cela, afin de réaliser un souhait que de nombreux musulmans</value>
+    <value>Dans le but de faciliter l'apprentissage de la lecture arabe et de raccourcir le temps nécessaire pour cela, </value>
+  </data>
+  <data name="IQRAACentreP3" xml:space="preserve">
+    <value>afin de réaliser un souhait que de nombreux musulmans</value>
   </data>
   <data name="Message" xml:space="preserve">
     <value>Message</value>

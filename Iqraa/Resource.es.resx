@@ -227,7 +227,10 @@
     <value>Es un centro interesado en enseñar la lengua árabe para todos. Así como, tiene como objetivo facilitar el aprendizaje del idioma árabe en el menor tiempo posible para hacer realidad el sueño de muchos musulmanes que desean leer el Sagrado Corán</value>
   </data>
   <data name="IQRAACentreP2" xml:space="preserve">
-    <value>Además, el Centro busca seguir los mejores métodos y los medios más apropiados para enseñar la lectura en árabe y, como resultado, facilitar el dominio de la lectura del Sagrado Corán. Cabe destacar que la lengua árabe se caracteriza por la afinidad entre su fonética y su escritura, lo que ayuda a aprender con facilidad la lectura en árabe y, por ende, la lectura del Sagrado Corán</value>
+    <value>Además, el Centro busca seguir los mejores métodos y los medios más apropiados para enseñar la lectura en árabe y, como resultado, facilitar el dominio de la lectura del Sagrado Corán. </value>
+  </data>
+  <data name="IQRAACentreP3" xml:space="preserve">
+    <value>Cabe destacar que la lengua árabe se caracteriza por la afinidad entre su fonética y su escritura, lo que ayuda a aprender con facilidad la lectura en árabe y, por ende, la lectura del Sagrado Corán</value>
   </data>
   <data name="Message" xml:space="preserve">
     <value>Mensaje</value>

@@ -397,6 +397,8 @@ ul.link li {
     .long_text{
         color:#fff;
         font-weight:normal;
+        padding-right:10px;
+        padding-left:10px;
     }
     .bnner_title{
         color:#fff;
