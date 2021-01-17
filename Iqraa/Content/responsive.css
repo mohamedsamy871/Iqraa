@@ -212,8 +212,8 @@ width: 41%;
 
     .long_text{
         color:#fff;
-        padding-right:10px;
-        padding-left:10px;
+        padding-right:40px;
+        padding-left:40px;
         text-shadow:1px 1px #5496cd;
         font-weight:500;
     }
@@ -411,8 +411,8 @@ ul.link li {
 
     .long_text{
         color:#fff;
-        padding-right:10px;
-        padding-left:10px;
+        padding-right:0;
+        padding-left:0;
         text-shadow:none;
         font-weight:500;
         /*-webkit-text-fill-color: white; 
