@@ -169,6 +169,15 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to E-mail is not valid.
+        /// </summary>
+        public static string EmailError {
+            get {
+                return ResourceManager.GetString("EmailError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The first program.
         /// </summary>
         public static string FirstProgram {

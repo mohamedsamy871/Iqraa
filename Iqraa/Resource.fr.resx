@@ -156,6 +156,9 @@
   <data name="Email" xml:space="preserve">
     <value>Email</value>
   </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>E-mail is not valid</value>
+  </data>
   <data name="FirstProgram" xml:space="preserve">
     <value>Le premier programme</value>
   </data>

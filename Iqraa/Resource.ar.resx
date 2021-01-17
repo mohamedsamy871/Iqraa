@@ -156,6 +156,9 @@
   <data name="Email" xml:space="preserve">
     <value>الإيميل</value>
   </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>برجاء ادخال ايميل صحيح</value>
+  </data>
   <data name="FirstProgram" xml:space="preserve">
     <value>البرنامج الأول</value>
   </data>

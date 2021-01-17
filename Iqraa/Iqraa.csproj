@@ -214,6 +214,10 @@
     <Compile Include="Migrations\202101111609190_AddingContactMessage.Designer.cs">
       <DependentUpon>202101111609190_AddingContactMessage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101171409403_emailRequired.cs" />
+    <Compile Include="Migrations\202101171409403_emailRequired.Designer.cs">
+      <DependentUpon>202101171409403_emailRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ContactUs.cs" />
@@ -872,6 +876,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101111609190_AddingContactMessage.resx">
       <DependentUpon>202101111609190_AddingContactMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101171409403_emailRequired.resx">
+      <DependentUpon>202101171409403_emailRequired.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource.ur.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
