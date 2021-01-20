@@ -70,7 +70,20 @@
 <!--quote_section start -->
 @*@Html.Partial("~/Views/Shared/_Quote.cshtml")*@
 <!--quote_section end -->
+@if (HttpContext.Current.Request.Cookies["Language"] != null)
+{
+    if (Request.Cookies["Language"].Value == "ar" || Request.Cookies["Language"].Value == "en")
+    {
+        @Html.Partial("~/Views/Shared/_ContactUs.cshtml")
+    }
 
+}
+else
+{
+    HttpCookie Cookie = new HttpCookie("Language");
+
+    Cookie.Value = "en";
+}
 <!--touch_section start -->
-@Html.Partial("~/Views/Shared/_ContactUs.cshtml")
+
 <!--touch_section end -->
