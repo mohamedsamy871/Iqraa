@@ -126,6 +126,9 @@
   <data name="Blog" xml:space="preserve">
     <value>Blog</value>
   </data>
+  <data name="CenterNews" xml:space="preserve">
+    <value>Center News</value>
+  </data>
   <data name="CenterPrograms" xml:space="preserve">
     <value>Center's Programs</value>
   </data>
@@ -149,6 +152,9 @@
   </data>
   <data name="Email" xml:space="preserve">
     <value>Email</value>
+  </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>E-mail is not valid</value>
   </data>
   <data name="FirstProgram" xml:space="preserve">
     <value>The first program</value>
@@ -223,7 +229,10 @@ Duration of the Program:
     <value>A centre is interested in teaching Arabic for all, aiming for facilitating learning Arabic reading and shortening the time required for that, to fulfil a hope that many Muslims have, which is reading the Noble Quran.</value>
   </data>
   <data name="IQRAACentreP2" xml:space="preserve">
-    <value>The centre is looking for the best ways and the most appropriate means to teach Arabic and be able to read the Noble Quran. Undoubtedly, the Arabic language is characterized by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran.</value>
+    <value>The centre is looking for the best ways and the most appropriate means to teach Arabic and be able to read the Noble Quran.</value>
+  </data>
+  <data name="IQRAACentreP3" xml:space="preserve">
+    <value>Undoubtedly, the Arabic language is characterized by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran.</value>
   </data>
   <data name="Message" xml:space="preserve">
     <value>Message</value>
@@ -243,6 +252,9 @@ It is a program that can be offered to both native Arabic speakers and non-Arabi
   </data>
   <data name="Send" xml:space="preserve">
     <value>Send</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Send Message</value>
   </data>
   <data name="Services" xml:space="preserve">
     <value>Services</value>

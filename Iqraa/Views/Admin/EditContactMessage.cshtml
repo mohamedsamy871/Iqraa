@@ -1,0 +1,50 @@
+﻿@model Iqraa.Models.ContactUs
+@{
+    Layout = "~/Views/Admin/Shared/_AdminLayout.cshtml";
+}
+<div class="edit-section-layer position-fixed d-flex justify-content-center align-items-start">
+    <div class="wrapper mt-5">
+        <header>
+            <h5 class="sec-title d-inline-block">
+                <i class='fas fa-box'></i>
+                الرد علي الرسالة
+            </h5>
+            <a href="@Url.Action("GetContactMessage","Admin")" class='btn close-lay float-right p-1'>
+                <i class='fas fa-times'></i>
+            </a>
+        </header>
+        @using (Html.BeginForm("UpdateContactMessage", "Admin", FormMethod.Post, new { @class = "mt-4" }))
+        {
+            @Html.AntiForgeryToken()
+            <div class="input-group mb-3">
+                <div class="input-prepend">
+                    اسم المستخدم
+                </div>
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+            </div>
+            <div class="input-group">
+                <div class="input-prepend">
+                    الايميل
+                </div>
+                @Html.TextAreaFor(m => m.Email, new { @class = "form-control" })
+            </div>
+            <div class="input-group">
+                <div class="input-prepend">
+                    الرسالة
+                </div>
+                @Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
+            </div>
+            <div class="input-group">
+                <div class="input-prepend">
+                    الرد
+                </div>
+                @Html.TextAreaFor(m => m.Reply, new { @class = "form-control" })
+            </div>
+            @Html.HiddenFor(m => m.Id)
+            <div class="form-group text-center mb-0">
+                <button class='btn btn-primary' type='submit'>حفظ</button>
+                <a href="@Url.Action("GetContactMessage","Admin")" class='btn btn-secondary close-lay' type='button'>الغاء</a>
+            </div>
+        }
+    </div>
+</div>

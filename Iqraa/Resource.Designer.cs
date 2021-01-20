@@ -88,6 +88,15 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Center News.
+        /// </summary>
+        public static string CenterNews {
+            get {
+                return ResourceManager.GetString("CenterNews", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Center&apos;s Programs.
         /// </summary>
         public static string CenterPrograms {
@@ -156,6 +165,15 @@ namespace Iqraa {
         public static string Email {
             get {
                 return ResourceManager.GetString("Email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to E-mail is not valid.
+        /// </summary>
+        public static string EmailError {
+            get {
+                return ResourceManager.GetString("EmailError", resourceCulture);
             }
         }
         
@@ -370,11 +388,20 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The centre is looking for the best ways and the most appropriate means to teach Arabic and be able to read the Noble Quran. Undoubtedly, the Arabic language is characterized by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran..
+        ///   Looks up a localized string similar to The centre is looking for the best ways and the most appropriate means to teach Arabic and be able to read the Noble Quran..
         /// </summary>
         public static string IQRAACentreP2 {
             get {
                 return ResourceManager.GetString("IQRAACentreP2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Undoubtedly, the Arabic language is characterized by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran..
+        /// </summary>
+        public static string IQRAACentreP3 {
+            get {
+                return ResourceManager.GetString("IQRAACentreP3", resourceCulture);
             }
         }
         
@@ -430,6 +457,15 @@ namespace Iqraa {
         public static string Send {
             get {
                 return ResourceManager.GetString("Send", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send Message.
+        /// </summary>
+        public static string SendMessage {
+            get {
+                return ResourceManager.GetString("SendMessage", resourceCulture);
             }
         }
         

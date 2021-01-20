@@ -13,12 +13,14 @@ namespace Iqraa.Controllers
         // GET: Language
         public ActionResult Change(string LanguageAbbreviation)
         {
+
             if(LanguageAbbreviation != null)
             {
                 Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(LanguageAbbreviation);
                 Thread.CurrentThread.CurrentUICulture = new CultureInfo(LanguageAbbreviation);
 
             }
+
             HttpCookie Cookie = new HttpCookie("Language");
             Cookie.Value = LanguageAbbreviation;
             Response.Cookies.Add(Cookie);

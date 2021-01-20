@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Iqraa.Models.ContactUs>
+@{
+    ViewBag.Title = "GetContactMessage";
+    Layout = "~/Views/Admin/Shared/_AdminLayout.cshtml";
+}
+<section id="Audio">
+    <div class="category-mange">
+        <header>
+            <div class="row">
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="sec-title">
+                        <i class='fab fa-youtube mr-2'></i>
+                        رسائل اتصل بنا
+                    </div>
+                </div>
+                <div class="col-lg-8 text-right">
+                    <div class="btns-control">
+                        <div class="wrap-columns d-inline-block position-relative">
+                            <button class='btn columns'><i class='fa fa-columns'></i></button>
+                            <div class="cloumns-menu position-absolute">
+                                <ul class="list-unstyled position-relative  text-left">
+                                    <li>
+                                        <div class="custom-control custom-checkbox not-allowed">
+                                            <input type="checkbox" class="custom-control-input" checked id='sort'>
+                                            <label class="custom-control-label" for='sort'>Name</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class='btn full'><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--start table-->
+        <div class="table-wrapper position-relative py-2">
+            <table class="table my-2">
+                <thead>
+                    <tr>
+                        <th>اسم الزائر </th>
+                        <th>الرسالة</th>
+                        <th>الرد</th>
+                        <th>العمليات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+                            <td style="width:auto;">
+                                @Html.DisplayFor(m => item.Name)
+                            </td>
+                            <td style="width:auto;">
+                                @Html.DisplayFor(m => item.Message)
+                            </td>
+                            <td style="width:auto;">
+                                @Html.DisplayFor(m => item.Reply)
+                            </td>
+                            <td>
+                                <a href="@Url.Action("EditContactMessage","Admin",new { id=item.Id})" class='btn btn-primary edit-category' style="border-radius:0">
+                                    <i class='fas fa-edit'></i>
+                                </a>
+                                <a href="@Url.Action("DeleteContactMessage","Admin",new { id=item.Id})" style="border-radius:0" class='btn btn-danger delete-cat' onclick="DeleteVisionOrder()">
+                                    <i class='fas fa-trash'></i>
+                                </a>
+
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+        <!--end table -->
+    </div>
+</section>

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link href="https:/fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+    @Styles.Render("~/bundles/GeneralStyles")
+    <link href="~/Content/admin.css" rel="stylesheet" />
+</head>
+<body style="font-family: 'Almarai', sans-serif;background-image:url(/images/1.png);background-repeat: no-repeat;
+                                                                background-size:cover;
+                                                                background-origin: content-box;opacity:0.8">
+    <!-----------------------------------------Get Section -->
+    <section id="admin">
+        <div class="page  position-relative">
+            <div class="page-content">
+                <div class="wrapper">
+                    @RenderBody()
+                </div>
+            </div>  
+            @Html.Partial("~/Views/Admin/Shared/_Aside.cshtml")
+        </div>
+    </section>
+    @Scripts.Render("~/bundles/GeneralScripts")
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script src="~/assets/js/admin/public-admin.js"></script>
+    @RenderSection("Scripts", false)
+    <script>
+            function DeleteVisionOrder(e) {              //Add e as parameter
+                $(e).parents('tr').remove();   //Use the e to delete
+            }
+            setTimeout(function () {
+                $(".loading-data").remove();
+            }, 1000);
+    </script>
+</body>
+
+</html>

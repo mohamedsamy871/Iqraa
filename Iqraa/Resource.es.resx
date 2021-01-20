@@ -127,6 +127,9 @@
   <data name="Blog" xml:space="preserve">
     <value>Blog</value>
   </data>
+  <data name="CenterNews" xml:space="preserve">
+    <value>Noticias del centro</value>
+  </data>
   <data name="CenterPrograms" xml:space="preserve">
     <value>Center's Programs</value>
   </data>
@@ -150,6 +153,9 @@
   </data>
   <data name="Email" xml:space="preserve">
     <value>Email</value>
+  </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>E-mail is not valid</value>
   </data>
   <data name="FirstProgram" xml:space="preserve">
     <value>El primer programa</value>
@@ -224,7 +230,10 @@
     <value>Es un centro interesado en enseñar la lengua árabe para todos. Así como, tiene como objetivo facilitar el aprendizaje del idioma árabe en el menor tiempo posible para hacer realidad el sueño de muchos musulmanes que desean leer el Sagrado Corán</value>
   </data>
   <data name="IQRAACentreP2" xml:space="preserve">
-    <value>Además, el Centro busca seguir los mejores métodos y los medios más apropiados para enseñar la lectura en árabe y, como resultado, facilitar el dominio de la lectura del Sagrado Corán. Cabe destacar que la lengua árabe se caracteriza por la afinidad entre su fonética y su escritura, lo que ayuda a aprender con facilidad la lectura en árabe y, por ende, la lectura del Sagrado Corán</value>
+    <value>Además, el Centro busca seguir los mejores métodos y los medios más apropiados para enseñar la lectura en árabe y, como resultado, facilitar el dominio de la lectura del Sagrado Corán. </value>
+  </data>
+  <data name="IQRAACentreP3" xml:space="preserve">
+    <value>Cabe destacar que la lengua árabe se caracteriza por la afinidad entre su fonética y su escritura, lo que ayuda a aprender con facilidad la lectura en árabe y, por ende, la lectura del Sagrado Corán</value>
   </data>
   <data name="Message" xml:space="preserve">
     <value>Mensaje</value>
@@ -247,6 +256,9 @@
   </data>
   <data name="Send" xml:space="preserve">
     <value>Enviar</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>enviar un mensaje</value>
   </data>
   <data name="Services" xml:space="preserve">
     <value>Servicios</value>

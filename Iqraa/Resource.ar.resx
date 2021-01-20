@@ -129,11 +129,14 @@
   <data name="Blog" xml:space="preserve">
     <value>المدونة</value>
   </data>
+  <data name="CenterNews" xml:space="preserve">
+    <value>أخبار المركز</value>
+  </data>
   <data name="CenterPrograms" xml:space="preserve">
     <value>البرامج المقدمة</value>
   </data>
   <data name="CentreMessage" xml:space="preserve">
-    <value>الرسالة</value>
+    <value>رسالة المركز</value>
   </data>
   <data name="CentreMessageValue" xml:space="preserve">
     <value>تسهيل تعلم القراءه العربية لقراءة القرآن الكريم</value>
@@ -142,7 +145,7 @@
     <value>يقدم المركز برامجه للراغبين في تعلم القراءة العربية ممن لايستطيعون قراءتها أو المبتدئين في تعلمها أو الذين لديهم ضعف في إتقانها.</value>
   </data>
   <data name="CentreVision" xml:space="preserve">
-    <value>الرؤية</value>
+    <value>رؤية المركز</value>
   </data>
   <data name="CentreVisionValue" xml:space="preserve">
     <value>تمكين من لا يستطيع قراءة القرآن الكريم من قراءته</value>
@@ -153,11 +156,14 @@
   <data name="Email" xml:space="preserve">
     <value>الإيميل</value>
   </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>برجاء ادخال ايميل صحيح</value>
+  </data>
   <data name="FirstProgram" xml:space="preserve">
     <value>البرنامج الأول</value>
   </data>
   <data name="FirstProgramDescription" xml:space="preserve">
-    <value>وهو برنامج يقدم لمن لا يعرف القراءة العربية تماما أو يعرف شيئا منها ولكنه لا يستطيع قراءة القرآن الكريم. وهو برنامج يمكن تقديمه للناطقين بالعربية ولغير الناطقين بالعربية</value>
+    <value>برنامج يقدم لمن لا يعرف القراءة العربية تماما أو يعرف شيئا منها ولكنه لا يستطيع قراءة القرآن الكريم. برنامج يمكن تقديمه للناطقين بالعربية ولغير الناطقين بالعربية</value>
   </data>
   <data name="FirstProgramHeading" xml:space="preserve">
     <value>تعليم القراءة العربية لقراءة القرآن الكريم للمبتدئين</value>
@@ -220,28 +226,34 @@
     <value>مركز اقرأ</value>
   </data>
   <data name="IQRAACentreP" xml:space="preserve">
-    <value>مركزنا يهتم بتعليم القراءة العربية للجميع. وبهدف إلى تيسير تعلم القراءة العربية واختصار الوقت اللازم لذلك، كي نحقق أمنية يتمناها كثير من المسلمين، وهي قراءة القرآن الكريم</value>
+    <value>مركز يهتم بتعليم القراءة العربية للجميع. وبهدف إلى تيسير تعلم القراءة العربية واختصار الوقت اللازم لذلك، كي نحقق أمنية يتمناها كثير من المسلمين، وهي قراءة القرآن الكريم</value>
   </data>
   <data name="IQRAACentreP2" xml:space="preserve">
-    <value>ونحن في المركز نبحث عن أفضل الطرق وأنسب الوسائل لتعليم القراءة العربية والتمكن من قراءة القرآن الكريم. ونثق بأن اللغة العربية تتميز بقرب حروفها وكلماتها المنطوقة من حروفها وكلماتها المكتوبة، وهو أمر يسهل ويساعد على تعلم القراءة العربية لقصد تعلم قراءة القرآن الكريم</value>
+    <value>المركز يبحث عن أفضل الطرق وأنسب الوسائل لتعليم القراءة العربية والتمكن من قراءة القرآن الكريم</value>
+  </data>
+  <data name="IQRAACentreP3" xml:space="preserve">
+    <value>يثق بأن اللغة العربية تتميز بقرب حروفها وكلماتها المنطوقة من حروفها وكلماتها المكتوبة، وهو أمر يسهل ويساعد على تعلم القراءة العربية لقصد تعلم قراءة القرآن الكريم</value>
   </data>
   <data name="Message" xml:space="preserve">
     <value>الرسالة</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>الإسم</value>
+    <value>الاسم</value>
   </data>
   <data name="SecondProgram" xml:space="preserve">
     <value>البرنامج الثاني</value>
   </data>
   <data name="SecondProgramDescription" xml:space="preserve">
-    <value>وهو برنامج يمكن الطلاب من تصحيح أخطائهم في قراءة القرآن الكريم من خلال معالجة الأخطاء لضمان عدم تكرارها لاحقا وليس تصحيح الأخطاء في قراءة الكلمات، فهدفنا في هذا البرنامج هو علاج الأخطاء من جذورها. وهو برنامج يمكن تقديمه للناطقين بالعربية ولغير الناطقين بالعربية</value>
+    <value>برنامج يمكن الطلاب من تصحيح أخطائهم في قراءة القرآن الكريم من خلال معالجة الأخطاء لضمان عدم تكرارها لاحقا وليس تصحيح الأخطاء في قراءة الكلمات، فهدفنا في هذا البرنامج هو علاج الأخطاء من جذورها. وهو برنامج يمكن تقديمه للناطقين بالعربية ولغير الناطقين بالعربية</value>
   </data>
   <data name="SecondProgramHeading" xml:space="preserve">
     <value>تصحيح قراءة القرآن الكريم</value>
   </data>
   <data name="Send" xml:space="preserve">
     <value>إرسال</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>ارسل رسالة</value>
   </data>
   <data name="Services" xml:space="preserve">
     <value>خدمات</value>

@@ -1,45 +1,37 @@
 ﻿    <!--services start -->
 <div class="services_main">
     <div class="container">
-        @*<div class="creative_taital" style="margin-top:70px">
-            <h1 class="creative_text">Creative Content Writing Services</h1>
-            <p style="color: #050000; text-align: center;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infanc</p>
-            <div class="btn_main">
-                <button type="button" class="btn btn-dark btn-lg">Get started</button>
-            </div>
-        </div>*@
         <div class="section_service_2">
             <h1 class="service_text">@Resource.CenterPrograms</h1>
-            <p style="font-size: 25px;
-                    line-height: 61px;
-                    color: #2f2d2d;">
-                    @Resource.CentreOffer
-            </p>
+            <p class="text-style">@Resource.CentreOffer</p>
         </div>
         <div class="service_main">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6" >
-                        <div class="written_text" >
-                            <div class="like_icon">
-                                <span style="color:white;font-size:50px;">
-                                    1
-                                </span>
-                            @*<img src="images/like-icon.png">*@
+                        <div class="written_text position-rel" style="height:100%">  
+                            <div class="like_icon position-abs">
+                                <img src="/images/fast-forword-icon.png">
                             </div>
-                            <h1 class="written_text">@Resource.FirstProgram</h1>
-                            <p>
-                                <span style="font-style:italic">@Resource.FirstProgramHeading</span>
+                            <h1 class="written_text first-div font-b">@Resource.FirstProgram</h1>
+                            <p class="font-b m-b-27">
+                                @Resource.FirstProgramHeading
+                              </p>
+                            <p class="first-div">
                                 @Resource.FirstProgramDescription
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6" >
-                        <div class="written_text">
-                            <div class="like_icon"><img src="images/fast-forword-icon.png"></div>
-                            <h1 class="written_text">@Resource.SecondProgram</h1>
-                            <p>
-                                <span style="font-style:italic">@Resource.SecondProgramHeading</span>
+                        <div class="written_text position-rel">
+                            <div class="like_icon position-abs">
+                                <img src="/images/fast-forword-icon.png">
+                            </div>
+                            <h1 class="written_text first-div font-b">@Resource.SecondProgram</h1>
+                            <p class="font-b m-b-27">
+                                @Resource.SecondProgramHeading
+                            </p>
+                            <p class="first-div">
                                 @Resource.SecondProgramDescription
                             </p>
                         </div>
@@ -48,13 +40,11 @@
             </div>
         </div>
         <div class="section_service_2" style="margin-top:30px">
-            <h1 class="service_text">@Resource.Founder</h1>
-            <p style="font-size: 25px;
-                    line-height: 61px;
-                    color: #2f2d2d;">
+            <h1 class="service_text ">@Resource.Founder</h1>
+            <p class="text-style font-b">
                 @Resource.FounderName
             </p>
-            <p>
+            <p class="text-style">
                 <span style="font-weight:bold">@Resource.FounderSpecialty</span>
                 @Resource.FounderSpecialtyValue
             </p>
@@ -66,7 +56,7 @@
                         <div class="written_text">
                             <div class="like_icon">
                             @*<img src="images/like-icon.png"></div>*@
-                            <h1 class="written_text">@Resource.FounderQualifications</h1>
+                            <h1 class="written_text mb-3">@Resource.FounderQualifications</h1>
                             <p>
                                 <ul>
                                     <li>@Resource.FounderQualificationsValueLine1</li>
@@ -74,7 +64,7 @@
                                 </ul>
                             </p>
                             <p>
-                                <span>@Resource.FounderExperience</span>
+                                <h1 class="written_text mb-3">@Resource.FounderExperience</h1>
                                 <ol>
                                     <li>
                                         @Resource.FounderExperienceValueLine1
@@ -88,12 +78,12 @@
                                 </ol>
                             </p>
                             <br />
-                            <h1 class="written_text">@Resource.FounderInterest</h1>
+                            <h1 class="written_text mb-3">@Resource.FounderInterest</h1>
                             <p>
                                 @Resource.FounderInterestValue
                             </p>
                             <br />
-                            <h1 class="written_text">@Resource.FounderWritings</h1>
+                            <h1 class="written_text mb-3">@Resource.FounderWritings</h1>
                             <p>
                               @Resource.FounderWritingsValue
                             </p>

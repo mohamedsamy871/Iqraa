@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿<!DOCTYPE html >
 <html>
 <head>
     <meta charset="utf-8" />
@@ -7,13 +7,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- mobile metas -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <!-- site metas -->
-    @*<meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">*@
     @Styles.Render("~/bundles/GeneralStyles")
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https:/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+@if (HttpContext.Current.Request.Cookies["Language"] != null)
+{
+    if (Request.Cookies["Language"].Value == "ar" || Request.Cookies["Language"].Value == "ur")
+    {
+        <style>
+
+            body{
+                font-family: 'Almarai', sans-serif;
+                direction:rtl;
+                text-align:right;
+            }
+            /*p, h1,li {
+                text-align: center;
+            }*/
+            .navbar-nav.mr-auto li{
+                float:right;
+            }
+             .navbar-nav.mr-auto .last{
+                 margin-right:80px;
+             }
+             .social-media li {
+                 margin-left:0;
+                 margin-right:10px;
+             }
+        </style>
+    }
+    @*else
+    {
+        <style>
+           
+        </style>
+    }*@
+
+}
+else
+{
+    HttpCookie Cookie = new HttpCookie("Language");
+
+    Cookie.Value = "en";
+}
 </head>
 <body>
 
@@ -25,6 +65,9 @@
 
     @Scripts.Render("~/bundles/GeneralScripts")
     @RenderSection("scripts", required: false)
-
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>*@
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
 </body>
 </html>
