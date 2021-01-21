@@ -4,7 +4,7 @@
         {
             <ul class="language-bar header justify-content-center d-flex dir-rtl"  >
                 <li class='@(Request.Cookies["Language"].Value == "ar"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
-                <li class='@(Request.Cookies["Language"].Value == "ur"?"active":" ")'><a class="d-block" href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">أوردو</a></li>
+                <li class='@(Request.Cookies["Language"].Value == "ur"?"active":" ")'><a class="d-block" href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})"> اردو زبان</a></li>
                 <li class='@(Request.Cookies["Language"].Value == "es"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
                 <li class='@(Request.Cookies["Language"].Value == "fr"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
                 <li class='@(Request.Cookies["Language"].Value == "en"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
@@ -17,7 +17,7 @@
             Cookie.Value = "en";
             <ul class="language-bar header dir-rtl">
                 <li class='@(Cookie.Value == "ar"?"active":" ")'><a class="d-block" href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
-                <li class='@(Cookie.Value == "ur"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})">أوردو</a></li>
+                <li class='@(Cookie.Value == "ur"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})"> اردو زبان</a></li>
                 <li class='@(Cookie.Value == "es"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
                 <li class='@(Cookie.Value == "fr"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "fr"})">Français</a></li>
                 <li class='@(Cookie.Value == "en"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "en"})">English</a></li>
@@ -49,9 +49,9 @@
                             <li class="nav-item active">
                                 <a class="nav-link" href="@Url.Action("Index","Home")" >@Resource.Home<span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
+                            @*<li class="nav-item">
                                 <a class="nav-link" href="@Url.Action("About","Home")">@Resource.About</a>
-                            </li>
+                            </li>*@
                             <li class="nav-item">
                                 <a class="nav-link" href="@Url.Action("Index","Services")">@Resource.Services</a>
                             </li>

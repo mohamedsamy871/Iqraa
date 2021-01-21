@@ -10,11 +10,14 @@
                 <div class="carousel-item active">
                     <div class="titlepage-h1">
                         <h1 class="bnner_title">
-                            @Resource.IQRAACentre<br>
+                           @Resource.CentreMessage<br>
                         </h1>
-                        <h5 class="long_text" style="margin-top: 20px;margin-bottom: -25px;">@Resource.CentreMessage</h5>
+                        @*<h5 class="long_text" style="margin-top: 20px;margin-bottom: -25px;">@Resource.CentreMessage</h5>*@
                         <p class="long_text">@Resource.CentreMessageValue</p>
-                        <h5 class="long_text" style="margin-top: 20px;margin-bottom: -25px;">@Resource.CentreVision</h5>
+                        @*<h5 class="long_text" style="margin-top: 20px;margin-bottom: -25px;">@Resource.CentreVision</h5>*@
+                        <h1 class="bnner_title">
+                            @Resource.CentreVision<br>
+                        </h1>
                         <p class="long_text">@Resource.CentreVisionValue</p>
                     </div>
                 </div>
@@ -62,7 +65,7 @@
     </div>
 </div>
 <!--banner end -->
-@Html.Partial("~/Views/Shared/_About.cshtml")       
+@*@Html.Partial("~/Views/Shared/_About.cshtml")*@       
     <!--services start -->
 @Html.Partial("~/Views/Shared/_Services.cshtml")
     <!--services end -->
