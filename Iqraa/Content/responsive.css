@@ -474,3 +474,8 @@ ul.link li {
 	margin: 0px;
 }
 }
+@media (max-width: 373px){
+    .language-bar li a {
+        font-size:14px;
+    }
+ }
