@@ -241,6 +241,9 @@
   <data name="Name" xml:space="preserve">
     <value>Nom</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Enregistrement</value>
+  </data>
   <data name="SecondProgram" xml:space="preserve">
     <value>Le deuxième programme</value>
   </data>
@@ -258,5 +261,8 @@
   </data>
   <data name="Services" xml:space="preserve">
     <value>Services</value>
+  </data>
+  <data name="Visitors" xml:space="preserve">
+    <value>Visiteurs</value>
   </data>
 </root>

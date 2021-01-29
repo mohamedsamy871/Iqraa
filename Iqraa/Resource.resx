@@ -240,6 +240,9 @@ Duration of the Program:
   <data name="Name" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
   <data name="SecondProgram" xml:space="preserve">
     <value>The Second Program</value>
   </data>
@@ -258,5 +261,8 @@ It is a program that can be offered to both native Arabic speakers and non-Arabi
   </data>
   <data name="Services" xml:space="preserve">
     <value>Services</value>
+  </data>
+  <data name="Visitors" xml:space="preserve">
+    <value>visitors</value>
   </data>
 </root>

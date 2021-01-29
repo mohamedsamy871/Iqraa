@@ -239,6 +239,9 @@
   <data name="Name" xml:space="preserve">
     <value>نام</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>کورسوں میں داخلہ</value>
+  </data>
   <data name="SecondProgram" xml:space="preserve">
     <value>دوسرا پروگرام</value>
   </data>
@@ -258,5 +261,8 @@
   </data>
   <data name="Services" xml:space="preserve">
     <value>خدمات</value>
+  </data>
+  <data name="Visitors" xml:space="preserve">
+    <value>زائرین</value>
   </data>
 </root>

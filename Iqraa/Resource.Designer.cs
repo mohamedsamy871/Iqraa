@@ -424,6 +424,15 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Registration.
+        /// </summary>
+        public static string Registration {
+            get {
+                return ResourceManager.GetString("Registration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The Second Program.
         /// </summary>
         public static string SecondProgram {
@@ -475,6 +484,15 @@ namespace Iqraa {
         public static string Services {
             get {
                 return ResourceManager.GetString("Services", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to visitors.
+        /// </summary>
+        public static string Visitors {
+            get {
+                return ResourceManager.GetString("Visitors", resourceCulture);
             }
         }
     }
