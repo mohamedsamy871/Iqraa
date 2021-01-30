@@ -218,12 +218,21 @@
     <Compile Include="Migrations\202101171409403_emailRequired.Designer.cs">
       <DependentUpon>202101171409403_emailRequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101300912538_addingVisitorsNumber.cs" />
+    <Compile Include="Migrations\202101300912538_addingVisitorsNumber.Designer.cs">
+      <DependentUpon>202101300912538_addingVisitorsNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101301600315_modifyingVisitorsNumber.cs" />
+    <Compile Include="Migrations\202101301600315_modifyingVisitorsNumber.Designer.cs">
+      <DependentUpon>202101301600315_modifyingVisitorsNumber.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ContactUs.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IqraaNews.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\VisitorsNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource.ur.Designer.cs">
       <DependentUpon>Resource.ur.resx</DependentUpon>
@@ -879,6 +888,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101171409403_emailRequired.resx">
       <DependentUpon>202101171409403_emailRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101300912538_addingVisitorsNumber.resx">
+      <DependentUpon>202101300912538_addingVisitorsNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101301600315_modifyingVisitorsNumber.resx">
+      <DependentUpon>202101301600315_modifyingVisitorsNumber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource.ur.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

@@ -22,6 +22,7 @@ namespace Iqraa.Models
     {
         public DbSet<IqraaNews> IqraaNews { get; set; }
         public DbSet<ContactUs> ContactUs { get; set; }
+        public DbSet<VisitorsNumber> VisitorsNumber { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {

@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Iqraa.Models;
 
 namespace Iqraa
 {
@@ -16,11 +17,18 @@ namespace Iqraa
         protected void Session_Start()
         {
             Application.Lock();
+
             Application["Totaluser"] = (int)Application["Totaluser"] + 1;
+            ApplicationDbContext db = new ApplicationDbContext();
+            VisitorsNumber vn = new VisitorsNumber();
+            vn.VisitorNumber = (int)Application["Totaluser"];
+            db.VisitorsNumber.Add(vn);
+            db.SaveChanges();
             Application.UnLock();
         }
         protected void Application_Start()
         {
+            
             Application["Totaluser"] = 0;
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
@@ -50,6 +58,13 @@ namespace Iqraa
             //Thread.CurrentThread.CurrentUICulture = new CultureInfo(languageSession);
             //Thread.CurrentThread.CurrentCulture = new CultureInfo(languageSession);
         }
+        //protected void Application_End()
+        //{
+        //    var count = Application["Totaluser"];
+        //    ApplicationDbContext db = new ApplicationDbContext();
+        //    db.VisitorsNumber.Add((VisitorsNumber)count);
+        //    db.SaveChanges();
 
+        //}
     }
 }
