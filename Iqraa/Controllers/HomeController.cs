@@ -13,9 +13,8 @@ namespace Iqraa.Controllers
         public ActionResult Index()
         {
             var visitorsNo = (from m in db.VisitorsNumber
-                             select m.VisitorNumber).Count();
+                              select m.VisitorNumber).Count();
             ViewBag.visitorsNum = visitorsNo;
-            ViewBag.CenterMessage = "";
             return View();
         }
 

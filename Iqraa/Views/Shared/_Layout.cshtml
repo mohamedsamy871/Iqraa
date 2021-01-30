@@ -61,8 +61,8 @@ else
 
     @RenderBody()
 
-    @Html.Partial("~/Views/Shared/_footer.cshtml")
-
+    @*@Html.Partial("~/Views/Shared/Footer.cshtml")*@
+    @RenderSection("Footer",false)
     @Scripts.Render("~/bundles/GeneralScripts")
     @RenderSection("scripts", required: false)
     @*<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>*@

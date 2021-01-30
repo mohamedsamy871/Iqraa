@@ -15,6 +15,10 @@ namespace Iqraa.Controllers
         {
             var News = db.IqraaNews.ToList();
 
+            var visitorsNo = (from m in db.VisitorsNumber
+                              select m.VisitorNumber).Count();
+            ViewBag.visitorsNum = visitorsNo;
+
             return View(News);
         }
     }

@@ -3,7 +3,7 @@
     <section>
         @if (HttpContext.Current.Request.Cookies["Language"]!=null)
         {
-            <ul class="language-bar header justify-content-center d-flex dir-rtl"  >
+            <ul class="language-bar header justify-content-center d-flex dir-rtl" style="font-family:'Almarai', sans-serif;" >
                 <li class='@(Request.Cookies["Language"].Value == "ar"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
                 <li class='@(Request.Cookies["Language"].Value == "ur"?"active":" ")'><a class="d-block" href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})"> اردو زبان</a></li>
                 <li class='@(Request.Cookies["Language"].Value == "es"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
@@ -16,7 +16,7 @@
             HttpCookie Cookie = new HttpCookie("Language");
 
             Cookie.Value = "en";
-            <ul class="language-bar header dir-rtl">
+            <ul class="language-bar header dir-rtl" style="font-family:'Almarai', sans-serif;">
                 <li class='@(Cookie.Value == "ar"?"active":" ")'><a class="d-block" href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ar"})">عربي</a></li>
                 <li class='@(Cookie.Value == "ur"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "ur"})"> اردو زبان</a></li>
                 <li class='@(Cookie.Value == "es"?"active":" ")'><a class="d-block"  href="@Url.Action("Change","Language",new {LanguageAbbreviation = "es"})">Español</a></li>
@@ -62,7 +62,7 @@
                                 if (Request.Cookies["Language"].Value == "ar")
                                 {
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://docs.google.com/forms/d/1vI9ZaQi5panR6sJCWOcoUwGxgGEESNpFCsvEfo0kEXQ/edit?usp=sharing" target="_blank">@Resource.Registration</a>
+                                        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScOD0nOo2wdRSJXP7di5Cz9eCwGRofKQ84_4pZb77tNctBvRQ/viewform" target="_blank">@Resource.Registration</a>
                                     </li>
                                     <li class="nav-item" href="#">
                                         <a class="nav-link" href="@Url.Action("Index","ContactUs")">@Resource.Contact</a>
@@ -71,25 +71,25 @@
                                 else if (Request.Cookies["Language"].Value == "es")
                                 {
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://docs.google.com/forms/d/15YavSVqGJquFlg58JgT9ibsERpp59s7rcE04JBiIxmY/viewform?edit_requested=true" target="_blank">@Resource.Registration</a>
+                                        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScauKFuDv45AqgYwvyWDjxdTcJfxOFunqfqBPvuDp6UYbQIAA/viewform" target="_blank">@Resource.Registration</a>
                                     </li>
                                 }
                                 else if (Request.Cookies["Language"].Value == "fr")
                                 {
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://docs.google.com/forms/d/1RD5d-Rp1xrr-ap9VHYaSBk86E74JJGteCYtrhgErzNE/edit?usp=sharing" target="_blank">@Resource.Registration</a>
+                                        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfLirXIvUoR2qV8D2KernHpdbbzNc6PI01nMPbcmTJs0qMVqA/viewform" target="_blank">@Resource.Registration</a>
                                     </li>
                                 }
                                 else if (Request.Cookies["Language"].Value == "ur")
                                 {
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://docs.google.com/forms/d/1gx6hcf1y40rQDVluO4ANRoNcJKtE8vBjPyhxpj2YnIM/viewform?edit_requested=true" target="_blank">@Resource.Registration</a>
+                                        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSebS_os3bwpXeUzc_1ONJtWxL6uY-QUNnOfccDuIa-aibqxyw/viewform" target="_blank">@Resource.Registration</a>
                                     </li>
                                 }
                                 else
                                 {
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://docs.google.com/forms/d/1N0CcYtmGCDUTbSLbHof2vSBbyXN8PDDos6680IZ_EUc/edit?usp=sharing" target="_blank">@Resource.Registration</a>
+                                        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSf63Gk1X_lpUpJq27M6PAFBxADgBK0fuaqU6MzJ5ePNIKw99g/viewform" target="_blank">@Resource.Registration</a>
                                     </li>
                                     <li class="nav-item" href="#">
                                         <a class="nav-link" href="@Url.Action("Index","ContactUs")">@Resource.Contact</a>

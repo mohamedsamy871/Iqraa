@@ -2,4 +2,9 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 @Html.Partial("~/Views/Shared/_ContactUs.cshtml")
+
+@section Footer{
+    @Html.Partial("~/Views/Shared/Footer.cshtml", (int)ViewBag.visitorsNum)
+}

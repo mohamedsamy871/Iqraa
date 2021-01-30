@@ -829,7 +829,7 @@
     <Content Include="Views\Shared\_header.cshtml" />
     <Content Include="Views\Shared\_Quote.cshtml" />
     <Content Include="Views\Shared\_Services.cshtml" />
-    <Content Include="Views\Shared\_footer.cshtml" />
+    <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Views\ContactUs\Index.cshtml" />
     <Content Include="Views\Services\Index.cshtml" />
     <Content Include="Views\Shared\_ContactUS.cshtml" />
@@ -870,6 +870,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

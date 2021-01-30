@@ -16,6 +16,9 @@ namespace Iqraa.Controllers
         // GET: ContactUs
         public ActionResult Index()
         {
+            var visitorsNo = (from m in db.VisitorsNumber
+                              select m.VisitorNumber).Count();
+            ViewBag.visitorsNum = visitorsNo;
             return View();
         }
 

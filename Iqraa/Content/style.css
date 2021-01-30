@@ -271,7 +271,7 @@ a {
 .bnner_title{
 		font-size: 46pt;
 		color: #193a65;
-		padding-top: 34px;
+		padding-top: 15px;
         text-shadow: 1px 1px #a5bddc
 }
 .carousel-item{
@@ -883,9 +883,9 @@ button.main_bt {
   .visitors{
       color:#fff;
       font-weight:bold;
-      position:absolute;
+      position:relative;
       top:10px;
-      left:42px;
+      left:242px;
       background-color:#ea9e2e;
       opacity:0.5;
       border-radius:15px;
@@ -896,4 +896,5 @@ button.main_bt {
   .visitorp{
       margin:0!important;
         padding-top: 5px;
+        padding-bottom:15px;
   }
