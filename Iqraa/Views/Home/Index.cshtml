@@ -85,6 +85,7 @@ else
 {
     HttpCookie Cookie = new HttpCookie("Language");
     Cookie.Value = "en";
+    @Html.Partial("~/Views/Shared/_ContactUs.cshtml")
 }
 @section Footer{
    @Html.Partial("~/Views/Shared/Footer.cshtml",(int)ViewBag.visitorsNum)
