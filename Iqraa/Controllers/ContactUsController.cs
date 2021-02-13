@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace Iqraa.Controllers
 {
+    [AllowAnonymous]
     public class ContactUsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
