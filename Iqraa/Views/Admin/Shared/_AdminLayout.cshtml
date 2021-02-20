@@ -6,12 +6,24 @@
     <title>Admin</title>
     <link href="https:/fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
     @Styles.Render("~/bundles/GeneralStyles")
+
+    <link href="~/Content/all.min.css" rel="stylesheet" />
     <link href="~/Content/admin.css" rel="stylesheet" />
 </head>
 <body style="font-family: 'Almarai', sans-serif;background-image:url(/images/1.png);background-repeat: no-repeat;
                                                                 background-size:cover;
                                                                 background-origin: content-box;opacity:0.8">
     <!-----------------------------------------Get Section -->
+    <div class="logout-header">
+        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+        @*<a href="@Url.Action("LogOff", "Account")" >
+            log out
+        </a>*@
+            @*<i class="fas fa-user"></i>*@ <input type="submit" value="Log Out"/>
+        }
+    </div>
     <section id="admin">
         <div class="page  position-relative">
             <div class="page-content">
@@ -22,6 +34,7 @@
             @Html.Partial("~/Views/Admin/Shared/_Aside.cshtml")
         </div>
     </section>
+    <script src="~/Scripts/all.min.js"></script>
     @Scripts.Render("~/bundles/GeneralScripts")
     <script src="~/ckeditor/ckeditor.js"></script>
     <script src="~/assets/js/admin/public-admin.js"></script>
@@ -30,10 +43,12 @@
             function DeleteVisionOrder(e) {              //Add e as parameter
                 $(e).parents('tr').remove();   //Use the e to delete
             }
+            
             setTimeout(function () {
                 $(".loading-data").remove();
             }, 1000);
     </script>
+
 </body>
 
 </html>

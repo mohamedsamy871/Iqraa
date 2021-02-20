@@ -10,6 +10,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Iqraa.Models;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Web.Security;
 
 namespace Iqraa.Controllers
 {
@@ -80,7 +81,7 @@ namespace Iqraa.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
-                    return RedirectToLocal(returnUrl);
+                    return RedirectToAction("Index","Admin");
                 case SignInStatus.LockedOut:
                     return View("Lockout");
                 case SignInStatus.RequiresVerification:
@@ -395,12 +396,17 @@ namespace Iqraa.Controllers
 
         //
         // POST: /Account/LogOff
+
+        //
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult LogOff()
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-            return RedirectToAction("Index", "Home");
+            //Request.Cookies.Remove("UserId");
+            //FormsAuthentication.SignOut();
+            //Session.Abandon();
+            return RedirectToAction("Login", "Account");
         }
 
         //

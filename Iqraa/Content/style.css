@@ -196,6 +196,29 @@ a {
     background-color:#ea9e2e;
     width: 100%;
 }
+.logout-header{
+    height: 30px;
+    background-color:#b89a5f;
+    width: 100%;
+    color:#fff;
+    font-weight:bold;
+}
+.logout-header input {
+   
+    padding: 0;
+    padding-right: 60px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color:transparent;
+    color:#fff;
+    border: none;
+    float: right;
+    font-weight:500;
+}
+.logout-header i{
+     float: right;
+    padding-right:10px;
+}
 .header_main{ 
 	width: 100%;
     float: left;

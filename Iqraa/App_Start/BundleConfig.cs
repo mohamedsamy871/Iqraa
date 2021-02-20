@@ -26,9 +26,9 @@ namespace Iqraa
             "~/Content/style.css",
             "~/Content/responsive.css"
           ));
-           // bundles.Add(new StyleBundle("~/bundles/ContactUs").Include(
-           //"~/Content/about-contact.css"
-           //));
+            bundles.Add(new StyleBundle("~/bundles/Admin").Include(
+           "~/Content/admin.css"
+           ));
         }
     }
 }

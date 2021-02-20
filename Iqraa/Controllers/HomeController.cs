@@ -7,7 +7,6 @@ using Iqraa.Models;
 
 namespace Iqraa.Controllers
 {
-    [AllowAnonymous]
     public class HomeController : Controller
     {
         ApplicationDbContext db = new ApplicationDbContext();
