@@ -772,7 +772,11 @@
     <Content Include="webfonts\fa-regular-400.svg" />
     <Content Include="webfonts\fa-solid-900.svg" />
     <Content Include="webfonts\flaticon.css" />
+    <None Include="Properties\PublishProfiles\..f.pubxml" />
+    <None Include="Properties\PublishProfiles\..wd.pubxml" />
     <None Include="Properties\PublishProfiles\555.pubxml" />
+    <None Include="Properties\PublishProfiles\danger.pubxml" />
+    <None Include="Properties\PublishProfiles\gg.pubxml" />
     <None Include="Properties\PublishProfiles\gggg.pubxml" />
     <None Include="Properties\PublishProfiles\iqraa.pubxml" />
     <None Include="Properties\PublishProfiles\iqraa22.pubxml" />

@@ -18,10 +18,7 @@
         @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
         {
             @Html.AntiForgeryToken()
-        @*<a href="@Url.Action("LogOff", "Account")" >
-            log out
-        </a>*@
-            @*<i class="fas fa-user"></i>*@ <input type="submit" value="Log Out"/>
+        <input type="submit" value="Log Out"/>
         }
     </div>
     <section id="admin">

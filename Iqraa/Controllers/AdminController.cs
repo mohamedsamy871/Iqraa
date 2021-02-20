@@ -10,7 +10,7 @@ using System.Net;
 
 namespace Iqraa.Controllers
 {
-    [Authorize]
+    [Authorize(Roles ="AdminRole")]
     public class AdminController : Controller
     {
         ApplicationDbContext db = new ApplicationDbContext();
