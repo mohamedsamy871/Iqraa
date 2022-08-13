@@ -38,7 +38,7 @@ namespace Iqraa.Controllers
             var fromPassword = "info@123456";
             var subject = "رسالة واردة الي موقع اقرأ";
             var body = ComingMessage.Message;
-            var smtp = new SmtpClient("mail.iqraa-center.com") /*587*/
+            var smtp = new SmtpClient("mail.iqraa-center.com") 
             {
                 UseDefaultCredentials = false,
                 Credentials = new NetworkCredential("info@iqraa-center.com", fromPassword),

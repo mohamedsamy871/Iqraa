@@ -48,6 +48,7 @@ namespace Iqraa
             {
                 Thread.CurrentThread.CurrentCulture = new CultureInfo("en");
                 Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
+
             }
             //    HttpContext context = HttpContext.Current;
             //var languageSession = "en";
