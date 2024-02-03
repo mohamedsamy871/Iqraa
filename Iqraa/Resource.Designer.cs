@@ -370,7 +370,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to IQRAA Center.
+        ///   Looks up a localized string similar to Taqra Center.
         /// </summary>
         public static string IQRAACentre {
             get {

@@ -193,7 +193,7 @@
     <value>الاهتمامات</value>
   </data>
   <data name="FounderInterestValue" xml:space="preserve">
-    <value>تعليم القراءة العربية لغير العرب</value>
+    <value>تعليم القراءة العربية للعرب ولغير العرب</value>
   </data>
   <data name="FounderName" xml:space="preserve">
     <value>فهد بن صالح بن عبدالله التويجري</value>
@@ -217,13 +217,13 @@
     <value>المؤلفات</value>
   </data>
   <data name="FounderWritingsValue" xml:space="preserve">
-    <value>كتاب تعلم قراءة القرآن الكريم في ثلاثين يوما</value>
+    <value>إتقان مهارات القراءة العربية الحرفية</value>
   </data>
   <data name="Home" xml:space="preserve">
     <value>الرئيسية</value>
   </data>
   <data name="IQRAACentre" xml:space="preserve">
-    <value>مركز اقرأ</value>
+    <value>مركز تقرأ</value>
   </data>
   <data name="IQRAACentreP" xml:space="preserve">
     <value>مركز يهتم بتعليم القراءة العربية للجميع. وبهدف إلى تيسير تعلم القراءة العربية واختصار الوقت اللازم لذلك، كي نحقق أمنية يتمناها كثير من المسلمين، وهي قراءة القرآن الكريم</value>

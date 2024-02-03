@@ -233,13 +233,14 @@ a {
 	float: left;
 	text-align: center;
 	margin-top: 0;
+    padding-top:20px;
 }
 
 .header{ 
 	width: 100%;
 	width: 100%;
 	float: left;
-	background-color: #193a65;
+	background-color: #4a2d1d;
 	/*padding-bottom: 10px;
 	padding-top: 10px;*/
 }
@@ -271,11 +272,12 @@ a {
 .banner-main{ 
 	width: 100%;
 	float: left;
-	background-image:url(/images/banner.png);
+	background-image:url(/images/banner.jpg);
 	height: 376px;
-	padding-top: 20px;
+	padding-top: 55px;
 	padding-bottom: 226px; 
 	background-size: cover;
+    background-position: 50% 50%;
 }
 
 .last{
@@ -293,9 +295,9 @@ a {
 
 .bnner_title{
 		font-size: 46pt;
-		color: #193a65;
+		color: #fff;
 		padding-top: 15px;
-        text-shadow: 1px 1px #a5bddc
+        /*text-shadow: 1px 1px #a5bddc*/
 }
 .carousel-item{
     height:309px;
@@ -305,12 +307,12 @@ a {
     padding-right:40px;
     padding-left:40px;
     font-size: 14pt;
-	color: #193a65;
-    font-weight:bold;
+	color: #fff;
+    font-weight:500;
 	/*padding-bottom: 30px;
     padding-top: 30px;*/
     line-height:2rem;
-    text-shadow: 1px 1px #a5bddc
+    /*text-shadow: 1px 1px #a5bddc*/
 }
 .btn_main{
 	width: 40%;
@@ -418,7 +420,7 @@ a {
 .written_text {
 	width: 100%;
 	float: left;
-	background-color: #193a65;
+	background-color: #4a2d1d;
 	height: auto;
 	padding: 20px 0;
     
@@ -426,7 +428,7 @@ a {
 .like_icon .written_text {
 	width: 100%;
 	float: left;
-	background-color: #193a65;
+	background-color: #4a2d1d;
 	height: auto;
 	padding: 0;
 }
@@ -509,7 +511,7 @@ a {
 .lets_touch_main{
 	width: 100%;
 	float: left;
-	background-color: #193a65;
+	background-color: #4a2d1d;
 	padding-top: 40px;
 	padding-bottom: 40PX;
     margin-top:100px;
@@ -572,7 +574,7 @@ a {
 .copyright{
 	width: 100%;
 	float: left;
-	background-color: #076787;
+	background-color: #ea9e2e;
 	padding-top: 10px;
 	padding-bottom: 10px;
 
@@ -799,7 +801,7 @@ button.main_bt {
 #main_slider .carousel-control-prev, #main_slider .carousel-control-next {
     width: 62px;
     height: 60px;
-    background: #fffdfd;
+    background: rgba(233,157,46,0.31);
     opacity: 1;
     font-size: 30px;
     color: #000;
@@ -818,7 +820,7 @@ button.main_bt {
 
 #main_slider .carousel-control-prev:hover, #main_slider .carousel-control-next:hover,
  #main_slider .carousel-control-prev:focus, #main_slider .carousel-control-next:focus {
-    background: #10b5fa;
+    background: rgba(233,157,46,0.31);
     color: #fff;
     
 }
