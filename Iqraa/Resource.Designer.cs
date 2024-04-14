@@ -19,7 +19,7 @@ namespace Iqraa {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resource {
@@ -79,11 +79,74 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to تعليم الحروف العربية - 13 درسا.
+        /// </summary>
+        public static string ArabicLettersLearn {
+            get {
+                return ResourceManager.GetString("ArabicLettersLearn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Additions and omissions in Arabic writing.
+        /// </summary>
+        public static string Article1 {
+            get {
+                return ResourceManager.GetString("Article1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Distinctions in written form between the Quran and standard Arabic.
+        /// </summary>
+        public static string Article2 {
+            get {
+                return ResourceManager.GetString("Article2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Special writing and reading rules of the Holy Qur’an.
+        /// </summary>
+        public static string Article3 {
+            get {
+                return ResourceManager.GetString("Article3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How to initiate the teaching and learning to read the Holy Qur&apos;an.
+        /// </summary>
+        public static string Article4 {
+            get {
+                return ResourceManager.GetString("Article4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Articles.
+        /// </summary>
+        public static string Articles {
+            get {
+                return ResourceManager.GetString("Articles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Blog.
         /// </summary>
         public static string Blog {
             get {
                 return ResourceManager.GetString("Blog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Books.
+        /// </summary>
+        public static string Books {
+            get {
+                return ResourceManager.GetString("Books", resourceCulture);
             }
         }
         
@@ -178,6 +241,51 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to البرنامج الخامس.
+        /// </summary>
+        public static string FifthProgram {
+            get {
+                return ResourceManager.GetString("FifthProgram", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to يتم في هذا البرنامج اختبار الطالب في مجموعة من الكلمات، و يتم تحديد المهارات التي لا يتقنها الطالب، ووضع برنامج مختصر لعلاج المهارات التي لا يتقنها فقط.
+        /// </summary>
+        public static string FifthProgramDescription {
+            get {
+                return ResourceManager.GetString("FifthProgramDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to برنامج تشخيص وعلاج الضعف القرائي.
+        /// </summary>
+        public static string FifthProgramHeading {
+            get {
+                return ResourceManager.GetString("FifthProgramHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ITQAN (Mastering literal Arabic reading skills).
+        /// </summary>
+        public static string FirstBook {
+            get {
+                return ResourceManager.GetString("FirstBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to المستوى الأول.
+        /// </summary>
+        public static string FirstLevel {
+            get {
+                return ResourceManager.GetString("FirstLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The first program.
         /// </summary>
         public static string FirstProgram {
@@ -199,11 +307,47 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to يتم التعلم فيه بإحدى الطرق التالية:.
+        /// </summary>
+        public static string FirstProgramDescription2 {
+            get {
+                return ResourceManager.GetString("FirstProgramDescription2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Teaching Arabic to read the Noble Qur’an for beginners..
         /// </summary>
         public static string FirstProgramHeading {
             get {
                 return ResourceManager.GetString("FirstProgramHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to في الفصل الحقيقي..
+        /// </summary>
+        public static string FirstProgramlist1 {
+            get {
+                return ResourceManager.GetString("FirstProgramlist1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to في الفصل الافتراضي ( عبر منصات التعليم مثل زووم ): وفيه يتم استخدام نماذج كتابية بسيطة يكتب فيها الطالب الحرف في أول ووسط وآخر الكلمة ليتقن الطالب حفظ أشكال الحروف في مواضعها المختلفة ويتم تعلم قراءة كلمات ثلاثية مفتوحة درس الطالب جميع حروفها ).
+        /// </summary>
+        public static string FirstProgramlist2 {
+            get {
+                return ResourceManager.GetString("FirstProgramlist2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to من خلال دروس الفيديو المسجلة في قناة مركز تقرأ على يوتيوب..
+        /// </summary>
+        public static string FirstProgramlist3 {
+            get {
+                return ResourceManager.GetString("FirstProgramlist3", resourceCulture);
             }
         }
         
@@ -361,6 +505,33 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to البرنامج الرابع.
+        /// </summary>
+        public static string FourthProgram {
+            get {
+                return ResourceManager.GetString("FourthProgram", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to يتم في هذا البرنامج اختبار الطالب في مجموعة من الكلمات، ويتم تحديد المهارات التي لا يتقنها الطالب، ووضع برنامج مختصر لعلاج المهارات التي لا يتقنها فقط، ثم يتم تدريب الطالب على كلمات من القرآن الكريم. وفي هذا البرنامج نعالج المشاكل القرائية من جذورها ولا نعالج الأخطاء في الكلمات التي يخطئ فيها الطالب..
+        /// </summary>
+        public static string FourthProgramDescription {
+            get {
+                return ResourceManager.GetString("FourthProgramDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to برنامج تشخيص وعلاج الضعف في قراءه القران الكريم للمبتدئين.
+        /// </summary>
+        public static string FourthProgramHeading {
+            get {
+                return ResourceManager.GetString("FourthProgramHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home page.
         /// </summary>
         public static string Home {
@@ -424,11 +595,74 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Number of downloads.
+        /// </summary>
+        public static string NumberOfDownloads {
+            get {
+                return ResourceManager.GetString("NumberOfDownloads", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تعليم قراءة القران الكريم.
+        /// </summary>
+        public static string QuranReading {
+            get {
+                return ResourceManager.GetString("QuranReading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تعليم مهارات القراءة العربية - 30 درسا.
+        /// </summary>
+        public static string ReadingSkillsLearn {
+            get {
+                return ResourceManager.GetString("ReadingSkillsLearn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to دروس كتاب إتقان مهارات القراءة العربية الحرفية – 25 درسا.
+        /// </summary>
+        public static string ReadingSkillsLearn2 {
+            get {
+                return ResourceManager.GetString("ReadingSkillsLearn2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to دروس للانتقال من تعليم قراءة النص العربي الى قراءة الرسم العثماني..
+        /// </summary>
+        public static string ReadingSkillsLearn3 {
+            get {
+                return ResourceManager.GetString("ReadingSkillsLearn3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Registration.
         /// </summary>
         public static string Registration {
             get {
                 return ResourceManager.GetString("Registration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ITQAN (Mastering literal Arabic reading skills with some words pronunciation transliteration).
+        /// </summary>
+        public static string SecondBook {
+            get {
+                return ResourceManager.GetString("SecondBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to المستوى الثاني.
+        /// </summary>
+        public static string SecondLevel {
+            get {
+                return ResourceManager.GetString("SecondLevel", resourceCulture);
             }
         }
         
@@ -452,11 +686,47 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to يتم التعلم فيه بإحدى الطرق التالية:.
+        /// </summary>
+        public static string SecondProgramDescription2 {
+            get {
+                return ResourceManager.GetString("SecondProgramDescription2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Correct Reading of the Noble Quran..
         /// </summary>
         public static string SecondProgramHeading {
             get {
                 return ResourceManager.GetString("SecondProgramHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to في الفصل الحقيقي..
+        /// </summary>
+        public static string SecondProgramlist1 {
+            get {
+                return ResourceManager.GetString("SecondProgramlist1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to في الفصل الافتراضي الجماعي ( عبر منصات التعليم مثل زووم ).
+        /// </summary>
+        public static string SecondProgramlist2 {
+            get {
+                return ResourceManager.GetString("SecondProgramlist2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to في الفصل الافتراضي الفردي   ( عبر منصات التعليم مثل زووم ).
+        /// </summary>
+        public static string SecondProgramlist3 {
+            get {
+                return ResourceManager.GetString("SecondProgramlist3", resourceCulture);
             }
         }
         
@@ -484,6 +754,51 @@ namespace Iqraa {
         public static string Services {
             get {
                 return ResourceManager.GetString("Services", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to المستوى الثالث.
+        /// </summary>
+        public static string ThirdLevel {
+            get {
+                return ResourceManager.GetString("ThirdLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to البرنامج الثالث.
+        /// </summary>
+        public static string ThirdProgram {
+            get {
+                return ResourceManager.GetString("ThirdProgram", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to وفيه ثلاثة مستويات:.
+        /// </summary>
+        public static string ThirdProgramDescription {
+            get {
+                return ResourceManager.GetString("ThirdProgramDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to برنامج تعليم قراءه القران الكريم للمبتدئين.
+        /// </summary>
+        public static string ThirdProgramHeading {
+            get {
+                return ResourceManager.GetString("ThirdProgramHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Videos.
+        /// </summary>
+        public static string Videos {
+            get {
+                return ResourceManager.GetString("Videos", resourceCulture);
             }
         }
         

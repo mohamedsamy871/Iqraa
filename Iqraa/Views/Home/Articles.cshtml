@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .card-border { border: 2px solid #ea9e2e; border-radius: 15px; display: inline-block; }
+        .card-border h3 { font-weight: 600; }
+</style>
+<div class="container">
+    <div class="row p-3">
+        <div class="col-sm-6 col-md-4 mt-4 mb-4">
+            <a class="card-border" href="https://drive.google.com/file/d/1oJ-0tHPyFuwQRAEVoGokRzGCTwhWkBfg/view" target="_blank">
+                <div class="thumbnail">
+                    <img src="~/images/book.jpg" class="img-responsive w-100">
+                    <div class="caption text-center pt-3 pb-3">
+                        <h3 class="text-muted">@Resource.Article1</h3>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4 mt-4 mb-4">
+            <a class="card-border" href="https://drive.google.com/file/d/1oJ-0tHPyFuwQRAEVoGokRzGCTwhWkBfg/view" target="_blank">
+                <div class="thumbnail">
+                    <img src="~/images/book.jpg" class="img-responsive w-100">
+                    <div class="caption text-center pt-3 pb-3">
+                        <h3 class="text-muted">@Resource.Article2 </h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4 mt-4 mb-4">
+            <a class="card-border" href="https://drive.google.com/file/d/1oJ-0tHPyFuwQRAEVoGokRzGCTwhWkBfg/view" target="_blank">
+                <div class="thumbnail">
+                    <img src="~/images/book.jpg" class="img-responsive w-100">
+                    <div class="caption text-center pt-3 pb-3">
+                        <h3 class="text-muted">@Resource.Article3</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4 mt-4 mb-4">
+            <a class="card-border" href="https://drive.google.com/file/d/1oJ-0tHPyFuwQRAEVoGokRzGCTwhWkBfg/view" target="_blank">
+                <div class="thumbnail">
+                    <img src="~/images/book.jpg" class="img-responsive w-100">
+                    <div class="caption text-center pt-3 pb-3">
+                        <h3 class="text-muted">@Resource.Article4 </h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+@section Footer{
+    @Html.Partial("~/Views/Shared/Footer.cshtml", (int)ViewBag.visitorsNum)
+}

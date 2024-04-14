@@ -20,9 +20,31 @@ namespace Iqraa.Controllers
 
         public ActionResult About()
         {
-
+            var visitorsNo = (from m in db.VisitorsNumber
+                              select m.VisitorNumber).Count();
+            ViewBag.visitorsNum = visitorsNo;
             return View();
         }
-
+        public ActionResult Books()
+        {
+            var visitorsNo = (from m in db.VisitorsNumber
+                              select m.VisitorNumber).Count();
+            ViewBag.visitorsNum = visitorsNo;
+            return View();
+        }
+        public ActionResult Articles()
+        {
+            var visitorsNo = (from m in db.VisitorsNumber
+                              select m.VisitorNumber).Count();
+            ViewBag.visitorsNum = visitorsNo;
+            return View();
+        }
+        public ActionResult Videos()
+        {
+            var visitorsNo = (from m in db.VisitorsNumber
+                              select m.VisitorNumber).Count();
+            ViewBag.visitorsNum = visitorsNo;
+            return View();
+        }
     }
 }

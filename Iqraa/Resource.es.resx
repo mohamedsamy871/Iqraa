@@ -124,8 +124,14 @@
     <value>¿Quiénes somos? ¿Quién es el fundador del Centro?
  Información sobre los programas ofrecidos en el Centro. Noticias del Centro</value>
   </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Articles</value>
+  </data>
   <data name="Blog" xml:space="preserve">
     <value>Blog</value>
+  </data>
+  <data name="Books" xml:space="preserve">
+    <value>Books</value>
   </data>
   <data name="CenterNews" xml:space="preserve">
     <value>Noticias del centro</value>
@@ -265,6 +271,9 @@
   </data>
   <data name="Services" xml:space="preserve">
     <value>Servicios</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videos</value>
   </data>
   <data name="Visitors" xml:space="preserve">
     <value>Visitantes</value>

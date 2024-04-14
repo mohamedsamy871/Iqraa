@@ -126,8 +126,26 @@
  Une présentation des programmes présentés dans ce centre.
  Les nouvelles du centre ou ses nouveautés</value>
   </data>
+  <data name="Article1" xml:space="preserve">
+    <value>Ajouts et omissions dans l'écriture arabe</value>
+  </data>
+  <data name="Article2" xml:space="preserve">
+    <value>Distinctions entre l'écriture du Saint Coran et l'écriture arabe standard</value>
+  </data>
+  <data name="Article3" xml:space="preserve">
+    <value>Règles particulières d'écriture et de lecture du Saint Coran</value>
+  </data>
+  <data name="Article4" xml:space="preserve">
+    <value>Comment initier à apprendre et à enseigner la lecture du Saint Coran</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Des articles</value>
+  </data>
   <data name="Blog" xml:space="preserve">
     <value>Le blog</value>
+  </data>
+  <data name="Books" xml:space="preserve">
+    <value>livres</value>
   </data>
   <data name="CenterNews" xml:space="preserve">
     <value>Actualités du centre</value>
@@ -151,13 +169,16 @@
     <value>aider ceux qui ne peuvent pas lire le Coran à le lire correctement</value>
   </data>
   <data name="Contact" xml:space="preserve">
-    <value>Pour nous contacter</value>
+    <value>Contactez-nous</value>
   </data>
   <data name="Email" xml:space="preserve">
     <value>Email</value>
   </data>
   <data name="EmailError" xml:space="preserve">
     <value>E-mail is not valid</value>
+  </data>
+  <data name="FirstBook" xml:space="preserve">
+    <value>livre de Itqân (Maîtriser les compétences en lecture en arabe)</value>
   </data>
   <data name="FirstProgram" xml:space="preserve">
     <value>Le premier programme</value>
@@ -241,8 +262,14 @@
   <data name="Name" xml:space="preserve">
     <value>Nom</value>
   </data>
+  <data name="NumberOfDownloads" xml:space="preserve">
+    <value>Nombre de téléchargements</value>
+  </data>
   <data name="Registration" xml:space="preserve">
     <value>Enregistrement</value>
+  </data>
+  <data name="SecondBook" xml:space="preserve">
+    <value>Itqân  Maîtriser des compétences en lecture arabe  littérale avec translittération de la prononciation de certains mots)</value>
   </data>
   <data name="SecondProgram" xml:space="preserve">
     <value>Le deuxième programme</value>
@@ -261,6 +288,9 @@
   </data>
   <data name="Services" xml:space="preserve">
     <value>Services</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Vidéos</value>
   </data>
   <data name="Visitors" xml:space="preserve">
     <value>Visiteurs</value>

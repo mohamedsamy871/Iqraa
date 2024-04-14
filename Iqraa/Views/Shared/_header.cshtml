@@ -48,15 +48,17 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto justify-content-center d-flex">
                             <li class="nav-item active">
-                                <a class="nav-link" href="@Url.Action("Index","Home")" >@Resource.Home<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="@Url.Action("Index","Home")">@Resource.Home<span class="sr-only">(current)</span></a>
                             </li>
-                            @*<li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("About","Home")">@Resource.About</a>
-                            </li>*@
-                            @*<li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("Index","Services")">@Resource.Services</a>
-                            </li>*@
-
+                            <li class="nav-item active">
+                                <a class="nav-link" href="@Url.Action("Books","Home")">@Resource.Books</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="@Url.Action("Articles","Home")">@Resource.Articles</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="@Url.Action("Videos","Home")">@Resource.Videos</a>
+                            </li>
                             @if (HttpContext.Current.Request.Cookies["Language"] != null)
                             {
                                 if (Request.Cookies["Language"].Value == "ar")
@@ -95,14 +97,6 @@
                                         <a class="nav-link" href="@Url.Action("Index","ContactUs")">@Resource.Contact</a>
                                     </li>
                                 }
-
-                                @*if (Request.Cookies["Language"].Value == "ar" || Request.Cookies["Language"].Value == "en")
-                                {
-                                    <li class="nav-item" href="#">
-                                        <a class="nav-link" href="@Url.Action("Index","ContactUs")">@Resource.Contact</a>
-                                    </li>
-                                }*@
-
                             }
                             else
                             {
@@ -120,7 +114,7 @@
                             <li class="nav-item" href="#">
                                 <a class="nav-link" href="@Url.Action("Index","News")">@Resource.CenterNews</a>
                             </li>
-                           
+
                         </ul>
                        
                     </div>

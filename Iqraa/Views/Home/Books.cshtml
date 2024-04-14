@@ -1,0 +1,86 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .card-border { border: 2px solid #ea9e2e; border-radius: 7px; display: inline-block; min-height: 340px; }
+        .card-border h3 { font-weight: 600; line-height: 29px; }
+</style>
+<div class="container">
+    <div class="row p-3">
+        @if (HttpContext.Current.Request.Cookies["Language"] != null)
+        {
+            <div class="col-sm-6 col-md-4 mt-4 mb-4">
+                <a class="card-border" href='@(Request.Cookies["Language"].Value == "ar"?"https://drive.google.com/file/d/1PJ6YPKuvBB2HK1MXWMcxPpxeG5N0QyRW/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "en"?"https://drive.google.com/file/d/1_O3elIzfiSi6snyczo2Zp5mdOoQVPne-/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "fr"?"https://drive.google.com/file/d/12tQY2jUxb0IOcIexdl8RB90QmR__-q6T/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "es"?"https://drive.google.com/file/d/1F8kLHG_Gn-FyDtnhMxarDf_vo1bBl5xs/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "ur"?"https://drive.google.com/file/d/10Mr2r3AvyyA2YUyPNJSa0Nj_kiBqUzvW/view?usp=sharing"
+                                                                        :"https://drive.google.com/file/d/1_O3elIzfiSi6snyczo2Zp5mdOoQVPne-/view?usp=sharing")' target="_blank">
+                    <div class="thumbnail">
+                        <img src="~/images/book.jpg" class="img-responsive w-100">
+                        <div class="caption text-center pt-3 pb-3">
+                            <h3 class="text-muted"> @Resource.FirstBook</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-4 mb-4">
+                <a class="card-border" href='@(Request.Cookies["Language"].Value == "ar"?"https://drive.google.com/file/d/1PJ6YPKuvBB2HK1MXWMcxPpxeG5N0QyRW/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "en"?"https://drive.google.com/file/d/1_O3elIzfiSi6snyczo2Zp5mdOoQVPne-/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "fr"?"https://drive.google.com/file/d/12tQY2jUxb0IOcIexdl8RB90QmR__-q6T/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "es"?"https://drive.google.com/file/d/1F8kLHG_Gn-FyDtnhMxarDf_vo1bBl5xs/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "ur"?"https://drive.google.com/file/d/10Mr2r3AvyyA2YUyPNJSa0Nj_kiBqUzvW/view?usp=sharing"
+                                                                        :"https://drive.google.com/file/d/1_O3elIzfiSi6snyczo2Zp5mdOoQVPne-/view?usp=sharing")' target="_blank">
+                    <div class="thumbnail">
+                        <img src="~/images/book.jpg" class="img-responsive w-100">
+                        <div class="caption text-center pt-3 pb-3">
+                            <h3 class="text-muted"> @Resource.SecondBook </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        }
+        else
+        {
+            HttpCookie Cookie = new HttpCookie("Language");
+
+            Cookie.Value = "en";
+            <div class="col-sm-6 col-md-4 mt-4 mb-4">
+                <a class="card-border" href='@(Request.Cookies["Language"].Value == "ar"?"https://drive.google.com/file/d/1PJ6YPKuvBB2HK1MXWMcxPpxeG5N0QyRW/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "en"?"https://drive.google.com/file/d/1_O3elIzfiSi6snyczo2Zp5mdOoQVPne-/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "fr"?"https://drive.google.com/file/d/12tQY2jUxb0IOcIexdl8RB90QmR__-q6T/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "es"?"https://drive.google.com/file/d/1F8kLHG_Gn-FyDtnhMxarDf_vo1bBl5xs/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "ur"?"https://drive.google.com/file/d/10Mr2r3AvyyA2YUyPNJSa0Nj_kiBqUzvW/view?usp=sharing"
+                                                                        :"https://drive.google.com/file/d/1_O3elIzfiSi6snyczo2Zp5mdOoQVPne-/view?usp=sharing")' target="_blank">
+                    <div class="thumbnail">
+                        <img src="~/images/book.jpg" class="img-responsive w-100">
+                        <div class="caption text-center pt-3 pb-3">
+                            <h3 class="text-muted"> @Resource.FirstBook</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-4 mb-4">
+                <a class="card-border" href='@(Request.Cookies["Language"].Value == "ar"?"https://drive.google.com/file/d/1PJ6YPKuvBB2HK1MXWMcxPpxeG5N0QyRW/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "en"?"https://drive.google.com/file/d/1_O3elIzfiSi6snyczo2Zp5mdOoQVPne-/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "fr"?"https://drive.google.com/file/d/12tQY2jUxb0IOcIexdl8RB90QmR__-q6T/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "es"?"https://drive.google.com/file/d/1F8kLHG_Gn-FyDtnhMxarDf_vo1bBl5xs/view?usp=sharing"
+                                                                        :Request.Cookies["Language"].Value == "ur"?"https://drive.google.com/file/d/10Mr2r3AvyyA2YUyPNJSa0Nj_kiBqUzvW/view?usp=sharing"
+                                                                        :"https://drive.google.com/file/d/1_O3elIzfiSi6snyczo2Zp5mdOoQVPne-/view?usp=sharing")' target="_blank">
+                    <div class="thumbnail">
+                        <img src="~/images/book.jpg" class="img-responsive w-100">
+                        <div class="caption text-center pt-3 pb-3">
+                            <h3 class="text-muted"> @Resource.SecondBook </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+
+    </div>
+
+</div>
+@section Footer{
+    @Html.Partial("~/Views/Shared/Footer.cshtml", (int)ViewBag.visitorsNum)
+}
