@@ -1,43 +1,61 @@
 ﻿@model Iqraa.Models.ContactUs
-
+@{ 
+    string youtubeUrl = "https://youtube.com/@TAQRAAcenter";
+}
 <div class="lets_touch_main">
     <div class="container">
         <div class="row">
             <div class="col-md-6 mb-3 mb-0">
-                    <div class="contact__title">
-                        <h2>@Resource.Contact</h2>
-                    </div>
-                @*<ul class="list-unstyled contact">
+                <div class="contact__title">
+                    <h2>@Resource.Contact</h2>
+                </div>
+                <ul class="list-unstyled contact text-light">
                     <li class="contact__item">
-                       <img src="/images/email-icon.png" class="d-inline-block"/> 
-                        <h3 class="d-inline-block">info@iqraa-center.com</h3>
+                        <a href="mailto:taqraa.senter@gmail.com" target="_blank" class="text-light">
+                           @*<img src="/images/email-icon.png" class="d-inline-block"/>*@
+                            <i class="fa fa-envelope fa-lg"></i>
+                           <h3 class="d-inline-block">taqraa.senter@gmail.com</h3>
+                        </a>
                     </li>
                     <li class="contact__item">
-                        <img src="/images/call-icon.png" class="d-inline-block" />
-                        <h3 class="d-inline-block">+966 540000000000</h3>
+                        <a href="http://wa.me/966533639575" target="_blank">
+                            @*<img src="/images/call-icon.png" class="d-inline-block" />*@
+                            <i class="fa fa-phone-alt fa-lg"></i>
+                            <h3 class="d-inline-block" dir="ltr">+966 533639575</h3>
+                        </a>
                     </li>
-                </ul>*@
+                </ul>
                 <ul class="d-flex social-media">
                     <li>
-                        <a href="https://www.facebook.com/%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-101660185250653">
+                        <a target="_blank" href="https://www.facebook.com/%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-101660185250653">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/QLiteracycenter?s=08">
+                        <a href="https://twitter.com/QLiteracycenter?s=08" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@youtubeUrl" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FTaqraasenter" target="_blank">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </li>
                     @*<li>
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-telegram"></i>
-                        </a>
-                    </li>*@
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fab fa-telegram"></i>
+            </a>
+        </li>*@
                 </ul>
             </div>
 
