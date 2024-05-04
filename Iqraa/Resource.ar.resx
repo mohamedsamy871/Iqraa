@@ -320,6 +320,9 @@
   <data name="IQRAACentreP3" xml:space="preserve">
     <value>يثق بأن اللغة العربية تتميز بقرب حروفها وكلماتها المنطوقة من حروفها وكلماتها المكتوبة، وهو أمر يسهل ويساعد على تعلم القراءة العربية لقصد تعلم قراءة القرآن الكريم</value>
   </data>
+  <data name="IQRAAProgram" xml:space="preserve">
+    <value>برنامج اقرأ</value>
+  </data>
   <data name="Message" xml:space="preserve">
     <value>الرسالة</value>
   </data>

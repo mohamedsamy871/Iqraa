@@ -659,6 +659,15 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Iqraa Program.
+        /// </summary>
+        public static string IQRAAProgram {
+            get {
+                return ResourceManager.GetString("IQRAAProgram", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Message.
         /// </summary>
         public static string Message {

@@ -1,7 +1,15 @@
 ﻿@model Iqraa.Models.ContactUs
 @{ 
     string youtubeUrl = "https://youtube.com/@TAQRAAcenter";
+    string youtube2 = "https://youtube.com/@TAQRAAcenter?si=C3Po-ksSINtEm061";
 }
+<style>
+    .contact_sub_title{
+        font-size:1rem;
+        color:#fff;
+        font-weight:700;
+    }
+</style>
 <div class="lets_touch_main">
     <div class="container">
         <div class="row">
@@ -12,9 +20,9 @@
                 <ul class="list-unstyled contact text-light">
                     <li class="contact__item">
                         <a href="mailto:taqraa.senter@gmail.com" target="_blank" class="text-light">
-                           @*<img src="/images/email-icon.png" class="d-inline-block"/>*@
+                            @*<img src="/images/email-icon.png" class="d-inline-block"/>*@
                             <i class="fa fa-envelope fa-lg"></i>
-                           <h3 class="d-inline-block">taqraa.senter@gmail.com</h3>
+                            <h3 class="d-inline-block">taqraa.senter@gmail.com</h3>
                         </a>
                     </li>
                     <li class="contact__item">
@@ -25,37 +33,40 @@
                         </a>
                     </li>
                 </ul>
+                <div class="contact_sub_title">
+                    <h2 class="contact_sub_title">@Resource.IQRAACentre</h2>
+                </div>
                 <ul class="d-flex social-media">
                     <li>
-                        <a target="_blank" class="text-center" href="https://www.facebook.com/%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-101660185250653">
+                        <a class="text-center" href="http://taqraa.com" target="_blank">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="https://x.com/Taqraasenter?t=23_s5aA_jUv9zLDgCdO-Ig&s=08" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="@youtube2" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="contact_sub_title mt-4">
+                    <h2 class="contact_sub_title">@Resource.IQRAAProgram</h2>
+                </div>
+                <ul class="d-flex social-media">
+                    <li>
+                        <a target="_blank" class="text-center" href="https://www.facebook.com/LearnReadQuranWay">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="text-center" href="https://twitter.com/QLiteracycenter?s=08" target="_blank">
+                        <a class="text-center" href="https://x.com/QLiteracycenter?t=A9yBs3qnjddM0duVbEDppw&s=%2009" target="_blank">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </li>
-                    <li>
-                        <a class="text-center" href="@youtubeUrl" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    @*<li>
-                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FTaqraasenter" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>*@
-                    @*<li>
-            <a href="#">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class="fab fa-telegram"></i>
-            </a>
-        </li>*@
                 </ul>
             </div>
 
