@@ -5,38 +5,19 @@
     .card-border { border: 2px solid #ea9e2e; border-radius: 15px; display: inline-block; }
         .card-border h3 { font-weight: 600; }
 </style>
-@*@{
-
-        var subitem = "https://www.youtube.com/watch?v=ryN0lmmJupA&list=PLNUNHIo8EZJ9JY-G-zrDGQD8ipzDwioeD&index=1";
-        var lengthOfId = subitem.LastIndexOf("&l") - subitem.LastIndexOf("v=")-2;
-        var result = subitem.Substring(subitem.LastIndexOf("v") + 2, lengthOfId);
-    }*@
 <div class="container">
     <div class="row p-3">
         <div class="col-sm-6 col-md-4 mt-4 mb-4">
-            <a class="card-border" href="https://www.youtube.com/playlist?list=PLNUNHIo8EZJ9JY-G-zrDGQD8ipzDwioeD" target="_blank">
+            <a class="card-border" href="@Resource.VideoURL1" target="_blank">
                 <div class="thumbnail">
-                    <img src="https://img.youtube.com/vi/ryN0lmmJupA/default.jpg" class='w-100 img-responsive' alt='' title=''>
-                    @*<img src='~/assets/images/visuals/youtube.png' alt='' title="" class='position-absolute y-img'>*@
+                    <img src="@Resource.VideoImg1" class='w-100 img-responsive' style="border-radius: 13px;" alt='@Resource.VideoPlaylistName1' title='@Resource.VideoPlaylistName1'>
                     <div class="caption text-center pt-3 pb-3">
-                        <h3 class="text-muted">Arabic Letters And Reading Principles Course</h3>
-
+                        <h3 class="text-muted">@Resource.VideoPlaylistName1</h3>
                     </div>
                 </div>
             </a>
         </div>
-        @*<div class="col-sm-6 col-md-4 mt-4 mb-4">
-                <a class="card-border" href="https://drive.google.com/file/d/1oJ-0tHPyFuwQRAEVoGokRzGCTwhWkBfg/view" target="_blank">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/ryN0lmmJupA/default.jpg" class='w-100 img-responsive' alt='' title=''>
-                        <div class="caption text-center pt-3 pb-3">
-                            <h3 class="text-muted">كتاب إتقان مهارات القراءة العربية مع كتابة نطق بعض الكلمات </h3>
-                        </div>
-                    </div>
-                </a>
-            </div>*@
     </div>
-
 </div>
 
 @section Footer{

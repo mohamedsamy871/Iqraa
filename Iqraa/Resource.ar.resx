@@ -153,11 +153,29 @@
   <data name="Articles" xml:space="preserve">
     <value>مقالات</value>
   </data>
+  <data name="ArticleURL1" xml:space="preserve">
+    <value>https://drive.google.com/file/d/1V53EjMV4ZURRMsykFfJmtPJePAY_LIyy/view?usp=sharing</value>
+  </data>
+  <data name="ArticleURL2" xml:space="preserve">
+    <value>https://drive.google.com/file/d/1xxwk9BbJmD5GPhSqhjKGta-PbaDed8a4/view?usp=drive_link</value>
+  </data>
+  <data name="ArticleURL3" xml:space="preserve">
+    <value>https://drive.google.com/file/d/1aXst0rF-yXW5ZZHRiW2ws_byKM02So9K/view?usp=drive_link</value>
+  </data>
+  <data name="ArticleURL4" xml:space="preserve">
+    <value>https://drive.google.com/file/d/1VR8vrzWlyWar2tsK1cuTVx8H8A3HZ8Yh/view?usp=drive_link</value>
+  </data>
   <data name="Blog" xml:space="preserve">
     <value>المدونة</value>
   </data>
+  <data name="BookImg1" xml:space="preserve">
+    <value>/images/books/ar-b1.jpeg</value>
+  </data>
   <data name="Books" xml:space="preserve">
     <value>كتب</value>
+  </data>
+  <data name="BookURL1" xml:space="preserve">
+    <value>https://drive.google.com/file/d/1PJ6YPKuvBB2HK1MXWMcxPpxeG5N0QyRW/view</value>
   </data>
   <data name="CenterNews" xml:space="preserve">
     <value>أخبار المركز</value>
@@ -193,10 +211,11 @@
     <value>البرنامج الخامس</value>
   </data>
   <data name="FifthProgramDescription" xml:space="preserve">
-    <value>يتم في هذا البرنامج اختبار الطالب في مجموعة من الكلمات، و يتم تحديد المهارات التي لا يتقنها الطالب، ووضع برنامج مختصر لعلاج المهارات التي لا يتقنها فقط</value>
+    <value>يتم في هذا البرنامج اختبار الطالب في مجموعة من كلمات القرآن الكريم، ويتم تحديد المهارات التي لا يتقنها الطالب، ووضع برنامج مختصر لعلاج المهارات التي لا يتقنها فقط.
+وفي هذا البرنامج نعالج المشاكل القرائية من جذورها ولا نعالج الأخطاء في الكلمات التي يخطئ فيها الطالب.</value>
   </data>
   <data name="FifthProgramHeading" xml:space="preserve">
-    <value>برنامج تشخيص وعلاج الضعف القرائي</value>
+    <value>برنامج تشخيص وعلاج الضعف في قراءه القران الكريم للمبتدئين</value>
   </data>
   <data name="FirstBook" xml:space="preserve">
     <value>كتاب إتقان مهارات القراءة العربية</value>
@@ -208,7 +227,7 @@
     <value>البرنامج الأول</value>
   </data>
   <data name="FirstProgramDescription" xml:space="preserve">
-    <value>تعليم الحروف العربية وقراءة كلمات مكونة من ثلاثة حروف مفتوحة - 13 درسا</value>
+    <value>تعليم الحروف العربية وقراءة كلمات مكونة من ثلاثة حروف مفتوحة -13 درسا</value>
   </data>
   <data name="FirstProgramDescription2" xml:space="preserve">
     <value>يتم التعلم فيه بإحدى الطرق التالية:</value>
@@ -217,13 +236,14 @@
     <value>برنامج تعليم مبادئ القراءة الأساسية</value>
   </data>
   <data name="FirstProgramlist1" xml:space="preserve">
-    <value>في الفصل الحقيقي.</value>
+    <value>في الفصل المدرسي.</value>
   </data>
   <data name="FirstProgramlist2" xml:space="preserve">
-    <value>في الفصل الافتراضي ( عبر منصات التعليم مثل زووم ): وفيه يتم استخدام نماذج كتابية بسيطة يكتب فيها الطالب الحرف في أول ووسط وآخر الكلمة ليتقن الطالب حفظ أشكال الحروف في مواضعها المختلفة ويتم تعلم قراءة كلمات ثلاثية مفتوحة درس الطالب جميع حروفها )</value>
+    <value>في الفصل الافتراضي ( عبر منصات التعليم مثل زووم )
+وفيه يتعلم الطالب أصوات الحروف مع الفتحة و يستخدم نماذج كتابية بسيطة يكتب فيها الطالب الحرف في أول ووسط وآخر الكلمة ليحفظ أشكال الحروف في مواضعها المختلفة ويقرأ كلمات ثلاثية مفتوحة درس جميع حروفها )</value>
   </data>
-  <data name="FirstProgramList3" xml:space="preserve">
-    <value>من خلال دروس الفيديو المسجلة في قناة مركز تقرأ على يوتيوب</value>
+  <data name="FirstProgramlist3" xml:space="preserve">
+    <value>من خلال دروس الفيديو المسجلة في قناة مركز تقرأ على يوتيوب.</value>
   </data>
   <data name="Founder" xml:space="preserve">
     <value>مؤسس المركز</value>
@@ -280,10 +300,10 @@
     <value>البرنامج الرابع</value>
   </data>
   <data name="FourthProgramDescription" xml:space="preserve">
-    <value>يتم في هذا البرنامج اختبار الطالب في مجموعة من الكلمات، ويتم تحديد المهارات التي لا يتقنها الطالب، ووضع برنامج مختصر لعلاج المهارات التي لا يتقنها فقط، ثم يتم تدريب الطالب على كلمات من القرآن الكريم. وفي هذا البرنامج نعالج المشاكل القرائية من جذورها ولا نعالج الأخطاء في الكلمات التي يخطئ فيها الطالب.</value>
+    <value>يتم في هذا البرنامج اختبار الطالب في مجموعة من الكلمات، ثم نقوم بحديد المهارات التي لا يتقنها الطالب، ونضع برنامجا مختصرا لعلاج المهارات التي لا يتقنها الطالب فقط.</value>
   </data>
   <data name="FourthProgramHeading" xml:space="preserve">
-    <value>برنامج تشخيص وعلاج الضعف في قراءه القران الكريم للمبتدئين</value>
+    <value>برنامج تشخيص وعلاج الضعف القرائي</value>
   </data>
   <data name="Home" xml:space="preserve">
     <value>الرئيسية</value>
@@ -322,16 +342,10 @@
     <value>تحقيق رغبة من يريد تعلم القراءة العربية</value>
   </data>
   <data name="QuranReading" xml:space="preserve">
-    <value>تعليم قراءة القران الكريم</value>
+    <value>( 20 ) درسا ( تعليم قراءة القران الكريم )</value>
   </data>
   <data name="ReadingSkillsLearn" xml:space="preserve">
-    <value>تعليم مهارات القراءة العربية - 30 درسا</value>
-  </data>
-  <data name="ReadingSkillsLearn2" xml:space="preserve">
-    <value>دروس كتاب إتقان مهارات القراءة العربية الحرفية – 25 درسا</value>
-  </data>
-  <data name="ReadingSkillsLearn3" xml:space="preserve">
-    <value>دروس للانتقال من تعليم قراءة النص العربي الى قراءة الرسم العثماني.</value>
+    <value>( تعليم مهارات القراءة العربية ) ( 25 ) درسا ( دروس كتاب إتقان مهارات القراءة العربية الحرفية )</value>
   </data>
   <data name="Registration" xml:space="preserve">
     <value>التسجيل</value>
@@ -355,13 +369,16 @@
     <value>برنامج تعليم مهارات القراءة العربية</value>
   </data>
   <data name="SecondProgramlist1" xml:space="preserve">
-    <value>في الفصل الحقيقي.</value>
+    <value>في الفصل المدرسي.</value>
   </data>
   <data name="SecondProgramlist2" xml:space="preserve">
-    <value>في الفصل الافتراضي الجماعي ( عبر منصات التعليم مثل زووم )</value>
+    <value>في الفصل الافتراضي ( عبر منصات التعليم مثل زووم ) ( مع المجموعة )</value>
   </data>
   <data name="SecondProgramlist3" xml:space="preserve">
-    <value>في الفصل الافتراضي الفردي   ( عبر منصات التعليم مثل زووم )</value>
+    <value>في الفصل الافتراضي ( عبر منصات التعليم مثل زووم ) ( منفردا )</value>
+  </data>
+  <data name="SecondProgramlist4" xml:space="preserve">
+    <value>من خلال دروس الفيديو المسجلة على منصة</value>
   </data>
   <data name="Send" xml:space="preserve">
     <value>إرسال</value>
@@ -387,8 +404,17 @@
   <data name="ThirdProgramHeading" xml:space="preserve">
     <value>برنامج تعليم قراءه القران الكريم للمبتدئين</value>
   </data>
+  <data name="VideoImg1" xml:space="preserve">
+    <value>/images/videos/vd1-ar.png</value>
+  </data>
+  <data name="VideoPlaylistName1" xml:space="preserve">
+    <value>مبادئ القراءة العربية</value>
+  </data>
   <data name="Videos" xml:space="preserve">
     <value>فيديوهات</value>
+  </data>
+  <data name="VideoURL1" xml:space="preserve">
+    <value>https://www.youtube.com/playlist?list=PLNUNHIo8EZJ93Qu4kRlQyTrwadXC_NJe8</value>
   </data>
   <data name="Visitors" xml:space="preserve">
     <value>عدد الزوار</value>

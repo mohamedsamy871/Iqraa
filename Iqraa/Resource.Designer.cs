@@ -79,7 +79,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to نحن مركز يهتم بتعليم القراءة العربية للجميع. ويهدف إلى تيسير تعلم القراءة العربية واختصار الوقت اللازم لذلك، كي نحقق أمنية يتمناها كثير من المسلمين، وهي قراءة القرآن الكريم..
+        ///   Looks up a localized string similar to We are a center concerned with teaching Arabic reading to everyone with the ultimate objective of streamlining the learning experience and making it time-effective, in order to fulfill the aspiration of many Muslims, which is to read the Holy Quran..
         /// </summary>
         public static string AboutUsP1 {
             get {
@@ -88,7 +88,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to المركز يبحث عن أفضل الطرق وأنسب الوسائل لتعليم القراءة العربية والتمكن من قراءة القرآن الكريم..
+        ///   Looks up a localized string similar to The center is seeking the most effective approaches and the optimal Means for teaching Arabic reading and Empowerment in the reading of the Holy Quran..
         /// </summary>
         public static string AboutUsP2 {
             get {
@@ -97,7 +97,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to و يثق المركز بأن اللغة العربية تتميز بقرب حروفها وكلماتها المنطوقة من حروفها وكلماتها المكتوبة، وهو أمر يسهل ويساعد على تعلم القراءة العربية..
+        ///   Looks up a localized string similar to It is the belief of the center that Arabic is a phonetic language with a close correspondence between its spoken and written components, a crucial factor in facilitating the learning of Arabic reading..
         /// </summary>
         public static string AboutUsP3 {
             get {
@@ -106,7 +106,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to تعليم الحروف العربية - 13 درسا.
+        ///   Looks up a localized string similar to (13) lessons ( Teaching Arabic Letters ).
         /// </summary>
         public static string ArabicLettersLearn {
             get {
@@ -160,6 +160,42 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to https://drive.google.com/file/d/1oY3IINAj9AhhR7FtQjDnhVzqx6WcVTV_/view?usp=sharing.
+        /// </summary>
+        public static string ArticleURL1 {
+            get {
+                return ResourceManager.GetString("ArticleURL1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://drive.google.com/file/d/1pPl2W4SHywWWL1qWyoOMNjTNayVSSolc/view?usp=sharing.
+        /// </summary>
+        public static string ArticleURL2 {
+            get {
+                return ResourceManager.GetString("ArticleURL2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://drive.google.com/file/d/1nFaOGekov3TAOed88n17TVhutnGBFcpd/view?usp=sharing.
+        /// </summary>
+        public static string ArticleURL3 {
+            get {
+                return ResourceManager.GetString("ArticleURL3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://drive.google.com/file/d/1nsQv6TCWLF3_6LLQWHSGereoNjpOJdVP/view?usp=drive_link.
+        /// </summary>
+        public static string ArticleURL4 {
+            get {
+                return ResourceManager.GetString("ArticleURL4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Blog.
         /// </summary>
         public static string Blog {
@@ -169,11 +205,29 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to /images/books/en-b1.jpeg.
+        /// </summary>
+        public static string BookImg1 {
+            get {
+                return ResourceManager.GetString("BookImg1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Books.
         /// </summary>
         public static string Books {
             get {
                 return ResourceManager.GetString("Books", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://drive.google.com/file/d/1_O3elIzfiSi6snyczo2Zp5mdOoQVPne-/view.
+        /// </summary>
+        public static string BookURL1 {
+            get {
+                return ResourceManager.GetString("BookURL1", resourceCulture);
             }
         }
         
@@ -277,7 +331,11 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to يتم في هذا البرنامج اختبار الطالب في مجموعة من الكلمات، و يتم تحديد المهارات التي لا يتقنها الطالب، ووضع برنامج مختصر لعلاج المهارات التي لا يتقنها فقط.
+        ///   Looks up a localized string similar to Diagnosing and addressing Holy Quran reading deficiencies program for beginners
+        ///
+        ///Through this program, the student&apos;s proficiency in Quranic vocabulary is evaluated, areas of weakness are pinpointed, and a customized program is designed to improve these skills.
+        ///
+        ///Our program targets the root of reading difficulties rather than solely correcting word errors made by students..
         /// </summary>
         public static string FifthProgramDescription {
             get {
@@ -286,7 +344,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to برنامج تشخيص وعلاج الضعف القرائي.
+        ///   Looks up a localized string similar to Diagnosing and addressing Holy Quran reading deficiencies program for beginners.
         /// </summary>
         public static string FifthProgramHeading {
             get {
@@ -304,7 +362,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to المستوى الأول.
+        ///   Looks up a localized string similar to First level.
         /// </summary>
         public static string FirstLevel {
             get {
@@ -313,7 +371,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The first program.
+        ///   Looks up a localized string similar to The initial level.
         /// </summary>
         public static string FirstProgram {
             get {
@@ -322,10 +380,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A program offered to those who never know Arabic reading, or have a little background, but cannot read the Noble Quran.
-        ///It is a program that can be offered to both native Arabic speakers and non-Arabic speakers.
-        ///Duration of the Program:
-        /// 60 training hours in 60 or 30 training days..
+        ///   Looks up a localized string similar to Teaching Arabic letters and reading trilateral words with Fat-ha  -13 lessons.
         /// </summary>
         public static string FirstProgramDescription {
             get {
@@ -334,7 +389,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to يتم التعلم فيه بإحدى الطرق التالية:.
+        ///   Looks up a localized string similar to Lectures are delivered in three different methods:.
         /// </summary>
         public static string FirstProgramDescription2 {
             get {
@@ -343,7 +398,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Teaching Arabic to read the Noble Qur’an for beginners..
+        ///   Looks up a localized string similar to Teaching Basic Arabic Reading Principles program.
         /// </summary>
         public static string FirstProgramHeading {
             get {
@@ -352,7 +407,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to في الفصل الحقيقي..
+        ///   Looks up a localized string similar to In the classroom..
         /// </summary>
         public static string FirstProgramlist1 {
             get {
@@ -361,7 +416,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to في الفصل الافتراضي ( عبر منصات التعليم مثل زووم ): وفيه يتم استخدام نماذج كتابية بسيطة يكتب فيها الطالب الحرف في أول ووسط وآخر الكلمة ليتقن الطالب حفظ أشكال الحروف في مواضعها المختلفة ويتم تعلم قراءة كلمات ثلاثية مفتوحة درس الطالب جميع حروفها ).
+        ///   Looks up a localized string similar to In the virtual classroom (via learning platforms like Zoom). Where the student learns the letter sounds with the short vowel (Fat-ha), uses simple writing worksheets to practice writing the letters forms at the beginning, middle and end of the word in order to memorize the letter shapes in their different positions, and reads trilateral words with the Fat-ha which are consisted of letters previously learned.
         /// </summary>
         public static string FirstProgramlist2 {
             get {
@@ -370,7 +425,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to من خلال دروس الفيديو المسجلة في قناة مركز تقرأ على يوتيوب..
+        ///   Looks up a localized string similar to Via recorded video lessons on Taqraa Center for Holy Quran Literacy YouTube channel..
         /// </summary>
         public static string FirstProgramlist3 {
             get {
@@ -532,7 +587,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to البرنامج الرابع.
+        ///   Looks up a localized string similar to Fourth Program.
         /// </summary>
         public static string FourthProgram {
             get {
@@ -541,7 +596,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to يتم في هذا البرنامج اختبار الطالب في مجموعة من الكلمات، ويتم تحديد المهارات التي لا يتقنها الطالب، ووضع برنامج مختصر لعلاج المهارات التي لا يتقنها فقط، ثم يتم تدريب الطالب على كلمات من القرآن الكريم. وفي هذا البرنامج نعالج المشاكل القرائية من جذورها ولا نعالج الأخطاء في الكلمات التي يخطئ فيها الطالب..
+        ///   Looks up a localized string similar to Through this program, the student&apos;s proficiency in a set of vocabularies is evaluated, areas of weakness are pinpointed, and a customized program is designed to improve these skills..
         /// </summary>
         public static string FourthProgramDescription {
             get {
@@ -550,7 +605,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to برنامج تشخيص وعلاج الضعف في قراءه القران الكريم للمبتدئين.
+        ///   Looks up a localized string similar to Diagnosing and addressing reading deficiencies program.
         /// </summary>
         public static string FourthProgramHeading {
             get {
@@ -640,7 +695,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to إيجاد أفضل الوسائل التي تسهل تعلم القراءه العربية.
+        ///   Looks up a localized string similar to Evolve the best ways and means of promoting and facilitating the learning of Arabic reading..
         /// </summary>
         public static string OurMessageP1 {
             get {
@@ -658,7 +713,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to تحقيق رغبة من يريد تعلم القراءة العربية.
+        ///   Looks up a localized string similar to Assisting individuals in achieving their aspirations of becoming proficient in reading Arabic.
         /// </summary>
         public static string OurVisionP1 {
             get {
@@ -667,7 +722,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to تعليم قراءة القران الكريم.
+        ///   Looks up a localized string similar to ( 20 ) lessons ( Teaching Holy Quran reading ).
         /// </summary>
         public static string QuranReading {
             get {
@@ -676,29 +731,11 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to تعليم مهارات القراءة العربية - 30 درسا.
+        ///   Looks up a localized string similar to (Teaching Arabic reading skills ) ( 25 lessons ( Lessons from ITQAN book for mastering literal Arabic reading skills).
         /// </summary>
         public static string ReadingSkillsLearn {
             get {
                 return ResourceManager.GetString("ReadingSkillsLearn", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to دروس كتاب إتقان مهارات القراءة العربية الحرفية – 25 درسا.
-        /// </summary>
-        public static string ReadingSkillsLearn2 {
-            get {
-                return ResourceManager.GetString("ReadingSkillsLearn2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to دروس للانتقال من تعليم قراءة النص العربي الى قراءة الرسم العثماني..
-        /// </summary>
-        public static string ReadingSkillsLearn3 {
-            get {
-                return ResourceManager.GetString("ReadingSkillsLearn3", resourceCulture);
             }
         }
         
@@ -721,7 +758,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to المستوى الثاني.
+        ///   Looks up a localized string similar to The second level.
         /// </summary>
         public static string SecondLevel {
             get {
@@ -749,7 +786,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to يتم التعلم فيه بإحدى الطرق التالية:.
+        ///   Looks up a localized string similar to Lectures are delivered in three different methods:.
         /// </summary>
         public static string SecondProgramDescription2 {
             get {
@@ -758,7 +795,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Correct Reading of the Noble Quran..
+        ///   Looks up a localized string similar to Teaching Arabic Reading Skills program.
         /// </summary>
         public static string SecondProgramHeading {
             get {
@@ -767,7 +804,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to في الفصل الحقيقي..
+        ///   Looks up a localized string similar to In the classroom..
         /// </summary>
         public static string SecondProgramlist1 {
             get {
@@ -776,7 +813,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to في الفصل الافتراضي الجماعي ( عبر منصات التعليم مثل زووم ).
+        ///   Looks up a localized string similar to In the virtual classroom (via learning platforms like Zoom) - Chat room.
         /// </summary>
         public static string SecondProgramlist2 {
             get {
@@ -785,11 +822,20 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to في الفصل الافتراضي الفردي   ( عبر منصات التعليم مثل زووم ).
+        ///   Looks up a localized string similar to In the virtual classroom (via learning platforms like Zoom) -one on one chat.
         /// </summary>
         public static string SecondProgramlist3 {
             get {
                 return ResourceManager.GetString("SecondProgramlist3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Via recorded video lessons on  (        ) platform..
+        /// </summary>
+        public static string SecondProgramlist4 {
+            get {
+                return ResourceManager.GetString("SecondProgramlist4", resourceCulture);
             }
         }
         
@@ -821,7 +867,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to المستوى الثالث.
+        ///   Looks up a localized string similar to The third level.
         /// </summary>
         public static string ThirdLevel {
             get {
@@ -830,7 +876,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to البرنامج الثالث.
+        ///   Looks up a localized string similar to Third Program.
         /// </summary>
         public static string ThirdProgram {
             get {
@@ -839,7 +885,7 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to وفيه ثلاثة مستويات:.
+        ///   Looks up a localized string similar to The program is structured into three levels:.
         /// </summary>
         public static string ThirdProgramDescription {
             get {
@@ -848,11 +894,29 @@ namespace Iqraa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to برنامج تعليم قراءه القران الكريم للمبتدئين.
+        ///   Looks up a localized string similar to Teaching Holy Quran Reading Program for Beginners.
         /// </summary>
         public static string ThirdProgramHeading {
             get {
                 return ResourceManager.GetString("ThirdProgramHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /images/videos/vd1-en.png.
+        /// </summary>
+        public static string VideoImg1 {
+            get {
+                return ResourceManager.GetString("VideoImg1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Arabic Reading Principles.
+        /// </summary>
+        public static string VideoPlaylistName1 {
+            get {
+                return ResourceManager.GetString("VideoPlaylistName1", resourceCulture);
             }
         }
         
@@ -862,6 +926,15 @@ namespace Iqraa {
         public static string Videos {
             get {
                 return ResourceManager.GetString("Videos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://youtube.com/playlist?list=PLNUNHIo8EZJ9JY-G-zrDGQD8ipzDwioeD&amp;si=x9nfsHk99bC3d2X3.
+        /// </summary>
+        public static string VideoURL1 {
+            get {
+                return ResourceManager.GetString("VideoURL1", resourceCulture);
             }
         }
         

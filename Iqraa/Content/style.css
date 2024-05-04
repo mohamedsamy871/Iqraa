@@ -23,11 +23,7 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 /*-$maincolor:#ea9e2e;*/
-.ahmed {
-    background-color:red;
-}.mohamed {
-    background-color:red;
-}
+.language-bar>li { text-align:unset !important; }
  body{
      margin:0;
      padding:0;
@@ -458,6 +454,11 @@ a {
 .first-div{
     padding:15px;
     color:#fff;
+}
+.first-div-1{
+    padding:15px;
+    color:#fff;
+    text-align:left;
 }
 .like_icon{
 	padding-left: 20px;

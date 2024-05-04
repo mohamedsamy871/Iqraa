@@ -126,6 +126,21 @@
  Une présentation des programmes présentés dans ce centre.
  Les nouvelles du centre ou ses nouveautés</value>
   </data>
+  <data name="AboutUsP1" xml:space="preserve">
+    <value>Nous sommes un centre d'enseigner la lecture arabe à tous. Il vise à faciliter l’apprentissage de la lecture arabe et à raccourcir le temps pour atteindre cet objectif, afin de réaliser un espoir souhaité par de nombreux musulmans, à savoir lire du Saint Coran.</value>
+  </data>
+  <data name="AboutUsP2" xml:space="preserve">
+    <value>Le centre recherche les meilleures moyens les plus efficaces pour enseigner la lecture arabe et être capable de lire le Saint Coran.</value>
+  </data>
+  <data name="AboutUsP3" xml:space="preserve">
+    <value>Qui sommes-nous
+Nous sommes un centre d'enseigner la lecture arabe à tous. Il vise à faciliter l’apprentissage de la lecture arabe et à raccourcir le temps pour atteindre cet objectif, afin de réaliser un espoir souhaité par de nombreux musulmans, à savoir lire du Saint Coran.
+Le centre recherche les meilleures moyens les plus efficaces pour enseigner la lecture arabe et être capable de lire le Saint Coran.
+Le Centre est convaincu que la langue arabe se caractérise par la Convergence de ses lettres et mots parlés avec ses lettres et mots écrits, ce qui facilite à apprendre la lecture arabe.</value>
+  </data>
+  <data name="ArabicLettersLearn" xml:space="preserve">
+    <value>Enseignement des lettres</value>
+  </data>
   <data name="Article1" xml:space="preserve">
     <value>Ajouts et omissions dans l'écriture arabe</value>
   </data>
@@ -141,11 +156,29 @@
   <data name="Articles" xml:space="preserve">
     <value>Des articles</value>
   </data>
+  <data name="ArticleURL1" xml:space="preserve">
+    <value>https://drive.google.com/file/d/1t6g8rz_D7isxiTbqWqdlCl3tzp7FGhhf/view?usp=sharing</value>
+  </data>
+  <data name="ArticleURL2" xml:space="preserve">
+    <value>https://drive.google.com/file/d/1rPEyyngNKZj8H2dyDwWCpf8FwhUDsHub/view?usp=drive_link</value>
+  </data>
+  <data name="ArticleURL3" xml:space="preserve">
+    <value>https://drive.google.com/file/d/1pXkthpTIptc-kaCNEFOGCBcQMYhzJb1O/view?usp=drive_link</value>
+  </data>
+  <data name="ArticleURL4" xml:space="preserve">
+    <value>https://drive.google.com/file/d/1tAOOhgKNXEdenkeGvuEf4XV1XCNT2-ft/view?usp=drive_link</value>
+  </data>
   <data name="Blog" xml:space="preserve">
     <value>Le blog</value>
   </data>
+  <data name="BookImg1" xml:space="preserve">
+    <value>/images/books/fr-b1.jpeg</value>
+  </data>
   <data name="Books" xml:space="preserve">
     <value>livres</value>
+  </data>
+  <data name="BookURL1" xml:space="preserve">
+    <value>https://drive.google.com/file/d/12tQY2jUxb0IO cIexdl8RB90QmR__-q6T/view</value>
   </data>
   <data name="CenterNews" xml:space="preserve">
     <value>Actualités du centre</value>
@@ -177,17 +210,45 @@
   <data name="EmailError" xml:space="preserve">
     <value>E-mail is not valid</value>
   </data>
+  <data name="FifthProgram" xml:space="preserve">
+    <value>البرنامج الخامس</value>
+  </data>
+  <data name="FifthProgramDescription" xml:space="preserve">
+    <value>Dans ce programme, l’étudiant est testé sur un groupe de mots du Saint Coran, les compétences que l’étudiant ne maîtrise pas sont identifiées 
+On concevoit un programme personnalisé bref pour améliorer ces compétences qu’il ne maîtrise pas.
+
+Dans ce programme, nous abordons les problèmes de lecture à partir de leurs racines et  pas  les erreurs de mots commises par les élèves.</value>
+  </data>
+  <data name="FifthProgramHeading" xml:space="preserve">
+    <value>Programme pour diagnostiquer et traiter les  déficiences dans la lecture du Saint Coran pour les débutants</value>
+  </data>
   <data name="FirstBook" xml:space="preserve">
     <value>livre de Itqân (Maîtriser les compétences en lecture en arabe)</value>
+  </data>
+  <data name="FirstLevel" xml:space="preserve">
+    <value>Le niveau initial</value>
   </data>
   <data name="FirstProgram" xml:space="preserve">
     <value>Le premier programme</value>
   </data>
   <data name="FirstProgramDescription" xml:space="preserve">
-    <value>C'est un programme offert à ceux qui ne connaissent pas complètement la lecture de l'arabe et qui ne peuvent pas lire le Saint Coran. C'est un programme qui peut être proposé aux arabophones et aux non-arabophones.</value>
+    <value>Enseigner les lettres arabes et lire des mots trilatéraux  avec Fat-ha  -13 leçons</value>
+  </data>
+  <data name="FirstProgramDescription2" xml:space="preserve">
+    <value>L'apprentissage se déroule de l'une des  méthodes  suivantes:</value>
   </data>
   <data name="FirstProgramHeading" xml:space="preserve">
-    <value>Enseigner la lecture arabe pour lire le Saint Coran pour les débutants</value>
+    <value>Programme pour enseigner les principes de base de la lecture</value>
+  </data>
+  <data name="FirstProgramlist1" xml:space="preserve">
+    <value>Dans la salle de classe</value>
+  </data>
+  <data name="FirstProgramlist2" xml:space="preserve">
+    <value>En classe virtuelle (via des plateformes éducatives telles que Zoom)
+Où, l'étudiant apprend les sons des lettres avec la voyelle courte (Fat-ha),et utilise des modèles d'écriture simples dans lesquels l'étudiant écrit la lettre au début, au milieu et à la fin du mot pour mémoriser les formes des lettres dans leurs différentes positions, et lire des mots trilatéraux avec le Fat-ha qui sont constitués de lettres apprises précédemment).</value>
+  </data>
+  <data name="FirstProgramList3" xml:space="preserve">
+    <value>Via des cours vidéo enregistrés sur la chaîne YouTube du Centre Taqraa pour l'alphabétisation du Saint Coran.</value>
   </data>
   <data name="Founder" xml:space="preserve">
     <value>Le fondateur du centre</value>
@@ -241,6 +302,15 @@
   <data name="FounderWritingsValue" xml:space="preserve">
     <value>Un livre pour apprendre à lire le Noble Coran en trente jours</value>
   </data>
+  <data name="FourthProgram" xml:space="preserve">
+    <value>البرنامج الرابع</value>
+  </data>
+  <data name="FourthProgramDescription" xml:space="preserve">
+    <value>Dans ce programme, l'élève est testé sur un ensemble de mots, puis on identifie les compétences que l'élève ne maîtrise pas, et on concevoit un programme personnalisé bref pour améliorer ces compétences.</value>
+  </data>
+  <data name="FourthProgramHeading" xml:space="preserve">
+    <value>Programme de diagnostic et de traitement des déficiences de la lecture</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>La principale</value>
   </data>
@@ -265,20 +335,56 @@
   <data name="NumberOfDownloads" xml:space="preserve">
     <value>Nombre de téléchargements</value>
   </data>
+  <data name="OurMessage" xml:space="preserve">
+    <value>Notre message</value>
+  </data>
+  <data name="OurMessageP1" xml:space="preserve">
+    <value>Trouver les meilleurs moyens qui facilitent l'apprentissage de la lecture arabe</value>
+  </data>
+  <data name="OurVision" xml:space="preserve">
+    <value>Notre vision</value>
+  </data>
+  <data name="OurVisionP1" xml:space="preserve">
+    <value>Réaliser le désir de ceux qui veulent apprendre à lire l'arabe</value>
+  </data>
+  <data name="QuranReading" xml:space="preserve">
+    <value>(20 ) leçons (enseignement de la lecture du Saint Coran)</value>
+  </data>
+  <data name="ReadingSkillsLearn" xml:space="preserve">
+    <value>(Enseignement de la lecture en arabe ) (25 leçons (Leçons du livre ITQAN pour maîtriser la lecture en arabe littéral)</value>
+  </data>
   <data name="Registration" xml:space="preserve">
     <value>Enregistrement</value>
   </data>
   <data name="SecondBook" xml:space="preserve">
     <value>Itqân  Maîtriser des compétences en lecture arabe  littérale avec translittération de la prononciation de certains mots)</value>
   </data>
+  <data name="SecondLevel" xml:space="preserve">
+    <value>Le deuxième niveau</value>
+  </data>
   <data name="SecondProgram" xml:space="preserve">
-    <value>Le deuxième programme</value>
+    <value>البرنامج الثاني</value>
   </data>
   <data name="SecondProgramDescription" xml:space="preserve">
-    <value>qui est un programme qui permet aux élèves de remédier à leurs erreurs de lecture du Noble Coran en corrigeant les erreurs définitivement pour s’assurer qu’elles ne se répètent pas plus tard et de ne pas corriger seulement les erreurs de lecture des mots. C'est un programme qui peut être proposé aux arabophones et aux non-arabophones.</value>
+    <value>دروس كتاب إتقان مهارات القراءة العربية الحرفية – 25 درسا</value>
+  </data>
+  <data name="SecondProgramDescription2" xml:space="preserve">
+    <value>L'apprentissage se déroule de l'une des manières suivantes :</value>
   </data>
   <data name="SecondProgramHeading" xml:space="preserve">
-    <value>Corriger la lecture du Noble Coran</value>
+    <value>Programme d'enseignement  des compétences de la lecture arabe</value>
+  </data>
+  <data name="SecondProgramlist1" xml:space="preserve">
+    <value>Dans la salle de classe</value>
+  </data>
+  <data name="SecondProgramlist2" xml:space="preserve">
+    <value>En classe virtuelle (via les plateformes d'apprentissage telles que Zoom) -Chat room</value>
+  </data>
+  <data name="SecondProgramlist3" xml:space="preserve">
+    <value>En classe virtuelle (via des plateformes éducatives telles que Zoom  ) chat en tête-à-tête-</value>
+  </data>
+  <data name="SecondProgramlist4" xml:space="preserve">
+    <value>Via des cours vidéo enregistrés sur la plateforme</value>
   </data>
   <data name="Send" xml:space="preserve">
     <value>Envoyer</value>
@@ -289,8 +395,35 @@
   <data name="Services" xml:space="preserve">
     <value>Services</value>
   </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ThirdLevel" xml:space="preserve">
+    <value>Le deuxième niveau</value>
+  </data>
+  <data name="ThirdProgram" xml:space="preserve">
+    <value>البرنامج الثالث</value>
+  </data>
+  <data name="ThirdProgramDescription" xml:space="preserve">
+    <value>Le programme comporte trois niveaux :</value>
+  </data>
+  <data name="ThirdProgramDescription2" xml:space="preserve">
+    <value>المستوى الأول: ( تعليم الحروف العربية ) (13) درسا</value>
+  </data>
+  <data name="ThirdProgramHeading" xml:space="preserve">
+    <value>برنامج تعليم قراءه القران الكريم للمبتدئين</value>
+  </data>
+  <data name="VideoImg1" xml:space="preserve">
+    <value>/images/videos/vd1-fr.png</value>
+  </data>
+  <data name="VideoPlaylistName1" xml:space="preserve">
+    <value>Principes de lecture arabe</value>
+  </data>
   <data name="Videos" xml:space="preserve">
     <value>Vidéos</value>
+  </data>
+  <data name="VideoURL1" xml:space="preserve">
+    <value>https://youtube.com/playlist?list=PLNUNHIo8EZJ9BR7nFXgFak2iQxIJ8KqxK&amp;si=knxEtZJzEcBQ5bI6</value>
   </data>
   <data name="Visitors" xml:space="preserve">
     <value>Visiteurs</value>
