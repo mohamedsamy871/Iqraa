@@ -123,6 +123,15 @@
   <data name="AboutDetails" xml:space="preserve">
     <value>About the centre about the Fonder of the centre ( his biography). programs offered in our centre news about the centre. what's new about the centre</value>
   </data>
+  <data name="AboutUsP1" xml:space="preserve">
+    <value>نحن مركز يهتم بتعليم القراءة العربية للجميع. ويهدف إلى تيسير تعلم القراءة العربية واختصار الوقت اللازم لذلك، كي نحقق أمنية يتمناها كثير من المسلمين، وهي قراءة القرآن الكريم.</value>
+  </data>
+  <data name="AboutUsP2" xml:space="preserve">
+    <value>المركز يبحث عن أفضل الطرق وأنسب الوسائل لتعليم القراءة العربية والتمكن من قراءة القرآن الكريم.</value>
+  </data>
+  <data name="AboutUsP3" xml:space="preserve">
+    <value>و يثق المركز بأن اللغة العربية تتميز بقرب حروفها وكلماتها المنطوقة من حروفها وكلماتها المكتوبة، وهو أمر يسهل ويساعد على تعلم القراءة العربية.</value>
+  </data>
   <data name="ArabicLettersLearn" xml:space="preserve">
     <value>تعليم الحروف العربية - 13 درسا</value>
   </data>
@@ -300,6 +309,18 @@ Duration of the Program:
   <data name="NumberOfDownloads" xml:space="preserve">
     <value>Number of downloads</value>
   </data>
+  <data name="OurMessage" xml:space="preserve">
+    <value>Our Message</value>
+  </data>
+  <data name="OurMessageP1" xml:space="preserve">
+    <value>إيجاد أفضل الوسائل التي تسهل تعلم القراءه العربية</value>
+  </data>
+  <data name="OurVision" xml:space="preserve">
+    <value>Our Vision</value>
+  </data>
+  <data name="OurVisionP1" xml:space="preserve">
+    <value>تحقيق رغبة من يريد تعلم القراءة العربية</value>
+  </data>
   <data name="QuranReading" xml:space="preserve">
     <value>تعليم قراءة القران الكريم</value>
   </data>
@@ -369,5 +390,8 @@ It is a program that can be offered to both native Arabic speakers and non-Arabi
   </data>
   <data name="Visitors" xml:space="preserve">
     <value>visitors</value>
+  </data>
+  <data name="WhoAreWe" xml:space="preserve">
+    <value>Who Are We</value>
   </data>
 </root>

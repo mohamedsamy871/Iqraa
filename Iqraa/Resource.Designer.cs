@@ -79,6 +79,33 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to نحن مركز يهتم بتعليم القراءة العربية للجميع. ويهدف إلى تيسير تعلم القراءة العربية واختصار الوقت اللازم لذلك، كي نحقق أمنية يتمناها كثير من المسلمين، وهي قراءة القرآن الكريم..
+        /// </summary>
+        public static string AboutUsP1 {
+            get {
+                return ResourceManager.GetString("AboutUsP1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to المركز يبحث عن أفضل الطرق وأنسب الوسائل لتعليم القراءة العربية والتمكن من قراءة القرآن الكريم..
+        /// </summary>
+        public static string AboutUsP2 {
+            get {
+                return ResourceManager.GetString("AboutUsP2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to و يثق المركز بأن اللغة العربية تتميز بقرب حروفها وكلماتها المنطوقة من حروفها وكلماتها المكتوبة، وهو أمر يسهل ويساعد على تعلم القراءة العربية..
+        /// </summary>
+        public static string AboutUsP3 {
+            get {
+                return ResourceManager.GetString("AboutUsP3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to تعليم الحروف العربية - 13 درسا.
         /// </summary>
         public static string ArabicLettersLearn {
@@ -604,6 +631,42 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Our Message.
+        /// </summary>
+        public static string OurMessage {
+            get {
+                return ResourceManager.GetString("OurMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to إيجاد أفضل الوسائل التي تسهل تعلم القراءه العربية.
+        /// </summary>
+        public static string OurMessageP1 {
+            get {
+                return ResourceManager.GetString("OurMessageP1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our Vision.
+        /// </summary>
+        public static string OurVision {
+            get {
+                return ResourceManager.GetString("OurVision", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تحقيق رغبة من يريد تعلم القراءة العربية.
+        /// </summary>
+        public static string OurVisionP1 {
+            get {
+                return ResourceManager.GetString("OurVisionP1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to تعليم قراءة القران الكريم.
         /// </summary>
         public static string QuranReading {
@@ -808,6 +871,15 @@ namespace Iqraa {
         public static string Visitors {
             get {
                 return ResourceManager.GetString("Visitors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Who Are We.
+        /// </summary>
+        public static string WhoAreWe {
+            get {
+                return ResourceManager.GetString("WhoAreWe", resourceCulture);
             }
         }
     }

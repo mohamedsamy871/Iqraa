@@ -265,4 +265,7 @@
   <data name="Visitors" xml:space="preserve">
     <value>زائرین</value>
   </data>
+  <data name="WhoAreWe" xml:space="preserve">
+    <value>ہم کون ہیں</value>
+  </data>
 </root>

@@ -2,30 +2,29 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @*@Html.Partial("~/Views/Shared/_About.cshtml")*@
-@*<div class="about_main">
-    <div class="services_main">
-        <div class="container">
-            <div class="creative_taital">
-                <h1 class="creative_text">  IQRAA Center</h1>
-                <p style="color: #050000; text-align: center;">
-
-                    A center interested in teaching Arabic for all, with the aim of facilitating the learning of Arabic reading and shortening the time required for that, in order to fulfill a hope that many Muslims have, which is reading the Noble Quran.
-
-                    The center is looking for the best ways and the most appropriate means to teach Arabic  and being able to read the Noble Quran.
-
-                    undoubtedly, Arabic language is distinguished by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran.    
-                </p>
-                <p style="color: #050000; text-align: center;">
-                    The center is looking for the best ways and the most appropriate means to teach Arabic  and being able to read the Noble Quran.
-
-                    undoubtedly, Arabic language is distinguished by the proximity of its spoken sounds to its written letters and words, which facilitates and helps to learn Arabic reading thus learn to read the Noble Quran.
-
-                </p>
-                <div class="btn_main">
-                    @*<button type="button" class="btn btn-dark btn-lg">Get started</button>
-                    
-                </div>
-            </div>
-        </div>
+<div class="about_main" >
+    <div class="container">
+        <div class="creative_taital">
+            <p class="creative_taital_text">
+                @Resource.AboutUsP1
+            </p>
+            <p class="creative_taital_text">
+                @Resource.AboutUsP2
+            </p>
+            <p class="creative_taital_text">
+                @Resource.AboutUsP3
+            </p>
+            <h2 style="color: #050000; text-align: center;font-weight: 700;margin-top: 43px;">@Resource.OurMessage</h2>
+            <p class="creative_taital_text mt-0">
+                @Resource.OurMessageP1
+            </p>
+            <h2 style="color: #050000; text-align: center;font-weight: 700;margin-top: 43px;">@Resource.OurVision</h2>
+            <p class="creative_taital_text mt-0">
+                @Resource.OurVisionP1
+            </p>
     </div>
-</div>*@
+</div>
+    </div>
+@section Footer{
+    @Html.Partial("~/Views/Shared/Footer.cshtml", (int)ViewBag.visitorsNum)
+}

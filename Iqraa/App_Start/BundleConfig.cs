@@ -13,8 +13,8 @@ namespace Iqraa
                          "~/Scripts/bootstrap.js",
                         "~/Scripts/popper.min.js",
                         
-                        "~/Scripts/bootstrap.bundle.min.js"
-                        //"~/Scripts/all.min.js"
+                        "~/Scripts/bootstrap.bundle.min.js",
+                        "~/Scripts/all.min.js"
                         ));
             bundles.Add(new StyleBundle("~/bundles/GeneralStyles").Include(
             "~/Content/jquery.mCustomScrollbar.min.css",
@@ -22,7 +22,7 @@ namespace Iqraa
             
             "~/Content/owl.carousel.min.css",
             "~/Content/owl.theme.default.min.css",
-            //"~/Content/all.min.css",
+            "~/Content/all.min.css",
             "~/Content/style.css",
             "~/Content/responsive.css"
           ));
