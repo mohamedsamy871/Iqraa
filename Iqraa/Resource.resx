@@ -147,6 +147,9 @@
   <data name="Article4" xml:space="preserve">
     <value>How to initiate the teaching and learning to read the Holy Qur'an</value>
   </data>
+  <data name="ArticleImg" xml:space="preserve">
+    <value>/images/articles/articles-en.png</value>
+  </data>
   <data name="Articles" xml:space="preserve">
     <value>Articles</value>
   </data>

@@ -153,6 +153,9 @@ Le Centre est convaincu que la langue arabe se caractérise par la Convergence d
   <data name="Article4" xml:space="preserve">
     <value>Comment initier à apprendre et à enseigner la lecture du Saint Coran</value>
   </data>
+  <data name="ArticleImg" xml:space="preserve">
+    <value>/images/articles/articles-fr.png</value>
+  </data>
   <data name="Articles" xml:space="preserve">
     <value>Des articles</value>
   </data>
@@ -411,7 +414,7 @@ Où, l'étudiant apprend les sons des lettres avec la voyelle courte (Fat-ha),et
     <value>المستوى الأول: ( تعليم الحروف العربية ) (13) درسا</value>
   </data>
   <data name="ThirdProgramHeading" xml:space="preserve">
-    <value>برنامج تعليم قراءه القران الكريم للمبتدئين</value>
+    <value>Programme pour enseigner la lecture du Saint Coran aux débutants</value>
   </data>
   <data name="VideoImg1" xml:space="preserve">
     <value>/images/videos/vd1-fr.png</value>

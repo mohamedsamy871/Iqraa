@@ -2,15 +2,20 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <style>
-/*    .card-border { border: 2px solid #ea9e2e; border-radius: 15px; display: inline-block; }
-*/        .card-border h3 { font-weight: 600; }
+    .content-area { width: 100%; clear: both; background-image: url(/images/bg-image.png); background-size: cover; background-repeat: no-repeat; }
+      .card-border h3 { font-weight: 600; }
+    .thumbnail { max-width: 80%; margin: auto; }
+    .contact_main{
+        padding-top:0!important;
+    }
 </style>
-<div class="container">
-    <div class="row p-3">
+<div class="content-area">
+    <div class="container">
+        <div class="row p-3 pt-5">
             <div class="col-sm-6 col-md-4 mt-4 mb-4">
                 <a class="card-border" href="@Resource.ArticleURL1" target="_blank">
                     <div class="thumbnail">
-                        <img src="~/images/articles-img.png" class="img-responsive w-100">
+                        <img src="@Resource.ArticleImg" class="img-responsive w-100">
                         <div class="caption text-center pt-3 pb-3">
                             <h3 class="text-muted">@Resource.Article1</h3>
                         </div>
@@ -20,7 +25,7 @@
             <div class="col-sm-6 col-md-4 mt-4 mb-4">
                 <a class="card-border" href="@Resource.ArticleURL2" target="_blank">
                     <div class="thumbnail">
-                        <img src="~/images/articles-img.png" class="img-responsive w-100">
+                        <img src="@Resource.ArticleImg" class="img-responsive w-100">
                         <div class="caption text-center pt-3 pb-3">
                             <h3 class="text-muted">@Resource.Article2 </h3>
                         </div>
@@ -30,7 +35,7 @@
             <div class="col-sm-6 col-md-4 mt-4 mb-4">
                 <a class="card-border" href="@Resource.ArticleURL3" target="_blank">
                     <div class="thumbnail">
-                        <img src="~/images/articles-img.png" class="img-responsive w-100">
+                        <img src="@Resource.ArticleImg" class="img-responsive w-100">
                         <div class="caption text-center pt-3 pb-3">
                             <h3 class="text-muted">@Resource.Article3</h3>
                         </div>
@@ -40,17 +45,17 @@
             <div class="col-sm-6 col-md-4 mt-4 mb-4">
                 <a class="card-border" href="@Resource.ArticleURL4" target="_blank">
                     <div class="thumbnail">
-                        <img src="~/images/articles-img.png" class="img-responsive w-100">
+                        <img src="@Resource.ArticleImg" class="img-responsive w-100">
                         <div class="caption text-center pt-3 pb-3">
                             <h3 class="text-muted">@Resource.Article4 </h3>
                         </div>
                     </div>
                 </a>
             </div>
+        </div>
     </div>
 </div>
 
-
-@section Footer{
-    @Html.Partial("~/Views/Shared/Footer.cshtml", (int)ViewBag.visitorsNum)
-}
+    @section Footer{
+        @Html.Partial("~/Views/Shared/Footer.cshtml", (int)ViewBag.visitorsNum)
+    }

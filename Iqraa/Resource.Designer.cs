@@ -151,6 +151,15 @@ namespace Iqraa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to /images/articles/articles-en.png.
+        /// </summary>
+        public static string ArticleImg {
+            get {
+                return ResourceManager.GetString("ArticleImg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Articles.
         /// </summary>
         public static string Articles {

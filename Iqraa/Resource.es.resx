@@ -139,6 +139,9 @@
   <data name="Article4" xml:space="preserve">
     <value>Comment initier l'enseignement et l'apprentissage de la lecture du Saint Coran</value>
   </data>
+  <data name="ArticleImg" xml:space="preserve">
+    <value>/images/articles/articles-es.png</value>
+  </data>
   <data name="Articles" xml:space="preserve">
     <value>Articles</value>
   </data>

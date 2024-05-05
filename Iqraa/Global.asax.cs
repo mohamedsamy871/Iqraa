@@ -46,8 +46,8 @@ namespace Iqraa
             }
             else
             {
-                Thread.CurrentThread.CurrentCulture = new CultureInfo("en");
-                Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
+                Thread.CurrentThread.CurrentCulture = new CultureInfo("ar");
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo("ar");
 
             }
             //    HttpContext context = HttpContext.Current;

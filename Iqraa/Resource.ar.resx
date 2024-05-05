@@ -150,6 +150,9 @@
   <data name="Article4" xml:space="preserve">
     <value>طريقة البدء في تعلم وتعليم قراءة القرآن الكريم</value>
   </data>
+  <data name="ArticleImg" xml:space="preserve">
+    <value>/images/articles/articles-ar.png</value>
+  </data>
   <data name="Articles" xml:space="preserve">
     <value>مقالات</value>
   </data>
@@ -282,7 +285,7 @@
     <value>ماجستير في اللغويات من جامعة أم القرى في مكة المكرمة ٢٠١٩م</value>
   </data>
   <data name="FounderQualificationsValueLine2" xml:space="preserve">
-    <value>بكالريوس لغة عربية من جامعة الإمام محمد بن سعود الإسلامية</value>
+    <value>بكالوريوس لغة عربية من جامعة الإمام محمد بن سعود الإسلامية</value>
   </data>
   <data name="FounderSpecialty" xml:space="preserve">
     <value>التخصص</value>

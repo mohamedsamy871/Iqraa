@@ -14,49 +14,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https:/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-@if (HttpContext.Current.Request.Cookies["Language"] != null)
-{
-    if (Request.Cookies["Language"].Value == "ar" || Request.Cookies["Language"].Value == "ur")
+    @if (HttpContext.Current.Request.Cookies["Language"] != null)
     {
+        if (Request.Cookies["Language"].Value == "ar" || Request.Cookies["Language"].Value == "ur")
+        {
+            <style>
+
+                    body { font-family: 'Almarai', sans-serif; direction: rtl; text-align: right; }
+                    /*p, h1,li {
+                    text-align: center;
+                }*/
+                    .navbar-nav.mr-auto li { float: right; }
+                    .navbar-nav.mr-auto .last { margin-right: 80px; }
+                    .social-media li { margin-left: 0; margin-right: 10px; }
+                    li { text-align: right !important; }
+                    .first-div-1 { text-align: right !important; }
+            </style>
+        }
+    }
+    else
+    {
+        HttpCookie Cookie = new HttpCookie("Language");
+
+        Cookie.Value = "ar";
         <style>
 
-            body{
-                font-family: 'Almarai', sans-serif;
-                direction:rtl;
-                text-align:right;
-            }
+            body { font-family: 'Almarai', sans-serif; direction: rtl; text-align: right; }
             /*p, h1,li {
                 text-align: center;
             }*/
-            .navbar-nav.mr-auto li{
-                float:right;
-            }
-             .navbar-nav.mr-auto .last{
-                 margin-right:80px;
-             }
-             .social-media li {
-                 margin-left:0;
-                 margin-right:10px;
-             }
-            li { text-align: right!important; }
+            .navbar-nav.mr-auto li { float: right; }
+            .navbar-nav.mr-auto .last { margin-right: 80px; }
+            .social-media li { margin-left: 0; margin-right: 10px; }
+            li { text-align: right !important; }
             .first-div-1 { text-align: right !important; }
         </style>
     }
-    @*else
-    {
-        <style>
-           
-        </style>
-    }*@
-
-}
-else
-{
-    HttpCookie Cookie = new HttpCookie("Language");
-
-    Cookie.Value = "en";
-}
-@RenderSection("Styles",false)
+    @RenderSection("Styles", false)
 </head>
 <body>
 

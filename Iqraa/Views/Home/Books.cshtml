@@ -2,6 +2,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <style>
+    .content-area { width: 100%; clear: both; background-image: url(/images/bg-image.png); background-size: cover; background-repeat: no-repeat; }
     .caption{
         text-align:center;
         padding:20px;
@@ -9,9 +10,11 @@
     .card-border { border: 2px solid #ea9e2e; border-radius: 7px; display: inline-block; min-height: 448px; }
         .card-border h3 { font-weight: 600; line-height: 29px; }
 </style>
-<div class="container">
-    <div class="row p-3">
-        <div class="col-sm-6 col-md-4 mt-4 mb-4">
+<div class="content-area">
+
+    <div class="container">
+        <div class="row p-3">
+            <div class="col-sm-6 col-md-4 mt-4 mb-4">
                 <a class="card-border" href="@Resource.BookURL1" target="_blank">
                     <div class="thumbnail">
                         <img src='@Resource.BookImg1' class="img-responsive w-100">
@@ -20,19 +23,20 @@
                         </div>
                     </div>
                 </a>
-        </div>
-        <div class="col-sm-6 col-md-4 mt-4 mb-4">
-            <a class="card-border" href="@Resource.BookURL1" target="_blank">
-                <div class="thumbnail">
-                    <img src='@Resource.BookImg1' class="img-responsive w-100">
-                    <div class="caption">
-                        <h3 class="text-muted"> @Resource.SecondBook </h3>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-4 mb-4">
+                <a class="card-border" href="@Resource.BookURL1" target="_blank">
+                    <div class="thumbnail">
+                        <img src='@Resource.BookImg1' class="img-responsive w-100">
+                        <div class="caption">
+                            <h3 class="text-muted"> @Resource.SecondBook </h3>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
         </div>
     </div>
 </div>
-@section Footer{
-    @Html.Partial("~/Views/Shared/Footer.cshtml", (int)ViewBag.visitorsNum)
-}
+    @section Footer{
+        @Html.Partial("~/Views/Shared/Footer.cshtml", (int)ViewBag.visitorsNum)
+    }
